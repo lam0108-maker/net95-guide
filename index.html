@@ -575,6 +575,20 @@ table.schools .badge{margin:2px 4px 0 0}
     }
     h+='<tr><td>叩門倍率</td><td>'+kCell+'</td></tr>';
 
+    const pt=oe.principalTurnover||{};
+    if(pt.flag){
+      let pCell='<strong style="color:#b45309">⚠ 校長高更替</strong>';
+      if(pt.principalsInWindow!=null) pCell+='：約'+esc(String(pt.windowYears||'5–8'))+'年內 '+esc(String(pt.principalsInWindow))+' 任';
+      if(pt.url) pCell+=' <a href="'+esc(pt.url)+'" target="_blank" rel="noopener">來源</a>';
+      else if(pt.holders&&pt.holders.length){
+        const u=(pt.holders.find(x=>x.url)||{}).url;
+        if(u) pCell+=' <a href="'+esc(u)+'" target="_blank" rel="noopener">來源</a>';
+      }
+      pCell+='<div class="trend">有公開紀錄達門檻先標；不作管治原因推論</div>';
+      h+='<tr><td>管治穩定性</td><td>'+pCell+'</td></tr>';
+    }
+
+
     h+='</tbody></table></div>';
     return h;
   }
