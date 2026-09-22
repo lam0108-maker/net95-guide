@@ -1,0 +1,81 @@
+{
+  "schools": {
+    "基督教宣道會宣基小學": {
+      "year": "2025/26",
+      "summaryUrl": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2025/Christian & Missionary Alliance Sun Kei Primary School_tc.pdf",
+      "fullOnSchoolSite": true,
+      "schoolSiteUrl": "http://www.sunkei.edu.hk",
+      "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2025_esr_report.html"
+    },
+    "保良局黃永樹小學": {
+      "year": "2025/26",
+      "summaryUrl": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2025/Po Leung Kuk Wong Wing Shu Primary School_tc.pdf",
+      "fullOnSchoolSite": true,
+      "schoolSiteUrl": "http://www.plkwws.edu.hk",
+      "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2025_esr_report.html"
+    },
+    "基督教神召會梁省德小學": {
+      "year": "2024/25",
+      "summaryUrl": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2024/Assembly of God Leung Sing Tak Primary School_tc.pdf",
+      "fullOnSchoolSite": true,
+      "schoolSiteUrl": "https://lsttko.edu.hk/zh/",
+      "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2024_esr_report.html"
+    },
+    "港澳信義會明道小學": {
+      "year": "2023/24",
+      "summaryUrl": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/hkmacau_lutheran_ch_ming_tao_pri_sch_tc.pdf",
+      "fullOnSchoolSite": true,
+      "schoolSiteUrl": "http://www.hkmlc-mtps.edu.hk",
+      "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023_esr_report.html"
+    },
+    "港澳信義會小學": {
+      "year": "2023/24",
+      "summaryUrl": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/hkm_lutheran_church_pri_sch_tc.pdf",
+      "fullOnSchoolSite": true,
+      "schoolSiteUrl": "http://www.hkmlcps.edu.hk",
+      "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023_esr_report.html"
+    },
+    "西貢中心李少欽紀念學校": {
+      "year": "2023/24",
+      "summaryUrl": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/sai_kung_central_lee_siu_yam_memmorial_sch_tc.pdf",
+      "fullOnSchoolSite": false,
+      "schoolSiteUrl": "http://lsy.edu.hk",
+      "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023_esr_report.html"
+    },
+    "將軍澳天主教小學": {
+      "year": "2023/24",
+      "summaryUrl": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/tko_catholic_pri_sch_tc.pdf",
+      "fullOnSchoolSite": true,
+      "schoolSiteUrl": "http://www.tkocps.edu.hk",
+      "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023_esr_report.html"
+    },
+    "將軍澳官立小學": {
+      "year": "2023/24",
+      "summaryUrl": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/tko_gov_pri_sch_tc.pdf",
+      "fullOnSchoolSite": true,
+      "schoolSiteUrl": "http://www.tkogps.edu.hk",
+      "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023_esr_report.html"
+    }
+  },
+  "notFound": [
+    "樂善堂劉德學校",
+    "安博官立小學",
+    "香海正覺蓮社佛教黃藻森學校",
+    "仁濟醫院陳耀星小學",
+    "東華三院王余家潔紀念小學",
+    "順德聯誼總會梁潔華小學",
+    "保良局馮晴紀念小學",
+    "博愛醫院陳國威小學",
+    "佛教志蓮小學",
+    "仁愛堂田家炳小學",
+    "西貢崇真天主教學校（小學部）",
+    "天主教聖安德肋小學",
+    "將軍澳循道衛理小學"
+  ],
+  "searchedPages": [
+    "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/index.html",
+    "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2025_esr_report.html",
+    "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2024_esr_report.html",
+    "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023_esr_report.html"
+  ]
+}

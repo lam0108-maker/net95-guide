@@ -562,6 +562,19 @@ table.schools .badge{margin:2px 4px 0 0}
       eCell='未見校方公布可核對數字（不做全網 Band% 榜）';
     }
     h+='<tr><td>英中／Band 1</td><td>'+eCell+'</td></tr>';
+
+    const kd=oe.knockDoor||{};
+    let kCell='<span class="miss">'+MISS+'</span>';
+    if(kd.applications!=null && kd.places!=null){
+      const r=kd.ratio!=null?kd.ratio:(kd.places?Math.round((kd.applications/kd.places)*10)/10:null);
+      kCell=esc(kd.applications+' 申請／'+kd.places+' 位')+(r!=null?('（約 '+r+' 倍）'):'');
+      if(kd.url) kCell+=' <a href="'+esc(kd.url)+'" target="_blank" rel="noopener">來源</a>';
+      if(kd.year) kCell+='<div class="trend">'+esc(String(kd.year))+' · 統一派位後叩門</div>';
+    } else {
+      kCell='未見公開申請數與學額（通常見於6月傳媒）';
+    }
+    h+='<tr><td>叩門倍率</td><td>'+kCell+'</td></tr>';
+
     h+='</tbody></table></div>';
     return h;
   }

@@ -145,7 +145,8 @@
       "sspa_first_top3",
       "esr_link_excerpt",
       "teacher_seniority_turnover",
-      "emi_band1_sourced_only"
+      "emi_band1_sourced_only",
+      "knock_door_ratio"
     ],
     "objectiveEvidenceNote": "2026-09-22 locked: ①升中首/首三％ ②外評連結+一句摘錄 ③教師年資/流失 ④英中/Band1有來源才顯示；不做Band%全網榜；不做2023/24"
   },
@@ -304,12 +305,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -328,6 +329,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -480,12 +490,15 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
-          "year": null,
-          "url": null,
+          "hasReport": true,
+          "year": "2023/24",
+          "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/hkm_lutheran_church_pri_sch_tc.pdf",
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局校外評核報告（總結章節）",
+          "fullOnSchoolSite": true,
+          "schoolSiteUrl": "http://www.hkmlcps.edu.hk",
+          "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023_esr_report.html"
         },
         "teachers": {
           "year": null,
@@ -504,6 +517,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -666,12 +688,15 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
-          "year": null,
-          "url": null,
+          "hasReport": true,
+          "year": "2023/24",
+          "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/tko_gov_pri_sch_tc.pdf",
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局校外評核報告（總結章節）",
+          "fullOnSchoolSite": true,
+          "schoolSiteUrl": "http://www.tkogps.edu.hk",
+          "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023_esr_report.html"
         },
         "teachers": {
           "year": null,
@@ -690,6 +715,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -847,12 +881,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -871,6 +905,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -1023,12 +1066,15 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
-          "year": null,
-          "url": null,
+          "hasReport": true,
+          "year": "2023/24",
+          "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/sai_kung_central_lee_siu_yam_memmorial_sch_tc.pdf",
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局校外評核報告（總結章節）",
+          "fullOnSchoolSite": false,
+          "schoolSiteUrl": "http://lsy.edu.hk",
+          "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023_esr_report.html"
         },
         "teachers": {
           "year": null,
@@ -1047,6 +1093,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -1199,12 +1254,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -1223,6 +1278,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -1381,12 +1445,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -1405,6 +1469,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -1557,12 +1630,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -1581,6 +1654,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -1733,12 +1815,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -1757,6 +1839,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -1919,12 +2010,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -1943,6 +2034,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -2095,12 +2195,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -2119,6 +2219,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -2281,12 +2390,15 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
-          "year": null,
-          "url": null,
+          "hasReport": true,
+          "year": "2024/25",
+          "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2024/Assembly of God Leung Sing Tak Primary School_tc.pdf",
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局校外評核報告（總結章節）",
+          "fullOnSchoolSite": true,
+          "schoolSiteUrl": "https://lsttko.edu.hk/zh/",
+          "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2024_esr_report.html"
         },
         "teachers": {
           "year": null,
@@ -2305,6 +2417,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -2462,12 +2583,15 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
-          "year": null,
-          "url": null,
+          "hasReport": true,
+          "year": "2025/26",
+          "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2025/Christian & Missionary Alliance Sun Kei Primary School_tc.pdf",
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局校外評核報告（總結章節）",
+          "fullOnSchoolSite": true,
+          "schoolSiteUrl": "http://www.sunkei.edu.hk",
+          "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2025_esr_report.html"
         },
         "teachers": {
           "year": null,
@@ -2486,6 +2610,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -2644,12 +2777,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -2668,6 +2801,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -2821,12 +2963,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -2845,6 +2987,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -2997,12 +3148,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -3021,6 +3172,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -3178,12 +3338,15 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
-          "year": null,
-          "url": null,
+          "hasReport": true,
+          "year": "2025/26",
+          "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2025/Po Leung Kuk Wong Wing Shu Primary School_tc.pdf",
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局校外評核報告（總結章節）",
+          "fullOnSchoolSite": true,
+          "schoolSiteUrl": "http://www.plkwws.edu.hk",
+          "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2025_esr_report.html"
         },
         "teachers": {
           "year": null,
@@ -3202,6 +3365,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -3364,12 +3536,15 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
-          "year": null,
-          "url": null,
+          "hasReport": true,
+          "year": "2023/24",
+          "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/tko_catholic_pri_sch_tc.pdf",
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局校外評核報告（總結章節）",
+          "fullOnSchoolSite": true,
+          "schoolSiteUrl": "http://www.tkocps.edu.hk",
+          "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023_esr_report.html"
         },
         "teachers": {
           "year": null,
@@ -3388,6 +3563,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -3545,12 +3729,15 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
-          "year": null,
-          "url": null,
+          "hasReport": true,
+          "year": "2023/24",
+          "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/hkmacau_lutheran_ch_ming_tao_pri_sch_tc.pdf",
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局校外評核報告（總結章節）",
+          "fullOnSchoolSite": true,
+          "schoolSiteUrl": "http://www.hkmlc-mtps.edu.hk",
+          "edbListUrl": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023_esr_report.html"
         },
         "teachers": {
           "year": null,
@@ -3569,6 +3756,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -3721,12 +3917,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -3745,6 +3941,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     },
@@ -3902,12 +4107,12 @@
       },
       "objectiveEvidence": {
         "esr": {
-          "hasReport": null,
+          "hasReport": false,
           "year": null,
           "url": null,
           "excerpt": null,
           "domains": null,
-          "sourceLabel": null
+          "sourceLabel": "教育局2023–2025外評總結章節列表未見"
         },
         "teachers": {
           "year": null,
@@ -3926,6 +4131,15 @@
           "url": null,
           "sourceLabel": null,
           "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        },
+        "knockDoor": {
+          "year": null,
+          "applications": null,
+          "places": null,
+          "ratio": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         }
       }
     }
