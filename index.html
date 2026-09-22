@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>校網95客觀選校｜西貢／將軍澳官津小學</title>
+<style>
+:root{
+  --bg:#f5f6f8;--card:#fff;--ink:#1a1d26;--muted:#5c6475;--line:#e2e5ee;
+  --accent:#1f5eff;--accent-soft:#e8efff;--warn:#8a4b00;--warn-bg:#fff6e5;
+  --ok:#0b6b3a;--ok-bg:#e7f6ee;--chip:#eef1f6;--radius:12px;
+  --shadow:0 1px 2px rgba(20,30,60,.05),0 8px 22px rgba(20,30,60,.06);
+  --font:"PingFang HK","Noto Sans TC","Microsoft JhengHei",sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--font);background:var(--bg);color:var(--ink);line-height:1.55}
+a{color:var(--accent)}
+.wrap{max-width:1100px;margin:0 auto;padding:18px 14px 56px}
+.hero{background:linear-gradient(155deg,#142a6c,#1f5eff 55%,#4f8cff);color:#fff;border-radius:18px;padding:26px 22px;box-shadow:var(--shadow);margin-bottom:16px}
+.hero h1{margin:0 0 6px;font-size:1.5rem}
+.hero .sub{margin:0 0 12px;opacity:.92;font-size:.95rem}
+.disclaimer{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:10px;padding:12px 14px;font-size:.86rem}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;box-shadow:var(--shadow);margin-bottom:14px}
+.panel h2{margin:0 0 6px;font-size:1.05rem}
+.hint{color:var(--muted);font-size:.82rem;margin:0 0 10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:7px 12px;font:inherit;font-size:.84rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+label.field{display:flex;flex-direction:column;gap:4px;font-size:.78rem;color:var(--muted)}
+select,input[type="search"]{font:inherit;font-size:.9rem;border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:#fff;color:var(--ink)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin:4px 0 12px}
+.count{font-size:.88rem;color:var(--muted)}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--card);box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse;min-width:760px;font-size:.9rem}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#f3f5fa;font-size:.76rem;color:var(--muted);font-weight:600;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+tr:hover td{background:#fafbff}
+.name-zh{font-weight:600;color:var(--ink);text-decoration:none}
+.name-zh:hover{color:var(--accent)}
+.en{display:block;font-size:.74rem;color:var(--muted);font-weight:400;margin-top:2px}
+.badge{display:inline-block;font-size:.7rem;padding:2px 7px;border-radius:6px;background:var(--chip);margin:2px 3px 0 0}
+.badge.moi{background:#eef6ff;border:1px solid #c5d8f0}
+.badge.tt{background:var(--ok-bg);color:var(--ok)}
+.badge.merge{background:var(--warn-bg);color:var(--warn)}
+.badge.gov{background:#eef0ff;color:#334}
+.miss{color:#8a93a5}
+button.linkish{border:0;background:none;color:var(--accent);font:inherit;font-size:.84rem;cursor:pointer;padding:0}
+.detail{background:#f8f9fc;border-radius:8px;padding:10px;font-size:.86rem;margin-top:6px}
+.detail p{margin:0 0 6px}
+.cards{display:none;flex-direction:column;gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;box-shadow:var(--shadow)}
+.card h3{margin:0 0 4px;font-size:1rem}
+.kv{display:grid;grid-template-columns:1fr 1fr;gap:6px 10px;font-size:.86rem;margin:8px 0}
+.kv span{color:var(--muted);display:block;font-size:.75rem}
+.sec{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px;margin:26px 0 8px}
+.sec h2{margin:0;font-size:1.15rem}
+.tag{font-size:.76rem;background:var(--warn-bg);color:var(--warn);padding:4px 8px;border-radius:6px}
+footer{margin-top:24px;padding:16px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);font-size:.84rem;color:var(--muted)}
+footer h2{margin:0 0 8px;font-size:1rem;color:var(--ink)}
+footer ul{margin:0;padding-left:1.15em}
+footer li{margin-bottom:4px}
+.glossary{margin-top:10px}
+.glossary dt{font-weight:600;color:var(--ink);margin-top:6px}
+.glossary dd{margin:2px 0 0}
+@media(max-width:760px){
+  .desk{display:none}
+  .cards{display:flex}
+  .kv{grid-template-columns:1fr}
+  .hero{padding:20px 16px}
+  .hero h1{font-size:1.28rem}
+}
+
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
+.tab{border:1px solid var(--line);background:var(--chip);border-radius:999px;padding:7px 14px;font:inherit;font-size:.86rem;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.rank-table{min-width:640px}
+.subh{font-size:.95rem;margin:16px 0 8px;color:var(--ink)}
+.qtag{display:inline-block;font-size:.72rem;padding:2px 8px;border-radius:999px;background:#eef2ff;border:1px solid #c7d2fe;color:#3730a3;white-space:nowrap}
+.qtag.full{background:#ecfdf5;border-color:#a7f3d0;color:#065f46}
+.qtag.ex{background:#fff7ed;border-color:#fed7aa;color:#9a3412}
+.qtag.pct{background:#f0f9ff;border-color:#bae6fd;color:#075985}
+.qtag.none{background:#f4f4f5;border-color:#d4d4d8;color:#52525b}
+.demoted{opacity:.85}
+.rank-num{font-weight:700;color:var(--accent);width:2.5rem}
+.metric{font-weight:600}
+.method{font-size:.76rem;color:var(--muted)}
+.excl{opacity:.75}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <h1>校網95客觀選校</h1>
+    <p id="dataStatus" class="hint" style="margin:6px 0 0;opacity:.9"></p>
+    <p class="sub">西貢區 · 官立／資助小學 21 間 · 小一入學2027 自行分配學位名冊</p>
+    <div class="disclaimer">
+      <strong>重要聲明：</strong>本頁<strong>不是</strong>教育局排名，亦無「名校榜」。資料按多項可核對公開欄位整理（自行分配學位、暫定統一派位學額、升中派位公布、一條龍、宗教、官立／資助、合併備註等），方便家長對照。缺資料一律顯示「缺／未公布」，不猜測數字。實際派位以教育局及各校正式通知為準。
+    </div>
+  </header>
+
+  <section class="panel" aria-label="篩選與排序">
+    <h2>關注重點（可多選）</h2>
+    <p class="hint">點選會調整排序或過濾；可同時用下方篩選器細揀。</p>
+    <div class="chips" id="priorityChips" role="group">
+      <button type="button" class="chip" data-p="admission" aria-pressed="false">收生（自行分配學位／統一派位）</button>
+      <button type="button" class="chip" data-p="sspa" aria-pressed="false">升中派位公布％</button>
+      <button type="button" class="chip" data-p="tt" aria-pressed="false">一條龍</button>
+      <button type="button" class="chip" data-p="religion" aria-pressed="false">宗教</button>
+      <button type="button" class="chip" data-p="type" aria-pressed="false">官立／資助</button>
+      <button type="button" class="chip" data-p="merge" aria-pressed="false">合併風險</button>
+      <button type="button" class="chip" data-p="moi" aria-pressed="false">中文科MOI（粵／普；混合會寫明小幾／精英班）</button>
+    </div>
+    <div class="filters">
+      <label class="field">排序
+        <label for="sortBy">排序（預設最熱門）</label>
+        <select id="sortBy">
+          <option value="hot" selected>最熱門（升中首志願％ → 自行超收）</option>
+          <option value="sspa">升中派位首志願％（有數據先）</option>
+          <option value="dpfill">自行用盡／超收（有數據先）</option>
+          <option value="dp">自行分配學位額（小一入學2027）</option>
+          <option value="ca">暫定統一派位學額（少→多，愈少愈搶）</option>
+          <option value="p1">小一班數（2026/27）</option>
+          <option value="name">校名（筆劃）</option>
+        </select>
+      </label>
+      <label class="field">類別
+        <select id="fType"><option value="">全部</option><option value="官立">官立</option><option value="資助">資助</option></select>
+      </label>
+      <label class="field">宗教
+        <select id="fRel">
+          <option value="">全部</option>
+          <option value="天主教">天主教</option>
+          <option value="基督教">基督教</option>
+          <option value="佛教">佛教</option>
+          <option value="__none">名冊未列明</option>
+        </select>
+      </label>
+      <label class="field">一條龍
+        <select id="fTT"><option value="">全部</option><option value="yes">有一條龍</option><option value="no">無一條龍</option></select>
+      </label>
+      <label class="field">升中派位％公布
+        <select id="fSspa"><option value="">全部</option><option value="yes">有升中派位％公布</option><option value="no">缺／未公布</option></select>
+      </label>
+      <label class="field">中文科MOI
+        <select id="fMoi">
+          <option value="">全部</option>
+          <option value="粵教中">粵教中</option>
+          <option value="普教中">普教中</option>
+          <option value="混合">混合</option>
+          <option value="未說明">未說明</option>
+        </select>
+      </label>
+      <label class="field">搜尋校名
+        <input type="search" id="q" placeholder="中文或英文校名" autocomplete="off">
+      </label>
+    </div>
+  </section>
+
+  <div class="toolbar">
+    <div class="count" id="count">顯示 21／21 間</div>
+    <button type="button" class="chip" id="resetBtn">重設篩選</button>
+  </div>
+
+  <section aria-label="官津小學一覽">
+    <div class="table-wrap desk">
+      <table>
+        <thead>
+          <tr>
+            <th>學校</th><th>類別</th><th>宗教</th>
+            <th>自行分配學位<br><span style="font-weight:400">（小一入學2027）</span></th>
+            <th>暫定統一派位學額<br><span style="font-weight:400">（小一入學2026）</span></th>
+            <th>小一班數<br><span style="font-weight:400">26/27</span></th>
+            <th>中文科MOI（混合須註明小幾／精英班）</th><th>升中派位首志願％</th><th>升中資料質素</th><th></th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+
+  <div class="sec" id="criteriaRank">
+    <h2>條件榜</h2>
+    <span class="tag">非教育局排名｜升中志願％為主｜Band%已降級｜與自行榜獨立</span>
+  </div>
+  <section class="panel" aria-label="條件榜">
+    <p class="hint">教育局<strong>並不</strong>公布官方 Band／名校榜。本區以校方公布之<strong>首志願％／首三志願％</strong>作升中主條件榜（只排有數字之校）；資料質素標<strong>完整名單／部分例子／只有％／未公布</strong>。舊 Band% 榜已暫停／降級。詳見 <a href="rankings.md">rankings.md</a>；中文科MOI見 <a href="chinese-moi.md">chinese-moi.md</a>。</p>
+    <div class="tabs" role="tablist">
+      <button type="button" class="tab" role="tab" id="tabSspa" aria-selected="true" aria-controls="panelSspa">升中志願％</button>
+      <button type="button" class="tab" role="tab" id="tabCa" aria-selected="false" aria-controls="panelCa">自行用盡／超收（局部）</button>
+      <button type="button" class="tab" role="tab" id="tabBand" aria-selected="false" aria-controls="panelBand">Band%（已降級）</button>
+    </div>
+    <div id="panelSspa" role="tabpanel" aria-labelledby="tabSspa">
+      <p class="hint">只採用學校官網／PDF／海報已公布之數字％；「超過九成」等質化表述不入排序。各校年份與口徑或不同，<strong>不宜當成官方橫比</strong>。來源：<code>net95-sspa-outcomes.md</code>。</p>
+      <h3 class="subh">按首志願％</h3>
+      <div class="table-wrap">
+        <table class="rank-table">
+          <thead><tr><th>名次</th><th>學校</th><th>首志願％</th><th>首三志願％</th><th>資料質素</th><th>年份／備註</th></tr></thead>
+          <tbody id="rankSspaFirstBody"></tbody>
+        </table>
+      </div>
+      <h3 class="subh">按首三志願％</h3>
+      <div class="table-wrap">
+        <table class="rank-table">
+          <thead><tr><th>名次</th><th>學校</th><th>首三志願％</th><th>首志願％</th><th>資料質素</th><th>年份／備註</th></tr></thead>
+          <tbody id="rankSspaTop3Body"></tbody>
+        </table>
+      </div>
+      <h3 class="subh">一條龍／聯繫實際去向</h3>
+      <p class="hint">只列名冊一條龍或校方自述聯繫；有人數／約數先顯示，其餘標未公布。</p>
+      <div class="table-wrap">
+        <table class="rank-table">
+          <thead><tr><th>小學</th><th>一條龍／聯繫中學</th><th>公開人數／約數</th><th>備註</th></tr></thead>
+          <tbody id="feederBody"></tbody>
+        </table>
+      </div>
+      <p class="hint" id="rankSspaExcl"></p>
+    </div>
+    <div id="panelCa" role="tabpanel" aria-labelledby="tabCa" hidden>
+      <p class="hint"><strong>舊「CA剩餘代理榜」已退役。</strong>下表僅列有公開「實際自行收生」之<strong>13</strong>校（來源：學好啲 2025-01 轉載校網結果），按<strong>超收（實際−暫定自行）</strong>排序；用盡（超收0）並列。乙類最低收生分數<strong>全網缺公開數據</strong>。詳見 <a href="discretionary-competitiveness.md">discretionary-competitiveness.md</a>。</p>
+      <div class="table-wrap">
+        <table class="rank-table">
+          <thead><tr><th>名次</th><th>學校</th><th>超收<br><span style="font-weight:400">（實際／暫定）</span></th><th>備註</th></tr></thead>
+          <tbody id="rankBBody"></tbody>
+        </table>
+      </div>
+      <p class="hint" id="rankBExcl"></p>
+    </div>
+    <div id="panelBand" role="tabpanel" aria-labelledby="tabBand" hidden>
+      <p class="hint"><strong>已暫停／降級。</strong>名校 band set＝第三方名單上的 <strong>1A／1B／2A／2C</strong>（來源：升學天地 sspa02，2026-07-06）。請改以「升中志願％」為主。多數為<strong>校數佔比（無人數權重）</strong>；部分例子／受歡迎名單可能高估比例。</p>
+      <div class="table-wrap">
+        <table class="rank-table">
+          <thead><tr><th>名次</th><th>學校</th><th>指標</th><th>方法</th></tr></thead>
+          <tbody id="rankABody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <div class="sec">
+    <h2>直資／私立／國際小學</h2>
+    <span class="tag">非小一入學統籌辦法乙部｜不屬校網95官津名單</span>
+  </div>
+  <p class="hint">直資及私立／國際小學<strong>不參加</strong>小一入學統籌辦法；家長須自行向學校申請。學費以教育局／校方最新公布為準。</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>學校</th><th>類別</th><th>地點</th><th>學費（約／年）</th><th>一條龍／銜接</th><th>教學語言</th></tr>
+      </thead>
+      <tbody id="dssBody"></tbody>
+    </table>
+  </div>
+
+  <footer>
+    <h2>資料來源</h2>
+    <ul id="sources"></ul>
+    <dl class="glossary">
+      <dt>自行分配學位</dt>
+      <dd>約每年九至十月，家長直接向一間官津小學申請嘅學位（約佔該校小一學位一半）；每名兒童通常只可申請一間。</dd>
+      <dt>統一派位</dt>
+      <dd>自行階段之後，教育局按校網同家長選校意願，以電腦分配剩餘學位。「暫定統一派位學額」屬估算，會再調。</dd>
+      <dt>升中派位</dt>
+      <dd>小六升中一嘅學位分配結果；各校自行公布名單／比率，唔係教育局排名榜。各校口徑或有不同，不宜直接橫向比較。</dd>
+    </dl>
+    <p style="margin:12px 0 0">整理日期：2026-09-22（香港時間）。本頁可離線以檔案直接開啟。</p>
+  </footer>
+</div>
+<script>
+(async function(){
+  const statusEl = document.getElementById('dataStatus');
+  function setStatus(msg, isErr){
+    if(!statusEl) return;
+    statusEl.textContent = msg;
+    statusEl.style.color = isErr ? '#b91c1c' : '';
+  }
+  let DATA;
+  try {
+    setStatus('資料載入中…');
+    const res = await fetch('data.json', {cache:'no-cache'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    DATA = await res.json();
+    window.__NET95__ = DATA;
+    const at = (DATA.meta && DATA.meta.compiledAt) ? DATA.meta.compiledAt : '';
+    setStatus(at ? ('資料更新：'+at) : '資料已載入');
+  } catch (e) {
+    setStatus('載入 data.json 失敗：'+e.message+'。若你係用 file:// 打開，請改用 GitHub Pages／本地伺服器。', true);
+    console.error(e);
+    return;
+  }
+  const MISS = '缺／未公布';
+  const state = {p:new Set(), sort:'hot', type:'', rel:'', tt:'', sspa:'', moi:'', q:''};
+
+  const esc = s => String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  const num = n => (n===null||n===undefined||n==='') ? '<span class="miss">'+MISS+'</span>' : String(n);
+  const pct = n => (n===null||n===undefined||n==='') ? '<span class="miss">'+MISS+'</span>' : n + '%';
+  const relLabel = r => r || '名冊未列明';
+  const hasPct = s => s.firstChoicePct!=null || s.top3Pct!=null;
+  const hasMerge = s => !!(s.mergeNote && /合併/.test(s.mergeNote));
+
+  function filtered(){
+    let list = DATA.schools.slice();
+    if(state.type) list = list.filter(s=>s.type===state.type);
+    if(state.rel==='__none') list = list.filter(s=>!s.religion);
+    else if(state.rel) list = list.filter(s=>s.religion===state.rel);
+    if(state.tt==='yes') list = list.filter(s=>!!s.throughTrain);
+    if(state.tt==='no') list = list.filter(s=>!s.throughTrain);
+    if(state.sspa==='yes') list = list.filter(hasPct);
+    if(state.sspa==='no') list = list.filter(s=>!hasPct(s));
+    if(state.p.has('tt')) list = list.filter(s=>!!s.throughTrain);
+    if(state.p.has('merge')) list = list.filter(hasMerge);
+    if(state.p.has('religion')) list = list.filter(s=>!!s.religion);
+    if(state.moi) list = list.filter(s=>(s.chineseMoi||'未說明')===state.moi);
+    const q = state.q.trim().toLowerCase();
+    if(q) list = list.filter(s=>(s.nameZh+s.nameEn).toLowerCase().includes(q));
+    return list;
+  }
+
+  function fillHotScore(s){
+    // 超收 > 用盡 > 未盡 > 缺數據；同分再用超收人數
+    const st = s.dp_fill_status || '';
+    if(st==='超收') return 3000 + (s.dp_over ?? 0);
+    if(st==='用盡') return 2000;
+    if(st==='未盡') return 1000 + (s.dp_over ?? -999);
+    return -1;
+  }
+  function sorted(list){
+    let mode = state.sort;
+    if(state.p.has('sspa') && (mode==='name'||mode==='hot')) mode='sspa';
+    if(state.p.has('admission') && (mode==='name'||mode==='hot')) mode='ca';
+    const arr = list.slice();
+    arr.sort((a,b)=>{
+      if(state.p.has('merge')){
+        const am=hasMerge(a)?0:1, bm=hasMerge(b)?0:1;
+        if(am!==bm) return am-bm;
+      }
+      if(mode==='hot'){
+        // 主：升中首志願％；次：自行超收／用盡；缺％排後
+        const ah=hasPct(a)?0:1, bh=hasPct(b)?0:1; if(ah!==bh) return ah-bh;
+        const d=(b.firstChoicePct??-1)-(a.firstChoicePct??-1); if(d) return d;
+        const fd=fillHotScore(b)-fillHotScore(a); if(fd) return fd;
+      } else if(mode==='dpfill'){
+        const fd=fillHotScore(b)-fillHotScore(a); if(fd) return fd;
+        const d=(b.firstChoicePct??-1)-(a.firstChoicePct??-1); if(d) return d;
+      } else if(mode==='dp'){ const d=(b.dp2027??-1)-(a.dp2027??-1); if(d) return d; }
+      else if(mode==='ca'){ const d=(a.ca2026??9999)-(b.ca2026??9999); if(d) return d; }
+      else if(mode==='sspa'){
+        const ah=hasPct(a)?0:1, bh=hasPct(b)?0:1; if(ah!==bh) return ah-bh;
+        const d=(b.firstChoicePct??-1)-(a.firstChoicePct??-1); if(d) return d;
+      } else if(mode==='p1'){ const d=(b.p1_2627??-1)-(a.p1_2627??-1); if(d) return d; }
+      if(state.p.has('type')){
+        const o={'官立':0,'資助':1}; const d=(o[a.type]??9)-(o[b.type]??9); if(d) return d;
+      }
+      if(state.p.has('tt')){
+        const d=(a.throughTrain?0:1)-(b.throughTrain?0:1); if(d) return d;
+      }
+      if(state.p.has('moi')){
+        const order={'普教中':0,'混合':1,'粵教中':2,'未說明':3};
+        const d=(order[a.chineseMoi]??9)-(order[b.chineseMoi]??9); if(d) return d;
+      }
+      return a.nameZh.localeCompare(b.nameZh,'zh-HK');
+    });
+    return arr;
+  }
+
+  function moiBadge(s){
+    const v = s.chineseMoi || '未說明';
+    return '<span class="badge moi">'+esc(v)+'</span>';
+  }
+  function badges(s){
+    let h = '<span class="badge'+(s.type==='官立'?' gov':'')+'">'+esc(s.type)+'</span>';
+    if(s.throughTrain) h += '<span class="badge tt">一條龍</span>';
+    if(hasMerge(s)) h += '<span class="badge merge">合併備註</span>';
+    h += moiBadge(s);
+    return h;
+  }
+
+  function moiRefs(s){
+    const refs = s.chineseMoiRefs || [];
+    if(!refs.length) return '';
+    return '<p>中文科MOI來源：'+refs.map(r=>'<a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.label)+'</a>（'+esc(r.year)+'）').join(' · ')+' · <a href="chinese-moi.md" target="_blank" rel="noopener">整理說明</a></p>';
+  }
+  function detail(s){
+    return '<div class="detail">'
+      +'<p><strong>'+esc(s.nameZh)+'</strong> <span class="en" style="display:inline">'+esc(s.nameEn)+'</span></p>'
+      +'<p>辦學團體：'+esc(s.sponsor)+'｜宗教：'+esc(relLabel(s.religion))+'｜教學語言：'+esc(s.language)+'</p>'
+      +'<p>中文科MOI：<strong>'+esc(s.chineseMoi||'未說明')+'</strong>｜實施：'+esc(s.chineseMoiImpl||'未說明')+'</p>'
+      +(s.chineseMoiDetail?'<p>'+esc(s.chineseMoiDetail)+'</p>':'')
+      +moiRefs(s)
+      +'<p>地址：'+esc(s.address)+'｜電話：'+esc(s.phone||MISS)+'</p>'
+      +'<p>自行分配學位（小一入學2027，暫定）：'+num(s.dp2027)+'｜暫定統一派位學額（小一入學2026）：'+num(s.ca2026)+'</p>'
+      +'<p>小一班數 2025/26→2026/27：'+num(s.p1_2526)+' → '+num(s.p1_2627)+'</p>'
+      +'<p>一條龍：'+esc(s.throughTrain||MISS)+'</p>'
+      +'<p>升中派位公布年度：'+esc(s.sspaYear||MISS)+'｜首志願：'+pct(s.firstChoicePct)+'｜首三志願：'+pct(s.top3Pct)+'｜資料質素：'+(s.sspaDataQuality?s.sspaDataQuality:MISS)+'</p>'+(s.firstChoiceQual?'<p>首志願（質化）：'+esc(s.firstChoiceQual)+'</p>':'')+(s.top3Qual?'<p>首三志願（質化）：'+esc(s.top3Qual)+'</p>':'')+(s.feederSchool?'<p>一條龍／聯繫：'+esc(s.feederSchool)+(s.feederNote?'（'+esc(s.feederNote)+'）':'')+'</p>':'')
+      +(s.sspaNote?'<p>升中派位備註：'+esc(s.sspaNote)+'</p>':'')
+      +(s.mergeNote?'<p>合併／其他備註：'+esc(s.mergeNote)+'</p>':'')
+      +'<p>'
+      +(s.website?'<a href="'+esc(s.website)+'" target="_blank" rel="noopener">學校網頁</a> · ':'')
+      +(s.psp?'<a href="'+esc(s.psp)+'" target="_blank" rel="noopener">小學概覽</a>':'')
+      +(s.sspaUrl?' · <a href="'+esc(s.sspaUrl)+'" target="_blank" rel="noopener">升中派位來源</a>':'')
+      +'</p></div>';
+  }
+
+  function render(){
+    const list = sorted(filtered());
+    document.getElementById('count').textContent = '顯示 '+list.length+'／'+DATA.schools.length+' 間';
+    document.getElementById('tbody').innerHTML = list.map(s=>
+      '<tr>'
+      +'<td><a class="name-zh" href="'+esc(s.website||'#')+'" target="_blank" rel="noopener">'+esc(s.nameZh)+'</a>'
+      +'<span class="en">'+esc(s.nameEn)+'</span><div>'+badges(s)+'</div></td>'
+      +'<td>'+esc(s.type)+'</td>'
+      +'<td>'+esc(relLabel(s.religion))+'</td>'
+      +'<td>'+moiBadge(s)+'<div class="en">'+esc(s.chineseMoiImpl||'')+'</div></td>'
+      +'<td>'+num(s.dp2027)+'</td>'
+      +'<td>'+num(s.ca2026)+'</td>'
+      +'<td>'+num(s.p1_2627)+'</td>'
+      +'<td>'+pct(s.firstChoicePct)+(s.top3Pct!=null?'<span class="en">首三 '+pct(s.top3Pct)+'</span>':'')+'</td>'
+      +'<td>'+qtag(s.sspaDataQuality)+'</td>'
+      +'<td><button type="button" class="linkish" data-id="'+s.id+'">詳情</button></td>'
+      +'</tr>'
+      +'<tr id="d'+s.id+'" hidden><td colspan="9">'+detail(s)+'</td></tr>'
+    ).join('');
+
+    document.getElementById('cards').innerHTML = list.map(s=>
+      '<article class="card">'
+      +'<h3>'+esc(s.nameZh)+'</h3>'
+      +'<div class="en" style="margin-bottom:6px">'+esc(s.nameEn)+'</div>'
+      +'<div>'+badges(s)+'<span class="badge">'+esc(relLabel(s.religion))+'</span></div>'
+      +'<div class="kv">'
+      +'<div><span>自行分配學位（小一入學2027）</span><strong>'+num(s.dp2027)+'</strong></div>'
+      +'<div><span>暫定統一派位學額（小一入學2026）</span><strong>'+num(s.ca2026)+'</strong></div>'
+      +'<div><span>中文科MOI（混合須註明小幾／精英班）</span><strong>'+esc(s.chineseMoi||'未說明')+'</strong></div>'
+      +'<div><span>小一班數 26/27</span><strong>'+num(s.p1_2627)+'</strong></div>'
+      +'<div><span>升中派位首志願％</span><strong>'+pct(s.firstChoicePct)+'</strong></div>'
+      +'<div><span>升中資料質素</span><strong>'+qtag(s.sspaDataQuality)+'</strong></div>'
+      +'</div>'
+      +'<details><summary style="color:var(--accent);cursor:pointer;font-size:.86rem">展開詳情</summary>'+detail(s)+'</details>'
+      +'</article>'
+    ).join('');
+  }
+
+  function renderDss(){
+    document.getElementById('dssBody').innerHTML = DATA.dssPrivate.map(d=>
+      '<tr>'
+      +'<td>'+(d.website?'<a class="name-zh" href="'+esc(d.website)+'" target="_blank" rel="noopener">'+esc(d.nameZh)+'</a>':'<span class="name-zh">'+esc(d.nameZh)+'</span>')
+      +'<span class="en">'+esc(d.nameEn)+'</span></td>'
+      +'<td>'+esc(d.category)+'</td>'
+      +'<td>'+esc(d.address)+'</td>'
+      +'<td>'+esc(d.fee)+'</td>'
+      +'<td>'+esc(d.throughTrain||MISS)+'</td>'
+      +'<td>'+esc(d.language)+'</td>'
+      +'</tr>'
+    ).join('');
+  }
+
+  function renderSources(){
+    document.getElementById('sources').innerHTML = DATA.meta.sources.map(s=>{
+      const a = s.url ? '<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name)+'</a>' : esc(s.name);
+      return '<li>'+a+(s.note?' — '+esc(s.note):'')+'</li>';
+    }).join('') + '<li>教育局小一學校網總覽 — <a href="https://www.edb.gov.hk/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/index.html" target="_blank" rel="noopener">school-lists</a></li>';
+  }
+
+  document.getElementById('priorityChips').addEventListener('click', e=>{
+    const btn=e.target.closest('.chip'); if(!btn) return;
+    const key=btn.dataset.p;
+    const on=btn.getAttribute('aria-pressed')!=='true';
+    btn.setAttribute('aria-pressed', on?'true':'false');
+    if(on) state.p.add(key); else state.p.delete(key);
+    if(key==='tt'){ document.getElementById('fTT').value=on?'yes':''; state.tt=on?'yes':''; }
+    if(key==='sspa'){ document.getElementById('fSspa').value=on?'yes':''; state.sspa=on?'yes':''; if(on){document.getElementById('sortBy').value='sspa'; state.sort='sspa';} }
+    if(key==='admission' && on){ document.getElementById('sortBy').value='ca'; state.sort='ca'; }
+    render();
+  });
+  document.getElementById('sortBy').onchange=e=>{state.sort=e.target.value;render();};
+  document.getElementById('fType').onchange=e=>{state.type=e.target.value;render();};
+  document.getElementById('fRel').onchange=e=>{state.rel=e.target.value;render();};
+  document.getElementById('fTT').onchange=e=>{state.tt=e.target.value;render();};
+  document.getElementById('fMoi').onchange = e=>{ state.moi=e.target.value; render(); };
+  document.getElementById('fSspa').onchange=e=>{state.sspa=e.target.value;render();};
+  document.getElementById('q').oninput=e=>{state.q=e.target.value;render();};
+  document.getElementById('resetBtn').onclick=()=>{
+    state.p.clear(); state.sort='hot'; state.type=''; state.rel=''; state.tt=''; state.sspa=''; state.moi=''; state.q='';
+    document.querySelectorAll('#priorityChips .chip').forEach(c=>c.setAttribute('aria-pressed','false'));
+    document.getElementById('sortBy').value='hot';
+    document.getElementById('fType').value='';
+    document.getElementById('fRel').value='';
+    document.getElementById('fTT').value='';
+    document.getElementById('fSspa').value='';
+    document.getElementById('fMoi').value='';
+    document.getElementById('q').value='';
+    render();
+  };
+  document.getElementById('tbody').addEventListener('click', e=>{
+    const btn=e.target.closest('[data-id]'); if(!btn) return;
+    const row=document.getElementById('d'+btn.dataset.id); if(!row) return;
+    const open=row.hasAttribute('hidden');
+    row.toggleAttribute('hidden', !open);
+    btn.textContent=open?'收合':'詳情';
+  });
+
+
+  function qtag(q){
+    const map={ '完整名單':'full', '部分例子':'ex', '只有％':'pct', '未公布':'none' };
+    const cls=map[q]||'none';
+    return '<span class="qtag '+cls+'">'+esc(q||'未公布')+'</span>';
+  }
+  function pctPlain(n){
+    if(n===null||n===undefined||n==='') return '<span class="miss">'+MISS+'</span>';
+    return n+'%';
+  }
+  function renderRankings(){
+    const schools=DATA.schools.slice();
+
+    // SSPA first choice
+    const fc=schools.filter(s=>s.rankSspaFirst_n!=null).sort((a,b)=>a.rankSspaFirst_n-b.rankSspaFirst_n || a.nameZh.localeCompare(b.nameZh,'zh-HK'));
+    document.getElementById('rankSspaFirstBody').innerHTML=fc.map(s=>
+      '<tr>'
+      +'<td class="rank-num">'+esc(s.rankSspaFirst)+'</td>'
+      +'<td><span class="name-zh">'+esc(s.nameZh)+'</span></td>'
+      +'<td class="metric">'+pctPlain(s.firstChoicePct)+'</td>'
+      +'<td>'+pctPlain(s.top3Pct)+'</td>'
+      +'<td>'+qtag(s.sspaDataQuality)+'</td>'
+      +'<td><div class="method">'+esc(s.sspaYear||'')+'</div>'
+      +(s.sspaNote?'<div class="method">'+esc(s.sspaNote)+'</div>':'')
+      +'</td></tr>'
+    ).join('');
+
+    // SSPA top3
+    const t3=schools.filter(s=>s.rankSspaTop3_n!=null).sort((a,b)=>a.rankSspaTop3_n-b.rankSspaTop3_n || a.nameZh.localeCompare(b.nameZh,'zh-HK'));
+    document.getElementById('rankSspaTop3Body').innerHTML=t3.map(s=>{
+      let note=s.sspaNote||'';
+      if(s.top3DefNote) note=(s.top3DefNote+(note?'；'+note:''));
+      return '<tr>'
+        +'<td class="rank-num">'+esc(s.rankSspaTop3)+'</td>'
+        +'<td><span class="name-zh">'+esc(s.nameZh)+'</span></td>'
+        +'<td class="metric">'+pctPlain(s.top3Pct)+'</td>'
+        +'<td>'+pctPlain(s.firstChoicePct)+'</td>'
+        +'<td>'+qtag(s.sspaDataQuality)+'</td>'
+        +'<td><div class="method">'+esc(s.sspaYear||'')+'</div>'
+        +(note?'<div class="method">'+esc(note)+'</div>':'')
+        +'</td></tr>';
+    }).join('');
+
+    // Feeder / through-train
+    const feed=schools.filter(s=>s.feederSchool);
+    document.getElementById('feederBody').innerHTML=feed.map(s=>{
+      let cnt='未公布';
+      if(s.feederCount!=null) cnt=String(s.feederCount);
+      else if(s.feederNote && (/約|四分|¼|1\/4/.test(s.feederNote))) cnt='約¼（校方自述）';
+      return '<tr>'
+        +'<td>'+esc(s.nameZh)+'</td>'
+        +'<td>'+esc(s.feederSchool)+'</td>'
+        +'<td class="metric">'+esc(cnt)+'</td>'
+        +'<td><div class="method">'+esc(s.feederNote||'')+'</div></td>'
+        +'</tr>';
+    }).join('');
+
+    const exclFirst=schools.filter(s=>s.rankSspaFirst_status!=='已計').map(s=>s.nameZh);
+    const el=document.getElementById('rankSspaExcl');
+    if(el) el.innerHTML='首志願％缺數字、不列入 A1（'+exclFirst.length+'校）：'+exclFirst.map(esc).join('、')
+      +'。資料質素標籤見各校列；一條龍／聯繫多數<strong>未公布人數</strong>。';
+
+    // Band demoted
+    const aInc=schools.filter(s=>s.rankA!=null).sort((x,y)=>x.rankA-y.rankA);
+    const aExc=schools.filter(s=>s.rankA_status==='無法按Band計');
+    const aRows=aInc.map(s=>
+      '<tr class="demoted">'
+      +'<td class="rank-num">'+s.rankA+'</td>'
+      +'<td><span class="name-zh">'+esc(s.nameZh)+'</span>'
+      +(s.rankA_year?'<span class="en">名單 '+esc(s.rankA_year)+'</span>':'')
+      +'</td>'
+      +'<td class="metric">'+esc(s.rankA_pct)+'%'
+      +'<span class="en">'+esc((s.rankA_in??'')+'／'+(s.rankA_total??''))
+      +(s.rankA_unmapped?(' · 未對上Band '+s.rankA_unmapped):'')
+      +'</span></td>'
+      +'<td><div class="method">'+esc(s.rankA_method||'')+'</div>'
+      +(s.rankA_reason?'<div class="method">'+esc(s.rankA_reason)+'</div>':'')
+      +'</td></tr>'
+    ).join('')
+    +aExc.map(s=>
+      '<tr class="excl demoted">'
+      +'<td class="rank-num">—</td>'
+      +'<td><span class="name-zh">'+esc(s.nameZh)+'</span></td>'
+      +'<td><span class="miss">無法按Band計</span></td>'
+      +'<td><div class="method">'+esc(s.rankA_reason||'')+'</div></td></tr>'
+    ).join('');
+    document.getElementById('rankABody').innerHTML=aRows;
+
+    // Discretionary — unchanged
+    const b=schools.filter(s=>s.dp_over!=null).slice().sort((x,y)=>{
+      const d=(y.dp_over??-9999)-(x.dp_over??-9999); if(d) return d;
+      return (y.dp_actual??0)-(x.dp_actual??0);
+    });
+    document.getElementById('rankBBody').innerHTML=b.map(s=>{
+      const over=s.dp_over; const sign=over>0?('+'+over):String(over);
+      const metric=sign+'（'+s.dp_actual+'／'+s.dp_quota_ref+'）';
+      const note=(s.dp_fill_status||'')+'｜乙類截分：缺公開數據';
+      return '<tr>'
+        +'<td class="rank-num">'+esc(s.rankB)+'</td>'
+        +'<td>'+esc(s.nameZh)+'</td>'
+        +'<td class="metric">'+esc(metric)+'</td>'
+        +'<td><div class="method">'+esc(note)+'</div></td>'
+        +'</tr>';
+    }).join('');
+    const excl=schools.filter(s=>s.dp_over==null).map(s=>s.nameZh);
+    const elb=document.getElementById('rankBExcl');
+    if(elb) elb.innerHTML='缺公開實際自行收生、不列入本局部榜（'+excl.length+'校）：'+excl.map(esc).join('、')+'。';
+  }
+
+  const tabSspa=document.getElementById('tabSspa');
+  const tabBand=document.getElementById('tabBand');
+  const tabCa=document.getElementById('tabCa');
+  const panelSspa=document.getElementById('panelSspa');
+  const panelBand=document.getElementById('panelBand');
+  const panelCa=document.getElementById('panelCa');
+  function selectTab(which){
+    const map={sspa:panelSspa, band:panelBand, ca:panelCa};
+    const tabs={sspa:tabSspa, band:tabBand, ca:tabCa};
+    Object.keys(map).forEach(k=>{
+      map[k].hidden = (k!==which);
+      tabs[k].setAttribute('aria-selected', k===which?'true':'false');
+    });
+  }
+  tabSspa.addEventListener('click',()=>selectTab('sspa'));
+  tabBand.addEventListener('click',()=>selectTab('band'));
+  tabCa.addEventListener('click',()=>selectTab('ca'));
+
+  render(); renderDss(); renderSources(); renderRankings();
+})();
+</script>
+</body>
+</html>
