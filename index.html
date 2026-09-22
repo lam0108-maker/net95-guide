@@ -88,6 +88,38 @@ footer li{margin-bottom:4px}
 .method{font-size:.76rem;color:var(--muted)}
 .excl{opacity:.75}
 
+
+th .th-sub{display:block;font-weight:400;font-size:.72rem;color:var(--muted);margin-top:2px}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+td .en{font-size:.75rem;color:var(--muted);margin-top:2px}
+@media (max-width:900px){
+  table{font-size:.82rem}
+  th,td{padding:8px 8px}
+}
+
+/* Column widths: school wide; labels medium; numbers tight */
+table.schools{table-layout:fixed;width:100%;min-width:980px;font-size:.88rem}
+table.schools .col-school{width:22%}
+table.schools .col-type{width:5.5%}
+table.schools .col-rel{width:8%}
+table.schools .col-num{width:9%}
+table.schools .col-cls{width:6%}
+table.schools .col-moi{width:16%}
+table.schools .col-sspa{width:9%}
+table.schools .col-q{width:8%}
+table.schools .col-act{width:4.5%}
+table.schools th,table.schools td{padding:10px 8px;word-break:break-word}
+table.schools th{line-height:1.25;vertical-align:bottom}
+table.schools td.num,table.schools td:nth-child(4),table.schools td:nth-child(5),table.schools td:nth-child(6),table.schools td:nth-child(8){text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.schools td:nth-child(2),table.schools td:nth-child(3),table.schools td:nth-child(9),table.schools td:nth-child(10){white-space:nowrap}
+table.schools td:nth-child(1) .name-zh{font-weight:600;display:block;line-height:1.35}
+table.schools td:nth-child(1) .en{display:block;font-size:.72rem;color:var(--muted);margin:2px 0 4px;line-height:1.3}
+table.schools td:nth-child(7) .en{display:block;font-size:.72rem;color:var(--muted);margin-top:4px;line-height:1.35;white-space:normal}
+table.schools .badge{margin:2px 4px 0 0}
+@media (max-width:900px){
+  table.schools{min-width:860px;font-size:.8rem}
+}
+
 </style>
 </head>
 <body>
@@ -166,14 +198,31 @@ footer li{margin-bottom:4px}
 
   <section aria-label="官津小學一覽">
     <div class="table-wrap desk">
-      <table>
+      <table class="schools">
+        <colgroup>
+          <col class="col-school">
+          <col class="col-type">
+          <col class="col-rel">
+          <col class="col-num">
+          <col class="col-num">
+          <col class="col-cls">
+          <col class="col-moi">
+          <col class="col-sspa">
+          <col class="col-q">
+          <col class="col-act">
+        </colgroup>
         <thead>
           <tr>
-            <th>學校</th><th>類別</th><th>宗教</th>
-            <th>自行分配學位<br><span style="font-weight:400">（小一入學2027）</span></th>
-            <th>暫定統一派位學額<br><span style="font-weight:400">（小一入學2026）</span></th>
-            <th>小一班數<br><span style="font-weight:400">26/27</span></th>
-            <th>中文科MOI（混合須註明小幾／精英班）</th><th>升中派位首志願％</th><th>升中資料質素</th><th></th>
+            <th>學校</th>
+            <th>類別</th>
+            <th>宗教</th>
+            <th>自行分配學位<br><span class="th-sub">小一入學 2027</span></th>
+            <th>暫定統一派位學額<br><span class="th-sub">小一入學 2026</span></th>
+            <th>小一班數<br><span class="th-sub">2026/27</span></th>
+            <th>中文科教學語言<br><span class="th-sub">混合須註明小幾／精英班</span></th>
+            <th>升中派位<br><span class="th-sub">首志願％</span></th>
+            <th>升中資料質素</th>
+            <th></th>
           </tr>
         </thead>
         <tbody id="tbody"></tbody>
@@ -374,7 +423,6 @@ footer li{margin-bottom:4px}
     let h = '<span class="badge'+(s.type==='官立'?' gov':'')+'">'+esc(s.type)+'</span>';
     if(s.throughTrain) h += '<span class="badge tt">一條龍</span>';
     if(hasMerge(s)) h += '<span class="badge merge">合併備註</span>';
-    h += moiBadge(s);
     return h;
   }
 
@@ -413,15 +461,15 @@ footer li{margin-bottom:4px}
       +'<span class="en">'+esc(s.nameEn)+'</span><div>'+badges(s)+'</div></td>'
       +'<td>'+esc(s.type)+'</td>'
       +'<td>'+esc(relLabel(s.religion))+'</td>'
+      +'<td class="num">'+num(s.dp2027)+'</td>'
+      +'<td class="num">'+num(s.ca2026)+'</td>'
+      +'<td class="num">'+num(s.p1_2627)+'</td>'
       +'<td>'+moiBadge(s)+'<div class="en">'+esc(s.chineseMoiImpl||'')+'</div></td>'
-      +'<td>'+num(s.dp2027)+'</td>'
-      +'<td>'+num(s.ca2026)+'</td>'
-      +'<td>'+num(s.p1_2627)+'</td>'
-      +'<td>'+pct(s.firstChoicePct)+(s.top3Pct!=null?'<span class="en">首三 '+pct(s.top3Pct)+'</span>':'')+'</td>'
+      +'<td class="num">'+pct(s.firstChoicePct)+(s.top3Pct!=null?'<div class="en">首三 '+pct(s.top3Pct)+'</div>':'')+'</td>'
       +'<td>'+qtag(s.sspaDataQuality)+'</td>'
       +'<td><button type="button" class="linkish" data-id="'+s.id+'">詳情</button></td>'
       +'</tr>'
-      +'<tr id="d'+s.id+'" hidden><td colspan="9">'+detail(s)+'</td></tr>'
+      +'<tr id="d'+s.id+'" hidden><td colspan="10">'+detail(s)+'</td></tr>'
     ).join('');
 
     document.getElementById('cards').innerHTML = list.map(s=>
