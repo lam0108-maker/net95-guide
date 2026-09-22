@@ -1,0 +1,1255 @@
+{
+  "collectedAt": "2026-09-22T17:43:58+08:00",
+  "scopeNote": "Steering: omit 2023/24 and POA2024. Scope = SSPA 2024/25–2025/26, DP POA2025–2027, CA POA2025–2026, P1 2025/26–2026/27.",
+  "schools": {
+    "樂善堂劉德學校": {
+      "dp": {
+        "POA2025": {
+          "provisional": 50,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 50,
+          "actual": 21,
+          "status": "未盡",
+          "over": -29,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 50,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": "https://sites.google.com/lautak.edu.hk/sspa-home/"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 79
+      },
+      "p1Classes": {
+        "2025/26": 2,
+        "2026/27": 2,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=218"
+        }
+      }
+    },
+    "港澳信義會小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 61,
+          "status": "未盡",
+          "over": -2,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 57,
+          "status": "未盡",
+          "over": -6,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": 89,
+          "top3Pct": 98,
+          "url": "http://www.hkmlcps.edu.hk/tc/%E5%8D%87%E4%B8%AD%E8%B3%87%E8%A8%8A-0"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 68
+      },
+      "p1Classes": {
+        "2025/26": 5,
+        "2026/27": 5,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=238"
+        }
+      }
+    },
+    "將軍澳官立小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 12,
+          "status": "未盡",
+          "over": -51,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": 90,
+          "top3Pct": 94,
+          "url": "https://www.tkogps.edu.hk/%E5%8D%87%E4%B8%AD%E8%B3%87%E8%A8%8A"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 113
+      },
+      "p1Classes": {
+        "2025/26": 3,
+        "2026/27": 2,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=233"
+        }
+      }
+    },
+    "安博官立小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 5,
+          "status": "未盡",
+          "over": -58,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 46,
+          "status": "未盡",
+          "over": -17,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": "https://www.egps.edu.hk"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 79
+      },
+      "p1Classes": {
+        "2025/26": 1,
+        "2026/27": 3,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=550"
+        }
+      }
+    },
+    "西貢中心李少欽紀念學校": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 41,
+          "status": "未盡",
+          "over": -22,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": "https://www.lsy.edu.hk/sites/default/files/files/sheng_zhong_jie_guo_wang_ye_ban__2.pdf"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 84
+      },
+      "p1Classes": {
+        "2025/26": 4,
+        "2026/27": 2,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=227"
+        }
+      }
+    },
+    "香海正覺蓮社佛教黃藻森學校": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 34,
+          "status": "未盡",
+          "over": -29,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": "https://bwcss.edu.hk/"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 91
+      },
+      "p1Classes": {
+        "2025/26": 2,
+        "2026/27": 2,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=236"
+        }
+      }
+    },
+    "仁濟醫院陳耀星小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 20,
+          "status": "未盡",
+          "over": -43,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": 96,
+          "url": "http://www.ychcisps.edu.hk/tc/content.php?wid=257"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 105
+      },
+      "p1Classes": {
+        "2025/26": 2,
+        "2026/27": 1,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=216"
+        }
+      }
+    },
+    "東華三院王余家潔紀念小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": "https://www.wyjjmps.edu.hk/"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 62
+      },
+      "p1Classes": {
+        "2025/26": 5,
+        "2026/27": 5,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=237"
+        }
+      }
+    },
+    "順德聯誼總會梁潔華小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 59,
+          "status": "未盡",
+          "over": -4,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": "https://www.lkw.edu.hk/%e5%ad%b8%e7%94%9f%e6%88%90%e5%b0%b1/%e5%8d%87%e4%b8%ad%e6%b4%be%e4%bd%8d/"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 66
+      },
+      "p1Classes": {
+        "2025/26": 5,
+        "2026/27": 5,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=226"
+        }
+      }
+    },
+    "保良局馮晴紀念小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 66,
+          "status": "超收",
+          "over": 3,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": 94.86,
+          "top3Pct": 99.14,
+          "url": "https://www.plkfcmps.edu.hk/CustomPage/paragraphGroup.aspx?webPageId=93&pageId=293&nnnid=122"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 59
+      },
+      "p1Classes": {
+        "2025/26": 5,
+        "2026/27": 5,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=224"
+        }
+      }
+    },
+    "博愛醫院陳國威小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 27,
+          "status": "未盡",
+          "over": -36,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 22,
+          "status": "未盡",
+          "over": -41,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": "https://www.pohckwps.edu.hk/tc/2025-2026%E5%B9%B4%E5%BA%A6%E4%B8%BB%E8%A6%81%E7%8D%B2%E6%B4%BE%E4%B8%AD%E5%AD%B8"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 103
+      },
+      "p1Classes": {
+        "2025/26": 2,
+        "2026/27": 2,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=215"
+        }
+      }
+    },
+    "基督教神召會梁省德小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 35,
+          "status": "未盡",
+          "over": -28,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": "https://lsttko.edu.hk/zh/2025-2026%e5%b9%b4%e5%ba%a6%e4%b8%ad%e5%ad%b8%e5%ad%b8%e4%bd%8d%e5%88%86%e9%85%8d%e6%9c%ac%e6%a0%a1%e6%b4%be%e4%bd%8d%e6%83%85%e6%b3%81/"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 90
+      },
+      "p1Classes": {
+        "2025/26": 4,
+        "2026/27": 4,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=213"
+        }
+      }
+    },
+    "基督教宣道會宣基小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 67,
+          "status": "超收",
+          "over": 4,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 66,
+          "status": "超收",
+          "over": 3,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": 94,
+          "top3Pct": 100,
+          "url": "https://www.sunkei.edu.hk/tc/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 59
+      },
+      "p1Classes": {
+        "2025/26": 5,
+        "2026/27": 5,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=219"
+        }
+      }
+    },
+    "佛教志蓮小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 23,
+          "status": "未盡",
+          "over": -31,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": "https://chilinbps.edu.hk/"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 102
+      },
+      "p1Classes": {
+        "2025/26": 3,
+        "2026/27": 2,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=231"
+        }
+      }
+    },
+    "仁愛堂田家炳小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": 96,
+          "url": "https://www.yottkpps.edu.hk/CustomPage/paragraphGroup.aspx?webPageId=19&pageId=322&nnnid=174"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 62
+      },
+      "p1Classes": {
+        "2025/26": 5,
+        "2026/27": 5,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=217"
+        }
+      }
+    },
+    "西貢崇真天主教學校（小學部）": {
+      "dp": {
+        "POA2025": {
+          "provisional": 38,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 38,
+          "actual": 27,
+          "status": "未盡",
+          "over": -11,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 38,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": 91,
+          "top3Pct": 100,
+          "url": "https://www.stcps.edu.hk/tc/%E4%B8%AD%E5%AD%B8%E5%AD%B8%E4%BD%8D%E5%88%86%E9%85%8D%E7%B5%90%E6%9E%9C"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 48
+      },
+      "p1Classes": {
+        "2025/26": 3,
+        "2026/27": 2,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=232"
+        }
+      }
+    },
+    "保良局黃永樹小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 68,
+          "status": "超收",
+          "over": 5,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": 81,
+          "top3Pct": 97,
+          "url": "https://www.plkwws.edu.hk/2024-%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C"
+        },
+        "2025/26": {
+          "firstChoicePct": 88,
+          "top3Pct": 98,
+          "url": "https://www.plkwws.edu.hk/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 57
+      },
+      "p1Classes": {
+        "2025/26": 5,
+        "2026/27": 5,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=222"
+        }
+      }
+    },
+    "將軍澳天主教小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 74,
+          "status": "超收",
+          "over": 11,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": 98,
+          "url": "https://www.tkocps.edu.hk/sites/default/files/files/gong_bu_25_14-7-25.pdf"
+        },
+        "2025/26": {
+          "firstChoicePct": null,
+          "top3Pct": 97,
+          "url": "https://www.tkocps.edu.hk/tc/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 62
+      },
+      "p1Classes": {
+        "2025/26": 5,
+        "2026/27": 5,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=229"
+        }
+      }
+    },
+    "港澳信義會明道小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": 94,
+          "top3Pct": 98,
+          "url": "https://www.hkmlc-mtps.edu.hk/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C"
+        },
+        "2025/26": {
+          "firstChoicePct": 94,
+          "top3Pct": 100,
+          "url": "https://www.hkmlc-mtps.edu.hk/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 62
+      },
+      "p1Classes": {
+        "2025/26": 5,
+        "2026/27": 5,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=220"
+        }
+      }
+    },
+    "天主教聖安德肋小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 63,
+          "actual": 63,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 63,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": 78.35,
+          "top3Pct": 96.91,
+          "url": "https://www.sacps.edu.hk/content.php?pid=210"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 62
+      },
+      "p1Classes": {
+        "2025/26": 5,
+        "2026/27": 5,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=225"
+        }
+      }
+    },
+    "將軍澳循道衛理小學": {
+      "dp": {
+        "POA2025": {
+          "provisional": 75,
+          "actual": 75,
+          "status": "用盡",
+          "over": 0,
+          "source": {
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          }
+        },
+        "POA2026": {
+          "provisional": 75,
+          "actual": 79,
+          "status": "超收",
+          "over": 4,
+          "source": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          }
+        },
+        "POA2027": {
+          "provisional": 75,
+          "actual": null,
+          "status": "缺公開數據",
+          "over": null,
+          "source": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      },
+      "sspa": {
+        "2024/25": {
+          "firstChoicePct": null,
+          "top3Pct": null,
+          "url": null
+        },
+        "2025/26": {
+          "firstChoicePct": 94,
+          "top3Pct": 99,
+          "url": "https://www.tkomps.edu.hk/zh_tw/site/view?name=%E5%8D%87%E4%B8%AD"
+        }
+      },
+      "caProvisional": {
+        "POA2025": null,
+        "POA2026": 71
+      },
+      "p1Classes": {
+        "2025/26": 6,
+        "2026/27": 6,
+        "source": {
+          "label": "家庭與學校合作事宜委員會《小學概覽2026》／data.json",
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=234"
+        }
+      }
+    }
+  },
+  "coverage": {
+    "schoolCount": 21,
+    "dp_POA2025_provisional": 21,
+    "dp_POA2025_actual": 13,
+    "dp_POA2026_provisional": 21,
+    "dp_POA2026_actual": 21,
+    "dp_POA2027_provisional": 21,
+    "dp_POA2027_actual": 0,
+    "sspa_2024_25_numeric": 3,
+    "sspa_2025_26_numeric": 12,
+    "ca_POA2025": 0,
+    "ca_POA2026": 21,
+    "p1_2025_26": 21,
+    "p1_2026_27": 21,
+    "omittedBySteer": [
+      "POA2024",
+      "sspa_2023/24",
+      "p1_2024/25"
+    ]
+  },
+  "notes": [
+    "未收錄 POA2024／SSPA 2023/24／P1 2024/25（按 steering 略過）。",
+    "POA2026 自行：21校暫定＋實際均來自 TOPick topschool 4042295（2026-01；2026/27入讀）；over=實際−暫定。",
+    "POA2027 自行：僅暫定（教育局 Net95.pdf 2026-08）；實際尚未公布。",
+    "POA2025 自行：沿用 GoStudy 33213／既有整理（13校有實際）。",
+    "SSPA 2024/25 新補：明道（94/98）、黃永樹（81/97，官網圖）、將軍澳天主教（top3 98，校方 PDF）；其餘缺公開數字則 null。",
+    "SSPA 2025/26：沿用 data.json 已登錄數字（12校至少一項）。",
+    "CA POA2025：仍缺公開選校名單；CA POA2026：沿用 data.json ca2026。",
+    "P1 班數僅 2025/26、2026/27（概覽2026／data.json）。",
+    "不臆造；質化「超過九成」不入 firstChoicePct／top3Pct。"
+  ]
+}

@@ -231,25 +231,25 @@
         },
         "dpProvisional": {
           "POA2025": 50,
-          "POA2026": null,
+          "POA2026": 50,
           "POA2027": 50,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": 21,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "缺公開數據",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": -29,
           "POA2027": null,
           "POA2024": null
         },
@@ -276,9 +276,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -372,25 +379,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": 61,
-          "POA2026": null,
+          "POA2026": 57,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "未盡",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": -2,
-          "POA2026": null,
+          "POA2026": -6,
           "POA2027": null,
           "POA2024": null
         },
@@ -417,9 +424,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -523,25 +537,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": 12,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "缺公開數據",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": -51,
           "POA2027": null,
           "POA2024": null
         },
@@ -568,9 +582,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -669,25 +690,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": 5,
-          "POA2026": null,
+          "POA2026": 46,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "未盡",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": -58,
-          "POA2026": null,
+          "POA2026": -17,
           "POA2027": null,
           "POA2024": null
         },
@@ -714,9 +735,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -810,25 +838,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 41,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "用盡",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": 0,
-          "POA2026": null,
+          "POA2026": -22,
           "POA2027": null,
           "POA2024": null
         },
@@ -855,9 +883,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -951,25 +986,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": 34,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "缺公開數據",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": -29,
           "POA2027": null,
           "POA2024": null
         },
@@ -996,9 +1031,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -1098,25 +1140,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": 20,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "缺公開數據",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": -43,
           "POA2027": null,
           "POA2024": null
         },
@@ -1143,9 +1185,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -1239,25 +1288,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "用盡",
-          "POA2026": "缺公開數據",
+          "POA2026": "用盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": 0,
-          "POA2026": null,
+          "POA2026": 0,
           "POA2027": null,
           "POA2024": null
         },
@@ -1284,9 +1333,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -1380,25 +1436,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": 59,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "缺公開數據",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": -4,
           "POA2027": null,
           "POA2024": null
         },
@@ -1425,9 +1481,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -1526,25 +1589,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": 63
         },
         "dpActual": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 66,
           "POA2027": null,
           "POA2024": 69
         },
         "dpFillStatus": {
           "POA2025": "用盡",
-          "POA2026": "缺公開數據",
+          "POA2026": "超收",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": "超收"
         },
         "dpOver": {
           "POA2025": 0,
-          "POA2026": null,
+          "POA2026": 3,
           "POA2027": null,
           "POA2024": 6
         },
@@ -1571,14 +1634,21 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
           },
           "POA2024": {
             "label": "學好啲／相關轉載熱門校網超收表（含95網兩校）",
             "url": "https://www.gostudy.hk/6609/",
             "note": "只摘錄95網有列之校；其餘缺"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -1672,25 +1742,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": 27,
-          "POA2026": null,
+          "POA2026": 22,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "未盡",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": -36,
-          "POA2026": null,
+          "POA2026": -41,
           "POA2027": null,
           "POA2024": null
         },
@@ -1717,9 +1787,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -1823,25 +1900,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": 35,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "缺公開數據",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": -28,
           "POA2027": null,
           "POA2024": null
         },
@@ -1868,9 +1945,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -1969,25 +2053,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": 67,
-          "POA2026": null,
+          "POA2026": 66,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "超收",
-          "POA2026": "缺公開數據",
+          "POA2026": "超收",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": 4,
-          "POA2026": null,
+          "POA2026": 3,
           "POA2027": null,
           "POA2024": null
         },
@@ -2014,9 +2098,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -2116,25 +2207,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": 23,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "缺公開數據",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": -31,
           "POA2027": null,
           "POA2024": null
         },
@@ -2161,9 +2252,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -2258,25 +2356,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "用盡",
-          "POA2026": "缺公開數據",
+          "POA2026": "用盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": 0,
-          "POA2026": null,
+          "POA2026": 0,
           "POA2027": null,
           "POA2024": null
         },
@@ -2303,9 +2401,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -2399,25 +2504,25 @@
         },
         "dpProvisional": {
           "POA2025": 38,
-          "POA2026": null,
+          "POA2026": 38,
           "POA2027": 38,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": 27,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "缺公開數據",
-          "POA2026": "缺公開數據",
+          "POA2026": "未盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": null,
-          "POA2026": null,
+          "POA2026": -11,
           "POA2027": null,
           "POA2024": null
         },
@@ -2444,9 +2549,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -2545,25 +2657,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 68,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "用盡",
-          "POA2026": "缺公開數據",
+          "POA2026": "超收",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": 0,
-          "POA2026": null,
+          "POA2026": 5,
           "POA2027": null,
           "POA2024": null
         },
@@ -2574,10 +2686,10 @@
         },
         "sspa": {
           "2024/25": {
-            "firstChoicePct": null,
-            "top3Pct": null,
+            "firstChoicePct": 81,
+            "top3Pct": 97,
             "quality": "未公布",
-            "url": null,
+            "url": "https://www.plkwws.edu.hk/2024-%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C",
             "note": null
           },
           "2025/26": {
@@ -2590,9 +2702,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -2691,25 +2810,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": 63
         },
         "dpActual": {
           "POA2025": 74,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": null,
           "POA2024": 68
         },
         "dpFillStatus": {
           "POA2025": "超收",
-          "POA2026": "缺公開數據",
+          "POA2026": "用盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": "超收"
         },
         "dpOver": {
           "POA2025": 11,
-          "POA2026": null,
+          "POA2026": 0,
           "POA2027": null,
           "POA2024": 5
         },
@@ -2721,9 +2840,9 @@
         "sspa": {
           "2024/25": {
             "firstChoicePct": null,
-            "top3Pct": null,
+            "top3Pct": 98,
             "quality": "未公布",
-            "url": null,
+            "url": "https://www.tkocps.edu.hk/sites/default/files/files/gong_bu_25_14-7-25.pdf",
             "note": null
           },
           "2025/26": {
@@ -2736,14 +2855,21 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
           },
           "POA2024": {
             "label": "學好啲／相關轉載熱門校網超收表（含95網兩校）",
             "url": "https://www.gostudy.hk/6609/",
             "note": "只摘錄95網有列之校；其餘缺"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -2842,25 +2968,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "用盡",
-          "POA2026": "缺公開數據",
+          "POA2026": "用盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": 0,
-          "POA2026": null,
+          "POA2026": 0,
           "POA2027": null,
           "POA2024": null
         },
@@ -2871,10 +2997,10 @@
         },
         "sspa": {
           "2024/25": {
-            "firstChoicePct": null,
-            "top3Pct": null,
+            "firstChoicePct": 94,
+            "top3Pct": 98,
             "quality": "未公布",
-            "url": null,
+            "url": "https://www.hkmlc-mtps.edu.hk/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C",
             "note": null
           },
           "2025/26": {
@@ -2887,9 +3013,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -2983,25 +3116,25 @@
         },
         "dpProvisional": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": 63,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": 63,
-          "POA2026": null,
+          "POA2026": 63,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "用盡",
-          "POA2026": "缺公開數據",
+          "POA2026": "用盡",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": 0,
-          "POA2026": null,
+          "POA2026": 0,
           "POA2027": null,
           "POA2024": null
         },
@@ -3028,9 +3161,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
@@ -3129,25 +3269,25 @@
         },
         "dpProvisional": {
           "POA2025": 75,
-          "POA2026": null,
+          "POA2026": 75,
           "POA2027": 75,
           "POA2024": null
         },
         "dpActual": {
           "POA2025": 75,
-          "POA2026": null,
+          "POA2026": 79,
           "POA2027": null,
           "POA2024": null
         },
         "dpFillStatus": {
           "POA2025": "用盡",
-          "POA2026": "缺公開數據",
+          "POA2026": "超收",
           "POA2027": "暫定額（結果未公布）",
           "POA2024": null
         },
         "dpOver": {
           "POA2025": 0,
-          "POA2026": null,
+          "POA2026": 4,
           "POA2027": null,
           "POA2024": null
         },
@@ -3174,9 +3314,16 @@
         },
         "dpSources": {
           "POA2025": {
-            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
-            "url": "https://www.gostudy.hk/33213/",
-            "note": "非教育局官方逐校表；部分校網頁未公布"
+            "label": "學好啲／TOPick 轉載校網自行結果（2025/26入讀＝POA2025）",
+            "url": "https://gostudy.hk/33213/"
+          },
+          "POA2026": {
+            "label": "TOPick／topschool《小一統一派位2026》95校網表（自行實收；2026/27入讀＝POA2026）",
+            "url": "https://topschool.hket.com/article/4042295/%E5%B0%8F%E4%B8%80%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D2026%EF%B8%B1%E6%9C%80%E6%96%B0%E5%85%A8%E6%B8%AF%E5%B0%8F%E5%AD%B8%E7%B5%B1%E4%B8%80%E6%B4%BE%E4%BD%8D%E5%AD%B8%E9%A1%8D%E5%85%A8%E6%90%9C%E7%BE%85%E3%80%80%E7%B4%8430%E6%A0%A1%E8%87%AA%E8%A1%8C%E6%94%B6%E7%94%9F%E9%9A%8E%E6%AE%B5%E6%9C%AA%E9%81%9416%E4%BA%BA%E9%96%8B%E7%8F%AD%E7%B7%9A"
+          },
+          "POA2027": {
+            "label": "教育局《2027年度小一入學學校網名冊》校網95（自行分配學位暫定）",
+            "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         },
         "caSources": {
