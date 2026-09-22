@@ -362,13 +362,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "許志民",
+              "from": "2025-09-01",
+              "to": null,
+              "url": "https://www.lautak.edu.hk/article/472"
+            }
+          ],
+          "url": "https://www.lautak.edu.hk/article/472",
+          "sourceLabel": "校網校長的話（2025-09-01署名，自稱為新任校長）+ CHSC PSP2025/2026",
+          "note": "僅核實現任／新任1人；前任姓名本輪未能以校方PDF獨立核對，故不列入、不達標。"
         }
       }
     },
@@ -564,13 +571,26 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 2,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "陳文燕",
+              "from": null,
+              "to": "2022-09-01",
+              "url": "https://www.hkmlcps.edu.hk/sites/default/files/notice/xiao_chang_tui_xiu_zhi_jia_chang_xin_han_20220706n.pdf"
+            },
+            {
+              "name": "何彥輝",
+              "from": "2022/23",
+              "to": null,
+              "url": "https://preview.chsc.hk/pdf/psp2026/238_2.pdf"
+            }
+          ],
+          "url": "https://www.hkmlcps.edu.hk/tc/%E5%B8%B8%E5%8B%99%E5%A7%94%E5%93%A1%E6%9C%83",
+          "sourceLabel": "校方家長信（陳文燕2022-09-01退休）+ 常務委員會名冊（22/23起何彥輝）+ CHSC PSP2025/2026（何彥輝）+ 維基百科行政人員",
+          "note": "窗口內可核實2任（低於門檻）。校網學校簡介現列「武沂謙校長」，但25/26常務委員會及CHSC仍列何彥輝／武沂謙為副校長，本輪不把武沂謙計入第三任。韋靜嫺見於14/15常務委員會，已超出~5–8年窗口。"
         }
       }
     },
@@ -775,14 +795,39 @@
           "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         },
         "principalTurnover": {
-          "flag": false,
-          "principalsInWindow": null,
+          "flag": true,
+          "principalsInWindow": 4,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "葉韻婷",
+              "from": "2022/23",
+              "to": null,
+              "url": "https://www.tkogps.edu.hk/sites/default/files/notice/20222023_school_report_new_1700788668.pdf"
+            },
+            {
+              "name": "黃鳳霞",
+              "from": "2024/25",
+              "to": null,
+              "url": "https://preview.chsc.hk/pdf/psp2025/233_2.pdf"
+            },
+            {
+              "name": "關玉娟",
+              "from": "2025/26",
+              "to": null,
+              "url": "https://preview.chsc.hk/pdf/psp2026/233_2.pdf"
+            },
+            {
+              "name": "錢俊賢",
+              "from": "2026/27",
+              "to": null,
+              "url": "https://www.tkogps.edu.hk/%E8%A1%8C%E6%94%BF%E6%9E%B6%E6%A7%8B"
+            }
+          ],
+          "url": "https://www.tkogps.edu.hk/%E8%A1%8C%E6%94%BF%E6%9E%B6%E6%A7%8B",
+          "sourceLabel": "校方2022-23學校報告；CHSC PSP2025（黃鳳霞）／PSP2026（關玉娟）PDF；校網行政架構及政府電話簿2026-09-22（錢俊賢）",
+          "note": "約2022–2026年間至少4任有據可查。門檻達標故 flag=true。各任起迄月份多未公布，from 以學年／概覽年版為準。"
         }
       }
     },
@@ -978,14 +1023,45 @@
           "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         },
         "principalTurnover": {
-          "flag": false,
-          "principalsInWindow": null,
+          "flag": true,
+          "principalsInWindow": 5,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "袁藹儀",
+              "from": "2017",
+              "to": "2021",
+              "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%8D%9A%E5%AE%98%E7%AB%8B%E5%B0%8F%E5%AD%B8"
+            },
+            {
+              "name": "關玉娟",
+              "from": "2021",
+              "to": "2022",
+              "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%8D%9A%E5%AE%98%E7%AB%8B%E5%B0%8F%E5%AD%B8"
+            },
+            {
+              "name": "鄧彥祺",
+              "from": "2022",
+              "to": "2025",
+              "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%8D%9A%E5%AE%98%E7%AB%8B%E5%B0%8F%E5%AD%B8"
+            },
+            {
+              "name": "陳國強",
+              "from": "2025",
+              "to": "2026",
+              "url": "https://preview.chsc.hk/pdf/psp2026/550_2.pdf"
+            },
+            {
+              "name": "葉韻婷",
+              "from": "2026-09",
+              "to": null,
+              "url": "https://tel.directory.gov.hk/0105002199_CHI.html"
+            }
+          ],
+          "url": "https://egps.edu.hk/%e6%a0%a1%e9%95%b7%e7%9a%84%e8%a9%b1/",
+          "sourceLabel": "維基百科歷任校長（全日制）+ CHSC PSP2025/2026 PDF（陳國強）+ 政府電話簿2026-09-22及校網校長的話2026-09（葉韻婷）",
+          "note": "約2017–2026年間至少5任（含遷校前後之廣東道／安博官立）。門檻達標故 flag=true。"
         }
       }
     },
@@ -1181,13 +1257,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "吳楚強",
+              "from": null,
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=227"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=227",
+          "sourceLabel": "CHSC 小學概覽 PSP2025/2026（現任校長；兩版一致）",
+          "note": "僅核實現任；本輪未找到~5–8年內≥3任有日期來源的交接證據。"
         }
       }
     },
@@ -1379,13 +1462,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "古美琪",
+              "from": null,
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=236"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=236",
+          "sourceLabel": "CHSC 小學概覽 PSP2025/2026（現任校長；兩版一致）",
+          "note": "僅核實現任；本輪未找到~5–8年內≥3任有日期來源的交接證據。"
         }
       }
     },
@@ -1583,13 +1673,26 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 2,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "陳碧蘭",
+              "from": null,
+              "to": "2025-09-01",
+              "url": "https://www.yanchai.org.hk/f/education_plus/2537/ych-020.pdf"
+            },
+            {
+              "name": "陳兆東",
+              "from": "2025/26",
+              "to": null,
+              "url": "https://preview.chsc.hk/pdf/psp2026/216_2.pdf"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=216",
+          "sourceLabel": "仁濟《教育Plus》Vol020（2025-10：陳碧蘭2025-09-01榮休）+ CHSC PSP2025（陳碧蘭）／PSP2026（陳兆東）",
+          "note": "窗口內可核實2任（低於門檻）。陳碧蘭為長期在任後榮休。"
         }
       }
     },
@@ -1781,13 +1884,26 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 2,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "劉秀萍",
+              "from": "2015",
+              "to": "2026",
+              "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E8%8F%AF%E4%B8%89%E9%99%A2%E7%8E%8B%E4%BD%99%E5%AE%B6%E6%BD%94%E7%B4%80%E5%BF%B5%E5%B0%8F%E5%AD%B8"
+            },
+            {
+              "name": "鄭敏嫻",
+              "from": "2026/27",
+              "to": null,
+              "url": "https://preview.chsc.hk/pdf/psp2026/237_2.pdf"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=237",
+          "sourceLabel": "維基百科校長列表（劉秀萍2015–2026）+ CHSC PSP2025（劉秀萍）／PSP2026（鄭敏嫻）+ 2026-09開學新聞稱鄭敏嫻接任",
+          "note": "窗口內可核實2任（低於門檻）。2014–15署理校長馬詠兒已超出~5–8年窗口核心，不計入達標。"
         }
       }
     },
@@ -1979,13 +2095,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "尹少琴",
+              "from": null,
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=226"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=226",
+          "sourceLabel": "CHSC 小學概覽 PSP2025/2026（現任校長；兩版一致）",
+          "note": "僅核實現任；本輪未找到~5–8年內≥3任有日期來源的交接證據。"
         }
       }
     },
@@ -2187,13 +2310,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "曾維愛",
+              "from": null,
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=224"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=224",
+          "sourceLabel": "CHSC 小學概覽 PSP2025/2026（現任校長；兩版一致）",
+          "note": "僅核實現任；本輪未找到~5–8年內≥3任有日期來源的交接證據。"
         }
       }
     },
@@ -2385,13 +2515,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "韋淑貞",
+              "from": "2017",
+              "to": null,
+              "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E6%84%9B%E9%86%AB%E9%99%A2%E9%99%B3%E5%9C%8B%E5%A8%81%E5%B0%8F%E5%AD%B8"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=215",
+          "sourceLabel": "維基百科歷任校長（韋淑貞：2017年度至今）+ CHSC PSP2025/2026",
+          "note": "近窗內僅見現任；上任蔡婉玲至2017，不構成≥3任。"
         }
       }
     },
@@ -2597,13 +2734,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "張麗君",
+              "from": "2010",
+              "to": null,
+              "url": "https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%9D%A3%E6%95%99%E7%A5%9E%E5%8F%AC%E6%9C%83%E6%A2%81%E7%9C%81%E5%BE%B7%E5%B0%8F%E5%AD%B8"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=213",
+          "sourceLabel": "維基百科歷任校長（2010年履新）+ CHSC PSP2025/2026",
+          "note": "長期在任；窗口內無≥3任證據。"
         }
       }
     },
@@ -2804,13 +2948,26 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 2,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "鄭堅民",
+              "from": "2011",
+              "to": "2021",
+              "url": "https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%9D%A3%E6%95%99%E5%AE%A3%E9%81%93%E6%9C%83%E5%AE%A3%E5%9F%BA%E5%B0%8F%E5%AD%B8"
+            },
+            {
+              "name": "劉心怡",
+              "from": "2021",
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=219"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=219",
+          "sourceLabel": "維基百科新校校長列表 + CHSC PSP2025/2026",
+          "note": "窗口內2任（低於門檻）。"
         }
       }
     },
@@ -3008,13 +3165,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "羅金源",
+              "from": null,
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=231"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=231",
+          "sourceLabel": "CHSC 小學概覽 PSP2025/2026（現任校長；兩版一致）",
+          "note": "僅核實現任；本輪未找到~5–8年內≥3任有日期來源的交接證據。"
         }
       }
     },
@@ -3207,13 +3371,26 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 2,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "黃悅明",
+              "from": "2013/14",
+              "to": "2021",
+              "url": "https://zh.wikipedia.org/wiki/%E4%BB%81%E6%84%9B%E5%A0%82%E7%94%B0%E5%AE%B6%E7%82%B3%E5%B0%8F%E5%AD%B8"
+            },
+            {
+              "name": "曾燕琼",
+              "from": "2022",
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=217"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=217",
+          "sourceLabel": "維基百科（鄔淑賢2007–2013；黃悅明其後；現任曾燕琼）+ CHSC PSP2026（曾燕琼）",
+          "note": "窗口內約2任（曾燕琼接任約2022）。鄔淑賢2013離任已偏出本輪5–8年窗口，不達標。"
         }
       }
     },
@@ -3404,14 +3581,33 @@
           "note": "統一派位後叩門；只入有公開申請數與學額嘅來源"
         },
         "principalTurnover": {
-          "flag": false,
-          "principalsInWindow": null,
+          "flag": true,
+          "principalsInWindow": 3,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "周麗雄",
+              "from": "2013/14",
+              "to": "2019/20",
+              "url": "https://www.stcps.edu.hk/tc/%E5%AD%B8%E6%A0%A1%E5%A4%A7%E4%BA%8B%E8%A8%98"
+            },
+            {
+              "name": "馮家俊",
+              "from": "2020/21",
+              "to": "2024/25",
+              "url": "https://preview.chsc.hk/pdf/psp2025/232_2.pdf"
+            },
+            {
+              "name": "李家敏",
+              "from": "2025/26",
+              "to": null,
+              "url": "https://preview.chsc.hk/pdf/psp2026/232_2.pdf"
+            }
+          ],
+          "url": "https://stcps.edu.hk/tc/%E5%AD%B8%E6%A0%A1%E8%83%8C%E6%99%AF",
+          "sourceLabel": "校方大事記（2013-14新任周麗雄；2020-21新任馮家俊）+ CHSC PSP2025／PSP2026 PDF + 校方學校背景／法團校董會（現任李家敏）",
+          "note": "約2018–2026（~8年）窗口內可核實3任。門檻達標故 flag=true。"
         }
       }
     },
@@ -3612,13 +3808,26 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 2,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "曾碧霞",
+              "from": "1999",
+              "to": "2018",
+              "url": "https://zh.wikipedia.org/wiki/%E4%BF%9D%E8%89%AF%E5%B1%80%E9%BB%83%E6%B0%B8%E6%A8%B9%E5%B0%8F%E5%AD%B8"
+            },
+            {
+              "name": "陳瑞良",
+              "from": "2018",
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=222"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=222",
+          "sourceLabel": "維基百科歷任校長（現址全日制）+ CHSC PSP2025/2026",
+          "note": "2018交接後現任穩定；窗口內不足3任。"
         }
       }
     },
@@ -3824,13 +4033,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "馬一龍",
+              "from": null,
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=229"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=229",
+          "sourceLabel": "CHSC 小學概覽 PSP2025/2026（現任校長；兩版一致）",
+          "note": "僅核實現任；本輪未找到~5–8年內≥3任有日期來源的交接證據。"
         }
       }
     },
@@ -4031,13 +4247,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "陳文芳",
+              "from": null,
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=220"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=220",
+          "sourceLabel": "CHSC 小學概覽 PSP2025/2026（現任校長；兩版一致）",
+          "note": "僅核實現任；本輪未找到~5–8年內≥3任有日期來源的交接證據。"
         }
       }
     },
@@ -4229,13 +4452,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "陳善科",
+              "from": null,
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=225"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=225",
+          "sourceLabel": "CHSC 小學概覽 PSP2025/2026（現任校長；兩版一致）",
+          "note": "僅核實現任；本輪未找到~5–8年內≥3任有日期來源的交接證據。"
         }
       }
     },
@@ -4432,13 +4662,20 @@
         },
         "principalTurnover": {
           "flag": false,
-          "principalsInWindow": null,
+          "principalsInWindow": 1,
           "windowYears": "5-8",
           "threshold": "≥3任校長／約5–8年",
-          "holders": [],
-          "url": null,
-          "sourceLabel": null,
-          "note": "只在有來源達門檻時特別標明；不作管治原因推論"
+          "holders": [
+            {
+              "name": "林德育",
+              "from": null,
+              "to": null,
+              "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=234"
+            }
+          ],
+          "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=234",
+          "sourceLabel": "CHSC 小學概覽 PSP2025/2026（現任校長；兩版一致）",
+          "note": "僅核實現任；本輪未找到~5–8年內≥3任有日期來源的交接證據。"
         }
       }
     }
