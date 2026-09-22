@@ -271,16 +271,16 @@
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
+            "quality": "質化（非數字）",
             "url": null,
-            "note": null
+            "note": "校網升中站未見該年數字％"
           },
           "2025/26": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
+            "quality": "質化（非數字）",
             "url": "https://sites.google.com/lautak.edu.hk/sspa-home/",
-            "note": "僅見升中支援／資料站，未見派位名單或％"
+            "note": "升中支援／資料站；未見派位名單或志願數字％"
           }
         },
         "dpSources": {
@@ -879,16 +879,16 @@
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
+            "quality": "質化（非數字）",
             "url": null,
-            "note": null
+            "note": "概覽創校約2025；無小六升中結果"
           },
           "2025/26": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
+            "quality": "質化（非數字）",
             "url": "https://www.egps.edu.hk",
-            "note": "概覽創校2025；未見小六升中結果"
+            "note": "官網未見小六升中派位結果或志願％（新校）"
           }
         },
         "dpSources": {
@@ -1074,16 +1074,16 @@
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
+            "quality": "質化（非數字）",
             "url": null,
-            "note": null
+            "note": "未見該年公開志願％"
           },
           "2025/26": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "完整名單",
+            "quality": "質化（非數字）",
             "url": "https://www.lsy.edu.hk/sites/default/files/files/sheng_zhong_jie_guo_wang_ye_ban__2.pdf",
-            "note": "有獲派中學名單 PDF；未公布志願％"
+            "note": "2025-2026獲派中學名單PDF；未公布第一／首三志願％"
           }
         },
         "dpSources": {
@@ -1176,9 +1176,9 @@
       "phone": "2623 4773",
       "website": "http://www.bwcss.edu.hk",
       "psp": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=236",
-      "sspaPublished": false,
-      "sspaYear": null,
-      "firstChoicePct": null,
+      "sspaPublished": true,
+      "sspaYear": "2025/26",
+      "firstChoicePct": 97,
       "top3Pct": null,
       "sspaNote": "校網連線403；未見公開派位專頁；一條龍 U10 人數未公布",
       "sspaUrl": "https://bwcss.edu.hk/",
@@ -1273,16 +1273,16 @@
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
+            "quality": "質化（非數字）",
             "url": null,
-            "note": null
+            "note": "未見該年公開志願％"
           },
           "2025/26": {
-            "firstChoicePct": null,
+            "firstChoicePct": 97,
             "top3Pct": null,
             "quality": "未公布",
             "url": "https://bwcss.edu.hk/",
-            "note": "校網連線403；未見公開派位專頁；一條龍 U10 人數未公布"
+            "note": "官網最新消息：「今年升中派位，學生獲派首志願達97%」（對應2025-07左右公布之2025/26）；直連curl遇Cloudflare，文字取自官網首頁公開內容；未見首三志願％"
           }
         },
         "dpSources": {
@@ -1669,16 +1669,16 @@
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
+            "quality": "質化（非數字）",
+            "url": "https://www.wyjjmps.edu.hk/download/directLinkFile/ef9a3a29e69d4f1ba9a98a614b45fb93.png",
+            "note": "2024-2025升中派位成績圖僅列區內／區外中學名單；無志願％"
           },
           "2025/26": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "完整名單",
-            "url": "https://www.wyjjmps.edu.hk/",
-            "note": "有區內／區外中學名單圖；未公布志願％"
+            "quality": "質化（非數字）",
+            "url": "https://www.wyjjmps.edu.hk/download/directLinkFile/162b885c9dc84f0994b7d3b0f1fe7746.png",
+            "note": "2025-2026升中派位成績圖僅列區內／區外中學名單；無志願％"
           }
         },
         "dpSources": {
@@ -1864,16 +1864,16 @@
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
+            "quality": "質化（非數字）",
             "url": null,
-            "note": null
+            "note": "升中派位欄僅見2025-26年度頁；未見2024/25結果"
           },
           "2025/26": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
+            "quality": "質化（非數字）",
             "url": "https://www.lkw.edu.hk/%e5%ad%b8%e7%94%9f%e6%88%90%e5%b0%b1/%e5%8d%87%e4%b8%ad%e6%b4%be%e4%bd%8d/",
-            "note": "整理日學校網站未能連線／未見公開結果"
+            "note": "2025-26年度中學派位結果圖有各校人數（合共117）；無第一／首三志願％"
           }
         },
         "dpSources": {
@@ -2264,16 +2264,16 @@
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
+            "quality": "質化（非數字）",
+            "url": "https://www.pohckwps.edu.hk/tc/2024-2025年度主要獲派中學",
+            "note": "有「主要獲派中學」名單頁；未見志願％（頁面存在於導航）"
           },
           "2025/26": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "部分例子",
-            "url": "https://www.pohckwps.edu.hk/tc/2025-2026%E5%B9%B4%E5%BA%A6%E4%B8%BB%E8%A6%81%E7%8D%B2%E6%B4%BE%E4%B8%AD%E5%AD%B8",
-            "note": "有「主要獲派中學」分區名單；未公布志願％"
+            "quality": "質化（非數字）",
+            "url": "https://www.pohckwps.edu.hk/tc/2025-2026年度主要獲派中學",
+            "note": "「主要獲派中學」分區名單；未公布志願％"
           }
         },
         "dpSources": {
@@ -2469,16 +2469,16 @@
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
+            "quality": "質化（非數字）",
             "url": null,
-            "note": null
+            "note": "未核到該年公開志願％"
           },
           "2025/26": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "部分例子",
-            "url": "https://lsttko.edu.hk/zh/2025-2026%e5%b9%b4%e5%ba%a6%e4%b8%ad%e5%ad%b8%e5%ad%b8%e4%bd%8d%e5%88%86%e9%85%8d%e6%9c%ac%e6%a0%a1%e6%b4%be%e4%bd%8d%e6%83%85%e6%b3%81/",
-            "note": "專頁已刊（2026-07-07）；公開文字未能轉寫詳細名單及％"
+            "quality": "質化（非數字）",
+            "url": "https://lsttko.edu.hk/zh/2025-2026年度中學學位分配本學派位情況/",
+            "note": "專頁存在（約2026-07-07）但SiteGround captcha阻擋擷取；未能轉寫數字％"
           }
         },
         "dpSources": {
@@ -2878,16 +2878,16 @@
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
+            "quality": "質化（非數字）",
+            "url": "https://chilinbps.edu.hk/%e5%85%a5%e5%ad%b8%e8%b3%87%e8%a8%8a/%e5%8d%87%e4%b8%ad%e8%b3%87%e8%a8%8a/2024-2025%e5%8d%87%e4%b8%ad%e6%b4%be%e4%bd%8d%e7%b5%90%e6%9e%9c_/",
+            "note": "結果圖為獲派中學人數表（英中多於三成等質化）；無第一／首三志願精確％"
           },
           "2025/26": {
             "firstChoicePct": null,
             "top3Pct": null,
-            "quality": "完整名單",
-            "url": "https://chilinbps.edu.hk/",
-            "note": "超過90%獲派首三志願（無精確％）；海報按筆畫排序"
+            "quality": "質化（非數字）",
+            "url": "https://chilinbps.edu.hk/%e5%85%a5%e5%ad%b8%e8%b3%87%e8%a8%8a/%e5%8d%87%e4%b8%ad%e8%b3%87%e8%a8%8a/2025-2026%e5%b9%b4%e5%ba%a6%e5%8d%87%e4%b8%ad%e6%b4%be%e4%bd%8d%e7%b5%90%e6%9e%9c/",
+            "note": "海報寫「超過90%學生獲派首三志願」——質化不入數字欄；有獲派中學名單"
           }
         },
         "dpSources": {
