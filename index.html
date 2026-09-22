@@ -531,7 +531,7 @@ table.schools .badge{margin:2px 4px 0 0}
     let esrCell='<span class="miss">'+MISS+'</span>';
     if(esr.url){
       esrCell=(esr.year?esc(String(esr.year))+' · ':'')+'<a href="'+esc(esr.url)+'" target="_blank" rel="noopener">外評報告</a>';
-      if(esr.excerpt) esrCell+='<div class="trend">'+esc(esr.excerpt)+'</div>';
+      if(esr.excerpt) esrCell+='<div class="trend">'+(esr.focus?esc(esr.focus)+' · ':'')+esc(esr.excerpt)+'</div>';
     } else if(esr.hasReport===false){
       esrCell='近期教育局列表未見公開總結章節';
     }

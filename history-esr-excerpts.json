@@ -1,0 +1,52 @@
+{
+  "schools": {
+    "基督教宣道會宣基小學": {
+      "year": "2025/26",
+      "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2025/Christian & Missionary Alliance Sun Kei Primary School_tc.pdf",
+      "excerpt": "學校致力營造語言環境，增加學生在真情實境中運用兩文三語的機會；學生和善有禮、自律守規，對學校有濃厚歸屬感。",
+      "focus": "學與教"
+    },
+    "保良局黃永樹小學": {
+      "year": "2025/26",
+      "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2025/Po Leung Kuk Wong Wing Shu Primary School_tc.pdf",
+      "excerpt": "學校精心設計跨學科主題學習，有機結合價值觀教育與真實情境；並引入人工智能平台輔助語文教學，教師運用「五多」策略促進課堂互動。",
+      "focus": "學與教"
+    },
+    "基督教神召會梁省德小學": {
+      "year": "2024/25",
+      "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2024/Assembly of God Leung Sing Tak Primary School_tc.pdf",
+      "excerpt": "自上次外評後領導層重整管理架構，權責清晰，專業領導成效漸見；學校致力推動電子學習，學生認真學習、專注投入課堂。",
+      "focus": "管理與組織"
+    },
+    "港澳信義會明道小學": {
+      "year": "2023/24",
+      "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/hkmacau_lutheran_ch_ming_tao_pri_sch_tc.pdf",
+      "excerpt": "學校成功營造關愛共融的學習環境，師生關係融洽；管理具透明度，有策略地培養梯隊並加強專業交流，提升教師專業能量。",
+      "focus": "校風及學生支援"
+    },
+    "港澳信義會小學": {
+      "year": "2023/24",
+      "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/hkm_lutheran_church_pri_sch_tc.pdf",
+      "excerpt": "校園洋溢關愛氣氛，學生投入全方位學習、STEAM活動和專題研習；校園閱讀氛圍濃厚，學生喜愛閱讀和分享所得。",
+      "focus": "學與教"
+    },
+    "西貢中心李少欽紀念學校": {
+      "year": "2023/24",
+      "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/sai_kung_central_lee_siu_yam_memmorial_sch_tc.pdf",
+      "excerpt": "領導層亟須加強專業領導，發揮策劃、統籌和監察職能，並善用自評資料檢視成效；亦須提高課堂學與教效能，改善教師提問和回饋技巧。",
+      "focus": "管理與組織"
+    },
+    "將軍澳天主教小學": {
+      "year": "2023/24",
+      "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/tko_catholic_pri_sch_tc.pdf",
+      "excerpt": "學校每周設全方位學習及聯課活動時段，涵蓋價值觀教育、運動和藝術；語文政策具體清晰，於課內外推動兩文三語的學習與應用。",
+      "focus": "學與教"
+    },
+    "將軍澳官立小學": {
+      "year": "2023/24",
+      "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/sch-quality-assurance/reports/esr-report/2023/tko_gov_pri_sch_tc.pdf",
+      "excerpt": "學校自評效能良佳，發展目標清晰；STEAM教育發展已趨成熟，能提升學生綜合運用科知識與技能，並適切融入價值觀教育。",
+      "focus": "學與教"
+    }
+  }
+}
