@@ -1,0 +1,225 @@
+{
+  "collectedAt": "2026-09-22T18:23:26+08:00",
+  "schools": {
+    "樂善堂劉德學校": {
+      "year": "2025/26",
+      "pct0to4Years": 3.0,
+      "pct5to9Years": 19.0,
+      "pct10PlusYears": 78.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=218",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "港澳信義會小學": {
+      "year": "2025/26",
+      "pct0to4Years": 14.0,
+      "pct5to9Years": 35.0,
+      "pct10PlusYears": 51.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=238",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "將軍澳官立小學": {
+      "year": "2025/26",
+      "pct0to4Years": 0.0,
+      "pct5to9Years": 20.0,
+      "pct10PlusYears": 80.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=233",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": "已查 2024/25 學校報告（tkogps.edu.hk）：有教學年資%，無教師流失／離職率數字。"
+    },
+    "安博官立小學": {
+      "year": "2025/26",
+      "pct0to4Years": 6.0,
+      "pct5to9Years": 18.0,
+      "pct10PlusYears": 76.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=550",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "西貢中心李少欽紀念學校": {
+      "year": "2025/26",
+      "pct0to4Years": 30.0,
+      "pct5to9Years": 35.0,
+      "pct10PlusYears": 35.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=227",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "香海正覺蓮社佛教黃藻森學校": {
+      "year": "2025/26",
+      "pct0to4Years": 0.0,
+      "pct5to9Years": 18.0,
+      "pct10PlusYears": 82.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=236",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "仁濟醫院陳耀星小學": {
+      "year": "2025/26",
+      "pct0to4Years": 15.0,
+      "pct5to9Years": 27.0,
+      "pct10PlusYears": 58.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=216",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "東華三院王余家潔紀念小學": {
+      "year": "2025/26",
+      "pct0to4Years": 13.0,
+      "pct5to9Years": 15.0,
+      "pct10PlusYears": 72.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=237",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": "已查 2024/25 學校周年報告（wyjjmps）：有年資分帶（非 PSP 0-4/5-9/10+），無教師流失／離職率數字。"
+    },
+    "順德聯誼總會梁潔華小學": {
+      "year": "2025/26",
+      "pct0to4Years": 9.0,
+      "pct5to9Years": 31.0,
+      "pct10PlusYears": 60.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=226",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "保良局馮晴紀念小學": {
+      "year": "2025/26",
+      "pct0to4Years": 14.0,
+      "pct5to9Years": 25.0,
+      "pct10PlusYears": 61.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=224",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": "2024/25 學校周年報告（plkfcmps）有「教職員的離職率」折線圖（22-23／23-24／24-25），圖上無標示精確%數值，故不填 turnoverPct。"
+    },
+    "博愛醫院陳國威小學": {
+      "year": "2025/26",
+      "pct0to4Years": 22.0,
+      "pct5to9Years": 31.0,
+      "pct10PlusYears": 47.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=215",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": "已查 2024/25 周年校務報告（pohckwps）：無教師流失／離職率數字。"
+    },
+    "基督教神召會梁省德小學": {
+      "year": "2025/26",
+      "pct0to4Years": 42.0,
+      "pct5to9Years": 17.0,
+      "pct10PlusYears": 41.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=213",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "基督教宣道會宣基小學": {
+      "year": "2025/26",
+      "pct0to4Years": 20.0,
+      "pct5to9Years": 21.0,
+      "pct10PlusYears": 59.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=219",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": "已查 2024/25 周年校務報告（sunkei.edu.hk）：無教師流失／離職率數字。"
+    },
+    "佛教志蓮小學": {
+      "year": "2025/26",
+      "pct0to4Years": 33.0,
+      "pct5to9Years": 42.0,
+      "pct10PlusYears": 25.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=231",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "仁愛堂田家炳小學": {
+      "year": "2025/26",
+      "pct0to4Years": 18.0,
+      "pct5to9Years": 18.0,
+      "pct10PlusYears": 64.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=217",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "西貢崇真天主教學校（小學部）": {
+      "year": "2025/26",
+      "pct0to4Years": 30.0,
+      "pct5to9Years": 19.0,
+      "pct10PlusYears": 51.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=232",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "保良局黃永樹小學": {
+      "year": "2025/26",
+      "pct0to4Years": 16.0,
+      "pct5to9Years": 27.0,
+      "pct10PlusYears": 57.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=222",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": "僅見較舊學校報告圖表「2020-2021 教師離職百分比」（20/21=12.5%）；非 2024/25 或 2025/26，故不填。2023/24 周年報告文本未見離職率數字。"
+    },
+    "將軍澳天主教小學": {
+      "year": "2025/26",
+      "pct0to4Years": 11.0,
+      "pct5to9Years": 27.0,
+      "pct10PlusYears": 62.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=229",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "港澳信義會明道小學": {
+      "year": "2025/26",
+      "pct0to4Years": 48.0,
+      "pct5to9Years": 14.0,
+      "pct10PlusYears": 38.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=220",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "天主教聖安德肋小學": {
+      "year": "2025/26",
+      "pct0to4Years": 8.0,
+      "pct5to9Years": 24.0,
+      "pct10PlusYears": 68.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=225",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": null
+    },
+    "將軍澳循道衛理小學": {
+      "year": "2025/26",
+      "pct0to4Years": 27.0,
+      "pct5to9Years": 34.0,
+      "pct10PlusYears": 39.0,
+      "turnoverPct": null,
+      "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=234",
+      "sourceLabel": "CHSC 小學概覽 psp2026｜2025/26學年教師資料（年資佔全校教師%）",
+      "note": "已查 2024/25 學校報告（tkomps.edu.hk）：有教學年資%，無教師流失／離職率數字。"
+    }
+  },
+  "coverage": {
+    "pct0to4": 21,
+    "turnover": 0
+  },
+  "notes": [
+    "年資三帶（0-4／5-9／10年或以上 %）全部取自 CHSC 小學概覽 psp2026 各校「教師資料」頁；數字為官方公布百分比，未作推算。",
+    "教師流失／離職率：校本周年報告多數不刊數字；抽查多份 2024/25 報告後，本網 21 校暫無符合「最新學年＋可核對精確%」條件的 turnoverPct（圖表無標數值者不予估讀）。",
+    "教育局僅公布全港／界別流失率，不按校網或個別學校發布，故不用全港數字代填。",
+    "coverage: pct0to4=21/21, turnover=0/21"
+  ]
+}

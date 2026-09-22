@@ -540,7 +540,9 @@ table.schools .badge{margin:2px 4px 0 0}
     let tCell='<span class="miss">'+MISS+'</span>';
     if(t.pct0to4Years!=null || t.turnoverPct!=null){
       let parts=[];
-      if(t.pct0to4Years!=null) parts.push('0–4年年資約 '+t.pct0to4Years+'%');
+      if(t.pct0to4Years!=null) parts.push('0–4年約 '+t.pct0to4Years+'%');
+      if(t.pct5to9Years!=null) parts.push('5–9年約 '+t.pct5to9Years+'%');
+      if(t.pct10PlusYears!=null) parts.push('10年或以上約 '+t.pct10PlusYears+'%');
       if(t.turnoverPct!=null) parts.push('流失率 '+t.turnoverPct+'%');
       tCell=esc(parts.join('；'));
       if(t.url) tCell+=' <a href="'+esc(t.url)+'" target="_blank" rel="noopener">來源</a>';
