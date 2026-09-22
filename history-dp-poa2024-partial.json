@@ -1,0 +1,22 @@
+{
+  "source": {
+    "label": "學好啲／相關轉載熱門校網超收表（含95網兩校）",
+    "url": "https://www.gostudy.hk/6609/",
+    "note": "只摘錄95網有列之校；其餘缺"
+  },
+  "cycle": "POA2024",
+  "schools": [
+    {
+      "name": "保良局馮晴紀念小學",
+      "provisional": 63,
+      "actual": 69,
+      "over": 6
+    },
+    {
+      "name": "將軍澳天主教小學",
+      "provisional": 63,
+      "actual": 68,
+      "over": 5
+    }
+  ]
+}

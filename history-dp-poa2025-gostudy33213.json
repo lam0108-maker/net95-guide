@@ -1,0 +1,37 @@
+{
+  "source": "https://www.gostudy.hk/33213/",
+  "cycle": "POA2025",
+  "note": "GoStudy 2025-01 轉載校網自行結果（非教育局官方）",
+  "schools": [
+    {
+      "name": "學校類別:資助/全日/男女/小班教學",
+      "provisional": 50,
+      "actual": null,
+      "over": null
+    },
+    {
+      "name": "一條龍中學/直屬中學/聯繫中學:將軍澳官立中學、何文田官立中學、賽馬會官立中學、觀塘功樂官立中學",
+      "provisional": 63,
+      "actual": null,
+      "over": null
+    },
+    {
+      "name": "一條龍中學/直屬中學/聯繫中學:西貢崇真天主教學校（中學部）",
+      "provisional": 38,
+      "actual": null,
+      "over": null
+    },
+    {
+      "name": "將軍澳天主教小學",
+      "provisional": 63,
+      "actual": 74,
+      "over": 11
+    },
+    {
+      "name": "一條龍中學/直屬中學/聯繫中學:伊利沙伯中學、何文田官立中學、 賽馬會官立中學、九龍工業學校 (待定)",
+      "provisional": 63,
+      "actual": 5,
+      "over": -58
+    }
+  ]
+}

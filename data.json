@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "校網95客觀選校",
-    "compiledAt": "2026-09-22 17:15 HKT",
+    "compiledAt": "2026-09-22 17:33 HKT",
     "govAidedCount": 21,
     "disclaimer": "本頁不是教育局排名。資料以多項可核對公開欄位整理；缺資料標「缺／未公布」，不猜測數字。",
     "sources": [
@@ -104,7 +104,41 @@
       "未說明": 9
     },
     "updateChannel": "github-pages",
-    "dataFile": "data.json"
+    "dataFile": "data.json",
+    "historyPolicy": {
+      "years": {
+        "p1Classes": [
+          "2024/25",
+          "2025/26",
+          "2026/27"
+        ],
+        "discretionary": [
+          "POA2024",
+          "POA2025",
+          "POA2026",
+          "POA2027"
+        ],
+        "caProvisional": [
+          "POA2024",
+          "POA2025",
+          "POA2026"
+        ],
+        "sspa": [
+          "2023/24",
+          "2024/25",
+          "2025/26"
+        ]
+      },
+      "order": [
+        "p1Classes",
+        "discretionaryFill",
+        "sspaPct",
+        "caProvisional"
+      ],
+      "missingLabel": "缺／未公布",
+      "note": "三年序列允許個別年份缺資料；缺則標明，不估算。",
+      "coverageNote": "小一班數：2025/26+2026/27 來自小學概覽2026；2024/25 待補。自行：POA2025 來自 GoStudy 轉載校網（部分缺）；POA2024 僅局部兩校；POA2026 待補；POA2027 僅暫定額。升中％／統一額：見各校 history 欄，缺則標缺。"
+    }
   },
   "schools": [
     {
@@ -176,7 +210,89 @@
           "url": "https://www.schooland.hk/ps/lautak",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 2,
+          "2026/27": 2
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=218"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=218"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 50,
+          "POA2026": null,
+          "POA2027": 50,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "缺公開數據",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 79
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": "https://sites.google.com/lautak.edu.hk/sspa-home/",
+            "note": "僅見升中支援／資料站，未見派位名單或％"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 2,
@@ -242,7 +358,89 @@
           "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=238",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 5,
+          "2026/27": 5
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=238"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=238"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": 61,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "未盡",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": -2,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 68
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": 89,
+            "top3Pct": 98,
+            "quality": "部分例子",
+            "url": "http://www.hkmlcps.edu.hk/tc/%E5%8D%87%E4%B8%AD%E8%B3%87%E8%A8%8A-0",
+            "note": "百分比四捨五入（校方註）；本區／他區「較受歡迎中學」名單"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 3,
@@ -318,7 +516,89 @@
           "url": "https://www.tkogps.edu.hk/%E6%99%AE%E9%80%9A%E8%A9%B1%E7%A7%91-0",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 3,
+          "2026/27": 2
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=233"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=233"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "缺公開數據",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 113
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": 90,
+            "top3Pct": 94,
+            "quality": "只有％",
+            "url": "https://www.tkogps.edu.hk/%E5%8D%87%E4%B8%AD%E8%B3%87%E8%A8%8A",
+            "note": "活動頁（2026-07-08）有％、未列逐校名單；校方引全港首志願約84%"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 4,
@@ -389,7 +669,89 @@
           "url": "https://www.egps.edu.hk",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 1,
+          "2026/27": 3
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=550"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=550"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": 5,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "未盡",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": -58,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 79
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": "https://www.egps.edu.hk",
+            "note": "概覽創校2025；未見小六升中結果"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 5,
@@ -455,7 +817,89 @@
           "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=227",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 4,
+          "2026/27": 2
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=227"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=227"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "用盡",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": 0,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 84
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "完整名單",
+            "url": "https://www.lsy.edu.hk/sites/default/files/files/sheng_zhong_jie_guo_wang_ye_ban__2.pdf",
+            "note": "有獲派中學名單 PDF；未公布志願％"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 6,
@@ -521,7 +965,89 @@
           "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=236",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 2,
+          "2026/27": 2
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=236"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=236"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "缺公開數據",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 91
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": "https://bwcss.edu.hk/",
+            "note": "校網連線403；未見公開派位專頁；一條龍 U10 人數未公布"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 7,
@@ -593,7 +1119,89 @@
           "url": "https://www.schooland.hk/ps/ychcisps",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 2,
+          "2026/27": 1
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=216"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=216"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "缺公開數據",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 105
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": 96,
+            "quality": "部分例子",
+            "url": "http://www.ychcisps.edu.hk/tc/content.php?wid=257",
+            "note": "校方：超過九成獲派首志願；96%獲派首三志願；名單標「近年」"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 8,
@@ -659,7 +1267,89 @@
           "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=237",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 5,
+          "2026/27": 5
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=237"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=237"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "用盡",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": 0,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 62
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "完整名單",
+            "url": "https://www.wyjjmps.edu.hk/",
+            "note": "有區內／區外中學名單圖；未公布志願％"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 9,
@@ -725,7 +1415,89 @@
           "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=226",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 5,
+          "2026/27": 5
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=226"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=226"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "缺公開數據",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 66
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": "https://www.lkw.edu.hk/%e5%ad%b8%e7%94%9f%e6%88%90%e5%b0%b1/%e5%8d%87%e4%b8%ad%e6%b4%be%e4%bd%8d/",
+            "note": "整理日學校網站未能連線／未見公開結果"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 10,
@@ -796,7 +1568,94 @@
           "url": "http://www.plkfcmps.edu.hk",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 5,
+          "2026/27": 5
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=224"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=224"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": 63
+        },
+        "dpActual": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": 69
+        },
+        "dpFillStatus": {
+          "POA2025": "用盡",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": "超收"
+        },
+        "dpOver": {
+          "POA2025": 0,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": 6
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 59
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": 94.86,
+            "top3Pct": 99.14,
+            "quality": "部分例子",
+            "url": "https://www.plkfcmps.edu.hk/CustomPage/paragraphGroup.aspx?webPageId=93&pageId=293&nnnid=122",
+            "note": "畢業生117人；首志願111人；首三116人；另列英文中學部分例子"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          },
+          "POA2024": {
+            "label": "學好啲／相關轉載熱門校網超收表（含95網兩校）",
+            "url": "https://www.gostudy.hk/6609/",
+            "note": "只摘錄95網有列之校；其餘缺"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 11,
@@ -862,7 +1721,89 @@
           "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=215",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 2,
+          "2026/27": 2
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=215"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=215"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": 27,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "未盡",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": -36,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 103
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "部分例子",
+            "url": "https://www.pohckwps.edu.hk/tc/2025-2026%E5%B9%B4%E5%BA%A6%E4%B8%BB%E8%A6%81%E7%8D%B2%E6%B4%BE%E4%B8%AD%E5%AD%B8",
+            "note": "有「主要獲派中學」分區名單；未公布志願％"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 12,
@@ -938,7 +1879,89 @@
           "url": "https://www.schooland.hk/ps/lsttko",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 4,
+          "2026/27": 4
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=213"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=213"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "缺公開數據",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 90
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "部分例子",
+            "url": "https://lsttko.edu.hk/zh/2025-2026%e5%b9%b4%e5%ba%a6%e4%b8%ad%e5%ad%b8%e5%ad%b8%e4%bd%8d%e5%88%86%e9%85%8d%e6%9c%ac%e6%a0%a1%e6%b4%be%e4%bd%8d%e6%83%85%e6%b3%81/",
+            "note": "專頁已刊（2026-07-07）；公開文字未能轉寫詳細名單及％"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 13,
@@ -1009,7 +2032,89 @@
           "url": "https://www.sunkei.edu.hk/tc/subject/%E4%B8%AD%E6%96%87%E7%A7%91",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 5,
+          "2026/27": 5
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=219"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=219"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": 67,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "超收",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": 4,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 59
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": 94,
+            "top3Pct": 100,
+            "quality": "部分例子",
+            "url": "https://www.sunkei.edu.hk/tc/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C",
+            "note": "校方引全港首志願84%、首三95%；心儀中學部分例子"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 14,
@@ -1081,7 +2186,89 @@
           "url": "http://www.chilinbps.edu.hk",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 3,
+          "2026/27": 2
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=231"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=231"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "缺公開數據",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 102
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "完整名單",
+            "url": "https://chilinbps.edu.hk/",
+            "note": "超過90%獲派首三志願（無精確％）；海報按筆畫排序"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 15,
@@ -1148,7 +2335,89 @@
           "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=217",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 5,
+          "2026/27": 5
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=217"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=217"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "用盡",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": 0,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 62
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": 96,
+            "quality": "部分例子",
+            "url": "https://www.yottkpps.edu.hk/CustomPage/paragraphGroup.aspx?webPageId=19&pageId=322&nnnid=174",
+            "note": "獲派第一至第三志願或自行選校取錄96%（口徑與純首三志願不同）"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 16,
@@ -1214,7 +2483,89 @@
           "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=232",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 3,
+          "2026/27": 2
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=232"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=232"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 38,
+          "POA2026": null,
+          "POA2027": 38,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "缺公開數據",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": null,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 48
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": 91,
+            "top3Pct": 100,
+            "quality": "完整名單",
+            "url": "https://www.stcps.edu.hk/tc/%E4%B8%AD%E5%AD%B8%E5%AD%B8%E4%BD%8D%E5%88%86%E9%85%8D%E7%B5%90%E6%9E%9C",
+            "note": "一條龍 U11；校方引全港首志願84%、首三95%；海報有列中學部，人數未公布"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 17,
@@ -1285,7 +2636,89 @@
           "url": "https://plkwws.edu.hk/subjects",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 5,
+          "2026/27": 5
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=222"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=222"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "用盡",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": 0,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 57
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": 88,
+            "top3Pct": 98,
+            "quality": "完整名單",
+            "url": "https://www.plkwws.edu.hk/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C",
+            "note": "詳細數字取自2025專頁；2025-26僅放榜花絮，未見同級2026％專頁"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 18,
@@ -1356,7 +2789,94 @@
           "url": "https://www.schooland.hk/ps/tkocps",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 5,
+          "2026/27": 5
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=229"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=229"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": 63
+        },
+        "dpActual": {
+          "POA2025": 74,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": 68
+        },
+        "dpFillStatus": {
+          "POA2025": "超收",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": "超收"
+        },
+        "dpOver": {
+          "POA2025": 11,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": 5
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 62
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": null,
+            "top3Pct": 97,
+            "quality": "完整名單",
+            "url": "https://www.tkocps.edu.hk/tc/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D",
+            "note": "97%獲派首三志願；首志願％未單列；有本區／他區中學表"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          },
+          "POA2024": {
+            "label": "學好啲／相關轉載熱門校網超收表（含95網兩校）",
+            "url": "https://www.gostudy.hk/6609/",
+            "note": "只摘錄95網有列之校；其餘缺"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 19,
@@ -1427,7 +2947,89 @@
           "url": "https://www.hkmlc-mtps.edu.hk/%E6%99%AE%E9%80%9A%E8%A9%B1%E7%A7%91",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 5,
+          "2026/27": 5
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=220"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=220"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "用盡",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": 0,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 62
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": 94,
+            "top3Pct": 100,
+            "quality": "部分例子",
+            "url": "https://www.hkmlc-mtps.edu.hk/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C",
+            "note": "校方引全港首志願84%、首三95%；79名（77%）列為受歡迎中學並附名單"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 20,
@@ -1493,7 +3095,89 @@
           "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=225",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 5,
+          "2026/27": 5
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=225"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=225"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": 63,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": 63,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "用盡",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": 0,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 62
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": 78.35,
+            "top3Pct": 96.91,
+            "quality": "部分例子",
+            "url": "https://www.sacps.edu.hk/content.php?pid=210",
+            "note": "圖表所列不完全保證齊全"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     },
     {
       "id": 21,
@@ -1564,7 +3248,89 @@
           "url": "https://www.tkomps.edu.hk",
           "year": "2026"
         }
-      ]
+      ],
+      "history": {
+        "p1Classes": {
+          "2024/25": null,
+          "2025/26": 6,
+          "2026/27": 6
+        },
+        "p1ClassesSources": {
+          "2025/26": {
+            "label": "小學概覽2026（含2025/26班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=234"
+          },
+          "2026/27": {
+            "label": "小學概覽2026（含2026/27班級結構）",
+            "url": "https://www.chsc.hk/psp2026/sch_detail.php?lang_id=2&sch_id=234"
+          }
+        },
+        "dpProvisional": {
+          "POA2025": 75,
+          "POA2026": null,
+          "POA2027": 75,
+          "POA2024": null
+        },
+        "dpActual": {
+          "POA2025": 75,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "dpFillStatus": {
+          "POA2025": "用盡",
+          "POA2026": "缺公開數據",
+          "POA2027": "暫定額（結果未公布）",
+          "POA2024": null
+        },
+        "dpOver": {
+          "POA2025": 0,
+          "POA2026": null,
+          "POA2027": null,
+          "POA2024": null
+        },
+        "caProvisional": {
+          "POA2024": null,
+          "POA2025": null,
+          "POA2026": 71
+        },
+        "sspa": {
+          "2023/24": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2024/25": {
+            "firstChoicePct": null,
+            "top3Pct": null,
+            "quality": "未公布",
+            "url": null,
+            "note": null
+          },
+          "2025/26": {
+            "firstChoicePct": 94,
+            "top3Pct": 99,
+            "quality": "完整名單",
+            "url": "https://www.tkomps.edu.hk/zh_tw/site/view?name=%E5%8D%87%E4%B8%AD",
+            "note": "校方圖示對照全港84%／95%；校網PDF有考獲中學名單"
+          }
+        },
+        "dpSources": {
+          "POA2025": {
+            "label": "學好啲 GoStudy 33213（2025-01；轉載校網）",
+            "url": "https://www.gostudy.hk/33213/",
+            "note": "非教育局官方逐校表；部分校網頁未公布"
+          }
+        },
+        "caSources": {
+          "POA2026": {
+            "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
+            "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
+          }
+        }
+      }
     }
   ],
   "dssPrivate": [
