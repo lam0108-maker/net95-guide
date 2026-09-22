@@ -1,0 +1,208 @@
+{
+  "collectedAt": "2026-09-22T18:38:28+08:00",
+  "schools": {
+    "樂善堂劉德學校": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "港澳信義會小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "將軍澳官立小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "安博官立小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "西貢中心李少欽紀念學校": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "香海正覺蓮社佛教黃藻森學校": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "仁濟醫院陳耀星小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "東華三院王余家潔紀念小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "順德聯誼總會梁潔華小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "保良局馮晴紀念小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "博愛醫院陳國威小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "基督教神召會梁省德小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "基督教宣道會宣基小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "佛教志蓮小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "仁愛堂田家炳小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "西貢崇真天主教學校（小學部）": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "保良局黃永樹小學": {
+      "year": "2025",
+      "applications": null,
+      "places": 5,
+      "ratio": null,
+      "url": "https://topick.hket.com/article/4006090/",
+      "sourceLabel": "TOPick／香港經濟日報校長專訪（2025-09-25）",
+      "note": "校長陳瑞良：「學校每年固定提供約五個叩門學額」；約數入 places=5。未見公開申請人數。專訪另稱會給自行或統一首志願申請者面試機會，不強制111。"
+    },
+    "將軍澳天主教小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "港澳信義會明道小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "天主教聖安德肋小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    },
+    "將軍澳循道衛理小學": {
+      "year": null,
+      "applications": null,
+      "places": null,
+      "ratio": null,
+      "url": null,
+      "sourceLabel": null,
+      "note": null
+    }
+  },
+  "coverage": {
+    "withBoth": 0,
+    "withAny": 1
+  },
+  "notes": [
+    "目標窗：POA2024–POA2026／2024–2026年6月新聞；只入可核對之申請數或學額，不臆造。",
+    "已核：保良局黃永樹小學 places≈5（TOPick 2025-09-25 校長專訪「約五個」）。",
+    "TOPick／TOPSchool 2024、2025、2026 新界／95校網叩門安排文（如 3764947、3957889、4135279）只列收表／面試日期（黃永樹、將官、將循等），無申請人數或叩門位數字。",
+    "Sunday Kiss、Metro 等叩門時間表同樣無競爭數字；宣基／馮晴／將天等校官網候補生通告亦未公布名額或申請數。",
+    "教育王國家長帖多為面試／取錄動態，未見可轉寫之校方／傳媒數字；不作入表。",
+    "窗外參考（不入表）：HK01 2021-06-02 引黃永樹校長約10個叩門額、約400人競爭；同文聖安德肋校長稱全校僅約10個叩門位（無申請數）。與2025「約五個」不一致，反映年度變動，故不以2021覆蓋本年欄。",
+    "全港政策背景（非逐校）：2023/24起小班（25人）每班叩門位1個、大班（30人）2個（教育局政策／多家轉載）；不可直接當各校當年實際空缺。",
+    "Apple Daily 檔案現時未能可靠取用；明報未見95網逐校叩門申請／學額報道。"
+  ]
+}

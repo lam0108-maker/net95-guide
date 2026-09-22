@@ -573,6 +573,14 @@ table.schools .badge{margin:2px 4px 0 0}
       kCell=esc(kd.applications+' 申請／'+kd.places+' 位')+(r!=null?('（約 '+r+' 倍）'):'');
       if(kd.url) kCell+=' <a href="'+esc(kd.url)+'" target="_blank" rel="noopener">來源</a>';
       if(kd.year) kCell+='<div class="trend">'+esc(String(kd.year))+' · 統一派位後叩門</div>';
+    } else if(kd.places!=null || kd.applications!=null){
+      let bits=[];
+      if(kd.applications!=null) bits.push(kd.applications+' 申請');
+      if(kd.places!=null) bits.push('約 '+kd.places+' 個叩門學額');
+      kCell=esc(bits.join('；'))+'（未齊申請＋學額，唔計倍率）';
+      if(kd.url) kCell+=' <a href="'+esc(kd.url)+'" target="_blank" rel="noopener">來源</a>';
+      if(kd.year) kCell+='<div class="trend">'+esc(String(kd.year))+' · 統一派位後叩門</div>';
+      if(kd.note) kCell+='<div class="trend">'+esc(kd.note)+'</div>';
     } else {
       kCell='未見公開申請數與學額（通常見於6月傳媒）';
     }
