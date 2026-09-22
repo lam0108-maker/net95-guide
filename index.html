@@ -120,9 +120,32 @@ table.schools .badge{margin:2px 4px 0 0}
   table.schools{min-width:860px;font-size:.8rem}
 }
 
+
+.site-nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin:0 -4px 14px;padding:8px 4px}
+.site-nav-inner{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;max-width:1100px;margin:0 auto}
+.site-nav a{font-size:.84rem;color:var(--accent);text-decoration:none;padding:6px 10px;border-radius:999px;border:1px solid transparent}
+.site-nav a:hover{background:var(--chip);border-color:var(--line)}
+.site-nav a[aria-current="page"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.site-nav .brand{font-weight:700;color:var(--ink);margin-right:4px}
+
 </style>
 </head>
 <body>
+
+  <nav class="site-nav" aria-label="主要分頁">
+    <div class="site-nav-inner">
+      <span class="brand">校網95</span>
+      <a href="index.html" aria-current="page">總覽</a>
+      <a href="index.html#schools">官津一覽</a>
+      <a href="index.html#criteriaRank">條件榜</a>
+      <a href="index.html#dss">直資／私立</a>
+      <a href="rankings.html">排行方法</a>
+      <a href="chinese-moi.html">中文科教學語言</a>
+      <a href="discretionary.html">自行競爭力</a>
+      <a href="index.html#sources">資料來源</a>
+    </div>
+  </nav>
+
 <div class="wrap">
   <header class="hero">
     <h1>校網95客觀選校</h1>
@@ -196,7 +219,7 @@ table.schools .badge{margin:2px 4px 0 0}
     <button type="button" class="chip" id="resetBtn">重設篩選</button>
   </div>
 
-  <section aria-label="官津小學一覽">
+  <section id="schools" aria-label="官津小學一覽">
     <div class="table-wrap desk">
       <table class="schools">
         <colgroup>
@@ -237,7 +260,7 @@ table.schools .badge{margin:2px 4px 0 0}
     <span class="tag">非教育局排名｜升中志願％為主｜Band%已降級｜與自行榜獨立</span>
   </div>
   <section class="panel" aria-label="條件榜">
-    <p class="hint">教育局<strong>並不</strong>公布官方 Band／名校榜。本區以校方公布之<strong>首志願％／首三志願％</strong>作升中主條件榜（只排有數字之校）；資料質素標<strong>完整名單／部分例子／只有％／未公布</strong>。舊 Band% 榜已暫停／降級。詳見 <a href="rankings.md">rankings.md</a>；中文科MOI見 <a href="chinese-moi.md">chinese-moi.md</a>。</p>
+    <p class="hint">教育局<strong>並不</strong>公布官方 Band／名校榜。本區以校方公布之<strong>首志願％／首三志願％</strong>作升中主條件榜（只排有數字之校）；資料質素標<strong>完整名單／部分例子／只有％／未公布</strong>。舊 Band% 榜已暫停／降級。詳見 <a href="rankings.html">排行方法</a>；中文科MOI見 <a href="chinese-moi.html">中文科教學語言</a>。</p>
     <div class="tabs" role="tablist">
       <button type="button" class="tab" role="tab" id="tabSspa" aria-selected="true" aria-controls="panelSspa">升中志願％</button>
       <button type="button" class="tab" role="tab" id="tabCa" aria-selected="false" aria-controls="panelCa">自行用盡／超收（局部）</button>
@@ -270,7 +293,7 @@ table.schools .badge{margin:2px 4px 0 0}
       <p class="hint" id="rankSspaExcl"></p>
     </div>
     <div id="panelCa" role="tabpanel" aria-labelledby="tabCa" hidden>
-      <p class="hint"><strong>舊「CA剩餘代理榜」已退役。</strong>下表僅列有公開「實際自行收生」之<strong>13</strong>校（來源：學好啲 2025-01 轉載校網結果），按<strong>超收（實際−暫定自行）</strong>排序；用盡（超收0）並列。乙類最低收生分數<strong>全網缺公開數據</strong>。詳見 <a href="discretionary-competitiveness.md">discretionary-competitiveness.md</a>。</p>
+      <p class="hint"><strong>舊「CA剩餘代理榜」已退役。</strong>下表僅列有公開「實際自行收生」之<strong>13</strong>校（來源：學好啲 2025-01 轉載校網結果），按<strong>超收（實際−暫定自行）</strong>排序；用盡（超收0）並列。乙類最低收生分數<strong>全網缺公開數據</strong>。詳見 <a href="discretionary.html">自行競爭力說明</a>。</p>
       <div class="table-wrap">
         <table class="rank-table">
           <thead><tr><th>名次</th><th>學校</th><th>超收<br><span style="font-weight:400">（實際／暫定）</span></th><th>備註</th></tr></thead>
@@ -291,7 +314,7 @@ table.schools .badge{margin:2px 4px 0 0}
   </section>
 
   <div class="sec">
-    <h2>直資／私立／國際小學</h2>
+    <h2 id="dss">直資／私立／國際小學</h2>
     <span class="tag">非小一入學統籌辦法乙部｜不屬校網95官津名單</span>
   </div>
   <p class="hint">直資及私立／國際小學<strong>不參加</strong>小一入學統籌辦法；家長須自行向學校申請。學費以教育局／校方最新公布為準。</p>
@@ -305,7 +328,7 @@ table.schools .badge{margin:2px 4px 0 0}
   </div>
 
   <footer>
-    <h2>資料來源</h2>
+    <h2 id="sources">資料來源</h2>
     <ul id="sources"></ul>
     <dl class="glossary">
       <dt>自行分配學位</dt>
@@ -429,7 +452,7 @@ table.schools .badge{margin:2px 4px 0 0}
   function moiRefs(s){
     const refs = s.chineseMoiRefs || [];
     if(!refs.length) return '';
-    return '<p>中文科MOI來源：'+refs.map(r=>'<a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.label)+'</a>（'+esc(r.year)+'）').join(' · ')+' · <a href="chinese-moi.md" target="_blank" rel="noopener">整理說明</a></p>';
+    return '<p>中文科MOI來源：'+refs.map(r=>'<a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.label)+'</a>（'+esc(r.year)+'）').join(' · ')+' · <a href="chinese-moi.html" target="_blank" rel="noopener">整理說明</a></p>';
   }
   function detail(s){
     return '<div class="detail">'
