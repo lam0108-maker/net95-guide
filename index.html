@@ -554,7 +554,8 @@ table.schools .badge{margin:2px 4px 0 0}
     if(eb.emiPct!=null || eb.emiCount!=null || eb.band1Pct!=null || eb.band1Count!=null){
       let parts=[];
       if(eb.emiPct!=null) parts.push('英中約 '+eb.emiPct+'%');
-      else if(eb.emiCount!=null) parts.push('英中 '+eb.emiCount+'人');
+      if(eb.emiCount!=null) parts.push('英中 '+eb.emiCount+'人');
+      if(eb.emiNamedSchools!=null) parts.push('校方標示英文中學 '+eb.emiNamedSchools+' 所（校名數，非人數）');
       if(eb.band1Pct!=null) parts.push('Band 1 約 '+eb.band1Pct+'%');
       else if(eb.band1Count!=null) parts.push('Band 1 '+eb.band1Count+'人');
       eCell=esc(parts.join('；'));

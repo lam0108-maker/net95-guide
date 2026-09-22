@@ -1,0 +1,227 @@
+{
+  "collectedAt": "2026-09-22T18:33:00+08:00",
+  "schools": {
+    "樂善堂劉德學校": {
+      "year": null,
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://sites.google.com/lautak.edu.hk/sspa-home/",
+      "sourceLabel": null,
+      "note": "升中支援站；未見校方公布英中／Band 1 人數或％"
+    },
+    "港澳信義會小學": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "http://www.hkmlcps.edu.hk/tc/%E5%8D%87%E4%B8%AD%E8%B3%87%E8%A8%8A-0",
+      "sourceLabel": null,
+      "note": "有較受歡迎中學名單及志願％；未見校方標英中／Band 1 之數字或％"
+    },
+    "將軍澳官立小學": {
+      "year": "2024/25",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.tkogps.edu.hk/%E5%8D%87%E4%B8%AD%E8%B3%87%E8%A8%8A",
+      "sourceLabel": "2024/25學校報告（僅備註，不入數字欄）",
+      "note": "官網升中頁（2025/26）無英中／Band1數字。2024/25學校報告「升中派位概況」分「聯系學校30.3%／其也英文中學(包括直資)23%／其也中學46.7%」——「其也英文中學」非全體英中合計，且聯系校未標英中，故 emiPct 不填"
+    },
+    "安博官立小學": {
+      "year": null,
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.egps.edu.hk",
+      "sourceLabel": null,
+      "note": "新校；未見小六升中英中／Band 1 公布"
+    },
+    "西貢中心李少欽紀念學校": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.lsy.edu.hk/sites/default/files/files/sheng_zhong_jie_guo_wang_ye_ban__2.pdf",
+      "sourceLabel": null,
+      "note": "獲派中學名單PDF；校名未標英中／Band 1，無人數％"
+    },
+    "香海正覺蓮社佛教黃藻森學校": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://bwcss.edu.hk/",
+      "sourceLabel": null,
+      "note": "僅見首志願％；未見英中／Band 1 數字"
+    },
+    "仁濟醫院陳耀星小學": {
+      "year": "2024/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "http://www.ychcisps.edu.hk/tc/content.php?wid=257",
+      "sourceLabel": null,
+      "note": "近年獲派部分中學海報；未標英中／Band 1，無相關人數％"
+    },
+    "東華三院王余家潔紀念小學": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.wyjjmps.edu.hk/download/directLinkFile/162b885c9dc84f0994b7d3b0f1fe7746.png",
+      "sourceLabel": null,
+      "note": "區內／區外中學名單圖；未標英中／Band 1，無人數％"
+    },
+    "順德聯誼總會梁潔華小學": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.lkw.edu.hk/%e5%ad%b8%e7%94%9f%e6%88%90%e5%b0%b1/%e5%8d%87%e4%b8%ad%e6%b4%be%e4%bd%8d/",
+      "sourceLabel": null,
+      "note": "整理日校網未能穩定連線；Wayback 見2024-25結果圖，未能擷取可核英中／Band1數字"
+    },
+    "保良局馮晴紀念小學": {
+      "year": "2025/26",
+      "emiCount": 18,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.plkfcmps.edu.hk/CustomPage/paragraphGroup.aspx?webPageId=93&pageId=293&nnnid=122",
+      "sourceLabel": "25-26升中派位結果「學生入讀英文中學如下」（校名數）",
+      "note": "校方標題標「英文中學」並列18校名（部分例子，無學生人數或英中％）；Band1未見"
+    },
+    "博愛醫院陳國威小學": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.pohckwps.edu.hk/tc/2025-2026%E5%B9%B4%E5%BA%A6%E4%B8%BB%E8%A6%81%E7%8D%B2%E6%B4%BE%E4%B8%AD%E5%AD%B8",
+      "sourceLabel": null,
+      "note": "主要獲派中學分區名單；未標英中／Band 1，無相關人數％"
+    },
+    "基督教神召會梁省德小學": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://lsttko.edu.hk/zh/2025-2026%e5%b9%b4%e5%ba%a6%e4%b8%ad%e5%ad%b8%e5%ad%b8%e4%bd%8d%e5%88%86%e9%85%8d%e6%9c%ac%e6%a0%a1%e6%b4%be%e4%bd%8d%e6%83%85%e6%b3%81/",
+      "sourceLabel": null,
+      "note": "專頁存在但擷取受阻；未能核到英中／Band1數字"
+    },
+    "基督教宣道會宣基小學": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.sunkei.edu.hk/tc/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C",
+      "sourceLabel": null,
+      "note": "心儀中學部分例子；名單未整體標英中／Band1，無相關人數％"
+    },
+    "佛教志蓮小學": {
+      "year": "2024/25",
+      "emiCount": 34,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://chilinbps.edu.hk/%e5%85%a5%e5%ad%b8%e8%b3%87%e8%a8%8a/%e5%8d%87%e4%b8%ad%e8%b3%87%e8%a8%8a/2024-2025%e5%8d%87%e4%b8%ad%e6%b4%be%e4%bd%8d%e7%b5%90%e6%9e%9c_/",
+      "sourceLabel": "2024-2025結果圖「英中」表列本校學生入讀人數合計",
+      "note": "2025/26海報有「跨區／本區英文中學」分類但無人數％故改取2024/25。校方星標「英中多於三成」（質化，emiPct不填）；表列英中校人數合計34（總表約103人）。Band1未見"
+    },
+    "仁愛堂田家炳小學": {
+      "year": "2024/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.yottkpps.edu.hk/CustomPage/paragraphGroup.aspx?webPageId=19&pageId=322&nnnid=174",
+      "sourceLabel": null,
+      "note": "區內／區外／直資列名；未標英中／Band 1 合計數字或％"
+    },
+    "西貢崇真天主教學校（小學部）": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.stcps.edu.hk/tc/%E4%B8%AD%E5%AD%B8%E5%AD%B8%E4%BD%8D%E5%88%86%E9%85%8D%E7%B5%90%E6%9E%9C",
+      "sourceLabel": null,
+      "note": "25-26海報有志願％及獲派中學名單；未標英中／Band 1"
+    },
+    "保良局黃永樹小學": {
+      "year": "2025/26",
+      "emiCount": 16,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.plkwws.edu.hk/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C",
+      "sourceLabel": "2026升中派位結果圖「獲派他區英文中學」（校名數）",
+      "note": "對應全港首志願84%之最近一屆（作2025/26）。僅「他區英文中學」16校名有英中標籤；本區名單未標英中，故非全體英中校數。無學生人數／英中％。Band1未見"
+    },
+    "將軍澳天主教小學": {
+      "year": "2025/26",
+      "emiCount": 27,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.tkocps.edu.hk/sites/default/files/files/gong_bu_26_14_7.pdf",
+      "sourceLabel": "2025-2026成績公布PDF「獲派英文中學包括」（校名數）",
+      "note": "校方明確列出27所「英文中學」校名；無學生人數或英中％。Band1未見。2024/25 PDF同格式有30校名（本欄取2025/26）"
+    },
+    "港澳信義會明道小學": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.hkmlc-mtps.edu.hk/%E5%8D%87%E4%B8%AD%E6%B4%BE%E4%BD%8D%E7%B5%90%E6%9E%9C",
+      "sourceLabel": null,
+      "note": "「受歡迎中學」節錄及志願％；未標英中／Band 1 合計"
+    },
+    "天主教聖安德肋小學": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.sacps.edu.hk/content.php?pid=210",
+      "sourceLabel": null,
+      "note": "2025-2026結果圖有志願％及中學一覽；未標英中／Band 1"
+    },
+    "將軍澳循道衛理小學": {
+      "year": "2025/26",
+      "emiCount": null,
+      "emiPct": null,
+      "band1Count": null,
+      "band1Pct": null,
+      "url": "https://www.tkomps.edu.hk/uploads/files/2025-26%E5%B9%B4%E5%BA%A6%E5%B0%8F%E5%85%AD%E7%95%A2%E6%A5%AD%E7%94%9F%E8%80%83%E7%8D%B2%E4%B8%AD%E5%AD%B8.pdf",
+      "sourceLabel": null,
+      "note": "考獲中學PDF有志願％及校名；未標英中／Band 1"
+    }
+  },
+  "coverage": {
+    "emi": 4,
+    "band1": 0
+  },
+  "notes": [
+    "只取學校官網／官方PDF／學校報告；不採用第三方 Band% 榜。",
+    "跳過2023/24；優先2025/26，否則2024/25。",
+    "emiCount：志蓮為「英中」表列學生人數合計；馮晴／將天／黃永樹為校方標「英文中學」之名單校數（非學生人數，且可能為部分例子）。",
+    "emiPct：無校方公布之精確英中％可入欄（志蓮「多於三成」、將官小報告「其也英文中學23%」皆不入精確％欄）。",
+    "band1Count／band1Pct：21校均未見校方明文「Band 1／第一組別」人數或％。",
+    "梁潔華校網連線不穩；梁省德專頁擷取受阻；安博為新校。"
+  ]
+}
