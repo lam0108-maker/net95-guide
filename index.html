@@ -520,6 +520,52 @@ table.schools .badge{margin:2px 4px 0 0}
     return html;
   }
 
+
+  function oeBlock(s){
+    const oe=s.objectiveEvidence||{};
+    const esr=oe.esr||{};
+    const t=oe.teachers||{};
+    const eb=oe.emiBand||{};
+    let h='<div class="hist"><div class="hist-title">其他客觀證據（有來源先顯示；缺則標明）</div><table><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody>';
+    // ESR
+    let esrCell='<span class="miss">'+MISS+'</span>';
+    if(esr.url){
+      esrCell=(esr.year?esc(String(esr.year))+' · ':'')+'<a href="'+esc(esr.url)+'" target="_blank" rel="noopener">外評報告</a>';
+      if(esr.excerpt) esrCell+='<div class="trend">'+esc(esr.excerpt)+'</div>';
+    } else if(esr.hasReport===false){
+      esrCell='近期教育局列表未見公開總結章節';
+    }
+    h+='<tr><td>外評 ESR</td><td>'+esrCell+'</td></tr>';
+    // teachers
+    let tCell='<span class="miss">'+MISS+'</span>';
+    if(t.pct0to4Years!=null || t.turnoverPct!=null){
+      let parts=[];
+      if(t.pct0to4Years!=null) parts.push('0–4年年資約 '+t.pct0to4Years+'%');
+      if(t.turnoverPct!=null) parts.push('流失率 '+t.turnoverPct+'%');
+      tCell=esc(parts.join('；'));
+      if(t.url) tCell+=' <a href="'+esc(t.url)+'" target="_blank" rel="noopener">來源</a>';
+      if(t.year) tCell+='<div class="trend">'+esc(String(t.year))+'</div>';
+    }
+    h+='<tr><td>教師年資／流失</td><td>'+tCell+'</td></tr>';
+    // emi/band
+    let eCell='<span class="miss">'+MISS+'</span>';
+    if(eb.emiPct!=null || eb.emiCount!=null || eb.band1Pct!=null || eb.band1Count!=null){
+      let parts=[];
+      if(eb.emiPct!=null) parts.push('英中約 '+eb.emiPct+'%');
+      else if(eb.emiCount!=null) parts.push('英中 '+eb.emiCount+'人');
+      if(eb.band1Pct!=null) parts.push('Band 1 約 '+eb.band1Pct+'%');
+      else if(eb.band1Count!=null) parts.push('Band 1 '+eb.band1Count+'人');
+      eCell=esc(parts.join('；'));
+      if(eb.url) eCell+=' <a href="'+esc(eb.url)+'" target="_blank" rel="noopener">來源</a>';
+      if(eb.year) eCell+='<div class="trend">'+esc(String(eb.year))+(eb.note?(' · '+esc(eb.note)):'')+'</div>';
+    } else {
+      eCell='未見校方公布可核對數字（不做全網 Band% 榜）';
+    }
+    h+='<tr><td>英中／Band 1</td><td>'+eCell+'</td></tr>';
+    h+='</tbody></table></div>';
+    return h;
+  }
+
   function detail(s){
     return '<div class="detail">'
       +'<p><strong>'+esc(s.nameZh)+'</strong> <span class="en" style="display:inline">'+esc(s.nameEn)+'</span></p>'
@@ -529,7 +575,7 @@ table.schools .badge{margin:2px 4px 0 0}
       +moiRefs(s)
       +'<p>地址：'+esc(s.address)+'｜電話：'+esc(s.phone||MISS)+'</p>'
       +'<p>自行分配學位（小一入學2027，暫定）：'+num(s.dp2027)+'｜暫定統一派位學額（小一入學2026）：'+num(s.ca2026)+'</p>'
-      +'<p>小一班數（近年）：'+esc(histP1(s))+'</p>'+histBlock(s)
+      +'<p>小一班數（近年）：'+esc(histP1(s))+'</p>'+histBlock(s)+oeBlock(s)
       +'<p>一條龍：'+esc(s.throughTrain||MISS)+'</p>'
       +'<p>升中派位公布年度：'+esc(s.sspaYear||MISS)+'｜首志願：'+pct(s.firstChoicePct)+'｜首三志願：'+pct(s.top3Pct)+'｜資料質素：'+(s.sspaDataQuality?s.sspaDataQuality:MISS)+'</p>'+(s.firstChoiceQual?'<p>首志願（質化）：'+esc(s.firstChoiceQual)+'</p>':'')+(s.top3Qual?'<p>首三志願（質化）：'+esc(s.top3Qual)+'</p>':'')+(s.feederSchool?'<p>一條龍／聯繫：'+esc(s.feederSchool)+(s.feederNote?'（'+esc(s.feederNote)+'）':'')+'</p>':'')
       +(s.sspaNote?'<p>升中派位備註：'+esc(s.sspaNote)+'</p>':'')

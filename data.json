@@ -140,7 +140,14 @@
       "coverageNote": "小一班數：2025/26+2026/27 來自小學概覽2026；2024/25 待補。自行：POA2025 來自 GoStudy 轉載校網（部分缺）；POA2024 僅局部兩校；POA2026 待補；POA2027 僅暫定額。升中％／統一額：見各校 history 欄，缺則標缺。"
     },
     "historyScope": "skip_2023_24",
-    "historyNote": "不做 2023/24（及對應最舊輪次公開顯示）；缺資料標明不估算"
+    "historyNote": "不做 2023/24（及對應最舊輪次公開顯示）；缺資料標明不估算",
+    "objectiveEvidenceOrder": [
+      "sspa_first_top3",
+      "esr_link_excerpt",
+      "teacher_seniority_turnover",
+      "emi_band1_sourced_only"
+    ],
+    "objectiveEvidenceNote": "2026-09-22 locked: ①升中首/首三％ ②外評連結+一句摘錄 ③教師年資/流失 ④英中/Band1有來源才顯示；不做Band%全網榜；不做2023/24"
   },
   "schools": [
     {
@@ -294,6 +301,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -441,6 +476,34 @@
             "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
+        }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
         }
       }
     },
@@ -600,6 +663,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -753,6 +844,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -901,6 +1020,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -1048,6 +1195,34 @@
             "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
+        }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
         }
       }
     },
@@ -1203,6 +1378,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -1351,6 +1554,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -1498,6 +1729,34 @@
             "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
+        }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
         }
       }
     },
@@ -1657,6 +1916,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -1804,6 +2091,34 @@
             "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
+        }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
         }
       }
     },
@@ -1963,6 +2278,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -2115,6 +2458,34 @@
             "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
+        }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
         }
       }
     },
@@ -2270,6 +2641,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -2419,6 +2818,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -2566,6 +2993,34 @@
             "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
+        }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
         }
       }
     },
@@ -2719,6 +3174,34 @@
             "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
+        }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
         }
       }
     },
@@ -2878,6 +3361,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -3031,6 +3542,34 @@
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
         }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
+        }
       }
     },
     {
@@ -3178,6 +3717,34 @@
             "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
+        }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
         }
       }
     },
@@ -3331,6 +3898,34 @@
             "label": "教育局校網95《2026年度小一入學統一派位選校名單》（Wayback 2024-09）",
             "url": "https://web.archive.org/web/20240901000000/https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/Net95.pdf"
           }
+        }
+      },
+      "objectiveEvidence": {
+        "esr": {
+          "hasReport": null,
+          "year": null,
+          "url": null,
+          "excerpt": null,
+          "domains": null,
+          "sourceLabel": null
+        },
+        "teachers": {
+          "year": null,
+          "pct0to4Years": null,
+          "turnoverPct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": null
+        },
+        "emiBand": {
+          "year": null,
+          "emiCount": null,
+          "emiPct": null,
+          "band1Count": null,
+          "band1Pct": null,
+          "url": null,
+          "sourceLabel": null,
+          "note": "只收錄校方或可核對公開來源；不做全網Band%排名"
         }
       }
     }
