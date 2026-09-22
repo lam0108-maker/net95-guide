@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>統一派位志願模擬器 · 校網95</title>
+<style>
+:root{--ink:#1a1a1a;--muted:#5c5c5c;--line:#e5e5e5;--chip:#f3f4f6;--accent:#0b6e4f;--warn:#9a3412;--bg:#fafafa}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI","Noto Sans TC","PingFang HK",sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+.site-nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin:0;padding:8px 12px}
+.site-nav-inner{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;max-width:960px;margin:0 auto}
+.site-nav a{font-size:.84rem;color:var(--accent);text-decoration:none;padding:6px 10px;border-radius:999px;border:1px solid transparent}
+.site-nav a:hover{background:var(--chip);border-color:var(--line)}
+.site-nav a[aria-current="page"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.site-nav .brand{font-weight:700;color:var(--ink);margin-right:4px}
+.wrap{max-width:960px;margin:0 auto;padding:18px 14px 48px}
+h1{font-size:1.45rem;margin:0 0 8px}
+h2{font-size:1.1rem;margin:22px 0 8px}
+.hint,.sub{color:var(--muted);font-size:.9rem}
+.disclaimer{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:12px 14px;margin:12px 0 18px;font-size:.9rem}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0}
+.part-label{display:inline-block;background:var(--accent);color:#fff;font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:6px;margin-right:6px}
+label{display:block;font-size:.86rem;margin:8px 0 4px;color:var(--muted)}
+input[type=text]{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font-size:1rem}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+button,.btn{appearance:none;border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 12px;font-size:.9rem;cursor:pointer}
+button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+button.danger{color:var(--warn);border-color:#fdba74}
+button:disabled{opacity:.45;cursor:not-allowed}
+.pool,.order{list-style:none;margin:0;padding:0}
+.pool{display:grid;gap:8px}
+.order{display:flex;flex-direction:column;gap:8px;min-height:48px}
+.row{display:grid;grid-template-columns:40px 1fr auto;gap:8px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:grab}
+.row:active{cursor:grabbing}
+.row.dragging{opacity:.55;border-style:dashed}
+.rank{font-weight:800;color:var(--accent);font-size:1.05rem;text-align:center}
+.meta{font-size:.78rem;color:var(--muted);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.chip{font-size:.72rem;background:var(--chip);border-radius:999px;padding:2px 8px}
+.actions{display:flex;flex-direction:column;gap:4px}
+.actions button{padding:4px 8px;font-size:.75rem}
+.empty{border:2px dashed var(--line);border-radius:10px;padding:16px;text-align:center;color:var(--muted);font-size:.9rem}
+.summary ol{margin:8px 0 0;padding-left:1.2rem}
+.summary li{margin:4px 0}
+.grid2{display:grid;gap:12px}
+@media(min-width:720px){.grid2{grid-template-columns:1fr 1fr}}
+.footnote{font-size:.8rem;color:var(--muted);margin-top:24px}
+.toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#111;color:#fff;padding:10px 16px;border-radius:999px;font-size:.86rem;opacity:0;pointer-events:none;transition:opacity .2s;z-index:99}
+.toast.show{opacity:1}
+</style>
+</head>
+<body>
+<nav class="site-nav" aria-label="主要分頁">
+  <div class="site-nav-inner">
+    <span class="brand">校網95</span>
+    <a href="index.html">總覽</a>
+    <a href="index.html#schools">官津一覽</a>
+    <a href="index.html#criteriaRank">條件榜</a>
+    <a href="ca-simulator.html" aria-current="page">統一派位模擬</a>
+    <a href="rankings.html">排行方法</a>
+    <a href="chinese-moi.html">中文科教學語言</a>
+    <a href="ca-simulator.html">統一派位模擬</a>
+      <a href="discretionary.html">自行競爭力</a>
+    <a href="index.html#sources">資料來源</a>
+  </div>
+</nav>
+
+<div class="wrap">
+  <h1>統一派位志願模擬器</h1>
+  <p class="sub">練習填寫小一「選擇學校表格」——假設住址屬<strong>校網 95</strong>（西貢／將軍澳）。資料暫存於此裝置瀏覽器，不會送出教育局。</p>
+  <div class="disclaimer">
+    <strong>重要：</strong>本頁只供練習同對照校網95客觀資料，<strong>不是</strong>教育局電子平台／紙本表格，亦不能代交申請。正式選校請以教育局當年度《統一派位選校名單》及「小一入學電子平台」為準。甲部可填全港任何官立／資助小學；此模擬器乙部只涵蓋本站校網95官津名單。
+  </div>
+
+  <div class="card">
+    <h2><span class="part-label">甲部</span>不受學校網限制（最多 3 個）</h2>
+    <p class="hint">正式表格甲部可選<strong>全港任何</strong>官立／資助小學，最多三個，按優先次序。此處用文字練習（可填校網外學校名稱）。</p>
+    <label for="a1">甲部第 1 志願</label>
+    <input id="a1" type="text" placeholder="例如：某區官立／資助小學（可留空）" autocomplete="off"/>
+    <label for="a2">甲部第 2 志願</label>
+    <input id="a2" type="text" placeholder="可留空" autocomplete="off"/>
+    <label for="a3">甲部第 3 志願</label>
+    <input id="a3" type="text" placeholder="可留空" autocomplete="off"/>
+  </div>
+
+  <div class="card">
+    <h2><span class="part-label">乙部</span>住址所屬校網 95 選校名單</h2>
+    <p class="hint">正式表格乙部<strong>必須</strong>從所屬校網名單選擇，並應盡量填滿。下面把 21 間官津校排成你的志願次序：可拖曳，或用 ▲▼。未排入「我的乙部志願」嘅學校＝尚未填上（練習時可先排心水）。</p>
+    <div class="toolbar">
+      <button type="button" class="primary" id="btnAddAll">全部加入乙部（按校名）</button>
+      <button type="button" id="btnShuffleHint" title="只係方便開始排">重置為資料表順序</button>
+      <button type="button" class="danger" id="btnClearB">清空乙部</button>
+      <button type="button" id="btnSave">儲存草稿</button>
+      <button type="button" id="btnLoad">載入草稿</button>
+    </div>
+    <div class="grid2">
+      <div>
+        <h3 style="font-size:.95rem;margin:0 0 8px">尚未排入（點選加入）</h3>
+        <ul class="pool" id="pool"></ul>
+        <div class="empty" id="poolEmpty" hidden>已全部加入乙部</div>
+      </div>
+      <div>
+        <h3 style="font-size:.95rem;margin:0 0 8px">我的乙部志願（第1＝最想）</h3>
+        <ol class="order" id="order"></ol>
+        <div class="empty" id="orderEmpty">尚未加入學校——從左列點選或按「全部加入」</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card summary">
+    <h2>練習結果摘要</h2>
+    <p class="hint">可截圖或列印作家庭討論；唔代表實際派位結果。</p>
+    <div id="summary"></div>
+    <div class="toolbar">
+      <button type="button" class="primary" id="btnPrint">列印／匯出摘要</button>
+    </div>
+  </div>
+
+  <p class="footnote">參考：教育局小一入學統籌辦法——統一派位分甲部（約10%不受網限）與乙部（約90%本網名單）。暫定統一派位學額數字來自本站 <code>data.json</code>（POA2026 整理），會隨官方更新而變。</p>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(function(){
+  const MISS='缺';
+  const STORE='net95-ca-sim-v1';
+  let SCHOOLS=[];
+  let orderIds=[]; // eth part preference
+  let dragId=null;
+
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s==null?'':s).replace(/[&<>"']/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+  const toast = msg => { const t=$('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),1800); };
+
+  function caOf(s){
+    const h=(s.history&&s.history.caProvisional)||{};
+    return s.ca2026!=null?s.ca2026:(h.POA2026!=null?h.POA2026:null);
+  }
+  function dpLabel(s){
+    const st=(s.history&&s.history.dpFillStatus&&s.history.dpFillStatus.POA2026)||s.dp_fill_status;
+    const over=(s.history&&s.history.dpOver&&s.history.dpOver.POA2026);
+    if(over!=null && over>0) return '自行超收 +'+over;
+    if(st) return '自行 '+st;
+    return '';
+  }
+  function byId(id){ return SCHOOLS.find(s=>String(s.id)===String(id)); }
+
+  function render(){
+    const pool=$('pool'); const order=$('order');
+    pool.innerHTML=''; order.innerHTML='';
+    const inOrder=new Set(orderIds.map(String));
+    const leftover=SCHOOLS.filter(s=>!inOrder.has(String(s.id)));
+    $('poolEmpty').hidden=leftover.length>0;
+    $('orderEmpty').hidden=orderIds.length>0;
+    leftover.forEach(s=>{
+      const li=document.createElement('li');
+      li.className='row';
+      li.innerHTML='<div class="rank">＋</div><div><strong>'+esc(s.nameZh)+'</strong>'
+        +'<div class="meta">'+(s.type||'')+(s.religion?(' · '+esc(s.religion)):'')+'</div>'
+        +'<div class="chips">'
+        +'<span class="chip">統一暫定 '+(caOf(s)!=null?caOf(s):MISS)+'</span>'
+        +(dpLabel(s)?'<span class="chip">'+esc(dpLabel(s))+'</span>':'')
+        +(s.firstChoicePct!=null?'<span class="chip">升中首志願 '+s.firstChoicePct+'%</span>':'')
+        +'</div></div><div class="actions"><button type="button" data-add="'+esc(s.id)+'">加入</button></div>';
+      pool.appendChild(li);
+    });
+    orderIds.forEach((id,idx)=>{
+      const s=byId(id); if(!s) return;
+      const li=document.createElement('li');
+      li.className='row';
+      li.draggable=true;
+      li.dataset.id=String(id);
+      li.innerHTML='<div class="rank">'+(idx+1)+'</div><div><strong>'+esc(s.nameZh)+'</strong>'
+        +'<div class="meta">'+(s.type||'')+(s.religion?(' · '+esc(s.religion)):'')+'</div>'
+        +'<div class="chips">'
+        +'<span class="chip">統一暫定 '+(caOf(s)!=null?caOf(s):MISS)+'</span>'
+        +(dpLabel(s)?'<span class="chip">'+esc(dpLabel(s))+'</span>':'')
+        +(s.firstChoicePct!=null?'<span class="chip">升中首志願 '+s.firstChoicePct+'%</span>':'')
+        +'</div></div><div class="actions">'
+        +'<button type="button" data-up="'+esc(id)+'" '+(idx===0?'disabled':'')+'>▲</button>'
+        +'<button type="button" data-down="'+esc(id)+'" '+(idx===orderIds.length-1?'disabled':'')+'>▼</button>'
+        +'<button type="button" data-rm="'+esc(id)+'">移除</button>'
+        +'</div>';
+      li.addEventListener('dragstart',e=>{ dragId=String(id); li.classList.add('dragging'); e.dataTransfer.effectAllowed='move'; });
+      li.addEventListener('dragend',()=>{ dragId=null; li.classList.remove('dragging'); });
+      li.addEventListener('dragover',e=>{ e.preventDefault(); });
+      li.addEventListener('drop',e=>{
+        e.preventDefault();
+        const to=String(id);
+        if(!dragId || dragId===to) return;
+        const from=orderIds.indexOf(dragId);
+        const dest=orderIds.indexOf(to);
+        if(from<0||dest<0) return;
+        orderIds.splice(from,1);
+        orderIds.splice(dest,0,dragId);
+        render(); saveSilent();
+      });
+      order.appendChild(li);
+    });
+    pool.onclick=e=>{
+      const b=e.target.closest('[data-add]'); if(!b) return;
+      orderIds.push(b.getAttribute('data-add')); render(); saveSilent();
+    };
+    order.onclick=e=>{
+      const up=e.target.closest('[data-up]');
+      const down=e.target.closest('[data-down]');
+      const rm=e.target.closest('[data-rm]');
+      if(up){ move(up.getAttribute('data-up'),-1); }
+      if(down){ move(down.getAttribute('data-down'),1); }
+      if(rm){ orderIds=orderIds.filter(x=>String(x)!==String(rm.getAttribute('data-rm'))); render(); saveSilent(); }
+    };
+    renderSummary();
+  }
+
+  function move(id,delta){
+    id=String(id);
+    const i=orderIds.indexOf(id); if(i<0) return;
+    const j=i+delta; if(j<0||j>=orderIds.length) return;
+    const t=orderIds[i]; orderIds[i]=orderIds[j]; orderIds[j]=t;
+    render(); saveSilent();
+  }
+
+  function renderSummary(){
+    const a=[$('a1').value.trim(),$('a2').value.trim(),$('a3').value.trim()].filter(Boolean);
+    let html='<p><strong>甲部</strong>：'+(a.length?esc(a.map((x,i)=>(i+1)+'. '+x).join('；')):'（未填）')+'</p>';
+    html+='<p><strong>乙部</strong>（'+orderIds.length+'／'+SCHOOLS.length+'）：</p><ol>';
+    orderIds.forEach(id=>{ const s=byId(id); if(s) html+='<li>'+esc(s.nameZh)+' <span class="hint">統一暫定 '+(caOf(s)!=null?caOf(s):MISS)+'</span></li>'; });
+    html+='</ol>';
+    if(orderIds.length && orderIds.length<SCHOOLS.length){
+      html+='<p class="hint">提示：正式填表時乙部宜盡量填滿本網名單，降低被隨機派往未填學校嘅機會（實際規則以教育局為準）。</p>';
+    }
+    $('summary').innerHTML=html;
+  }
+
+  function payload(){
+    return {
+      savedAt: new Date().toISOString(),
+      partA: [$('a1').value,$('a2').value,$('a3').value],
+      partB: orderIds.slice()
+    };
+  }
+  function saveSilent(){
+    try{ localStorage.setItem(STORE, JSON.stringify(payload())); }catch(e){}
+  }
+  function save(){ saveSilent(); toast('已儲存於此裝置'); }
+  function load(){
+    try{
+      const raw=localStorage.getItem(STORE); if(!raw){ toast('未有草稿'); return; }
+      const p=JSON.parse(raw);
+      [$('a1'),$('a2'),$('a3')].forEach((el,i)=>el.value=(p.partA&&p.partA[i])||'');
+      orderIds=(p.partB||[]).map(String).filter(id=>byId(id));
+      render(); toast('已載入草稿');
+    }catch(e){ toast('草稿讀取失敗'); }
+  }
+
+  $('btnAddAll').onclick=()=>{
+    orderIds=SCHOOLS.map(s=>String(s.id));
+    render(); saveSilent();
+  };
+  $('btnShuffleHint').onclick=()=>{
+    orderIds=SCHOOLS.map(s=>String(s.id));
+    render(); saveSilent();
+  };
+  $('btnClearB').onclick=()=>{ orderIds=[]; render(); saveSilent(); };
+  $('btnSave').onclick=save;
+  $('btnLoad').onclick=load;
+  $('btnPrint').onclick=()=>window.print();
+  ['a1','a2','a3'].forEach(id=>$(id).addEventListener('input',()=>{ renderSummary(); saveSilent(); }));
+
+  fetch('data.json').then(r=>r.json()).then(d=>{
+    SCHOOLS=(d.schools||[]).slice();
+    // default: empty order so parent builds intentionally
+    try{
+      const raw=localStorage.getItem(STORE);
+      if(raw){
+        const p=JSON.parse(raw);
+        [$('a1'),$('a2'),$('a3')].forEach((el,i)=>el.value=(p.partA&&p.partA[i])||'');
+        orderIds=(p.partB||[]).map(String).filter(id=>byId(id));
+      }
+    }catch(e){}
+    render();
+  }).catch(()=>{
+    $('summary').innerHTML='<p class="hint">載入 data.json 失敗——請用 GitHub Pages 或本地伺服器開啟。</p>';
+  });
+})();
+</script>
+</body>
+</html>
