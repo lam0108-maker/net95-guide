@@ -138,7 +138,9 @@
       "missingLabel": "缺／未公布",
       "note": "三年序列允許個別年份缺資料；缺則標明，不估算。",
       "coverageNote": "小一班數：2025/26+2026/27 來自小學概覽2026；2024/25 待補。自行：POA2025 來自 GoStudy 轉載校網（部分缺）；POA2024 僅局部兩校；POA2026 待補；POA2027 僅暫定額。升中％／統一額：見各校 history 欄，缺則標缺。"
-    }
+    },
+    "historyScope": "skip_2023_24",
+    "historyNote": "不做 2023/24（及對應最舊輪次公開顯示）；缺資料標明不估算"
   },
   "schools": [
     {
@@ -257,13 +259,6 @@
           "POA2026": 79
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -405,13 +400,6 @@
           "POA2026": 68
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -563,13 +551,6 @@
           "POA2026": 113
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -716,13 +697,6 @@
           "POA2026": 79
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -864,13 +838,6 @@
           "POA2026": 84
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -1012,13 +979,6 @@
           "POA2026": 91
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -1166,13 +1126,6 @@
           "POA2026": 105
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -1314,13 +1267,6 @@
           "POA2026": 62
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -1462,13 +1408,6 @@
           "POA2026": 66
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -1615,13 +1554,6 @@
           "POA2026": 59
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -1768,13 +1700,6 @@
           "POA2026": 103
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -1926,13 +1851,6 @@
           "POA2026": 90
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -2079,13 +1997,6 @@
           "POA2026": 59
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -2233,13 +2144,6 @@
           "POA2026": 102
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -2382,13 +2286,6 @@
           "POA2026": 62
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -2530,13 +2427,6 @@
           "POA2026": 48
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -2683,13 +2573,6 @@
           "POA2026": 57
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -2836,13 +2719,6 @@
           "POA2026": 62
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -2994,13 +2870,6 @@
           "POA2026": 62
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -3142,13 +3011,6 @@
           "POA2026": 62
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,
@@ -3295,13 +3157,6 @@
           "POA2026": 71
         },
         "sspa": {
-          "2023/24": {
-            "firstChoicePct": null,
-            "top3Pct": null,
-            "quality": "未公布",
-            "url": null,
-            "note": null
-          },
           "2024/25": {
             "firstChoicePct": null,
             "top3Pct": null,

@@ -161,7 +161,7 @@ table.schools .badge{margin:2px 4px 0 0}
     <p id="dataStatus" class="hint" style="margin:6px 0 0;opacity:.9"></p>
     <p class="sub">西貢區 · 官立／資助小學 21 間 · 小一入學2027 自行分配學位名冊</p>
     <div class="disclaimer">
-      <strong>重要聲明：</strong>部分欄位提供過去約三年對照（班數／自行／升中％／統一額）；缺資料會標明，不估算。本頁<strong>不是</strong>教育局排名，亦無「名校榜」。資料按多項可核對公開欄位整理（自行分配學位、暫定統一派位學額、升中派位公布、一條龍、宗教、官立／資助、合併備註等），方便家長對照。缺資料一律顯示「缺／未公布」，不猜測數字。實際派位以教育局及各校正式通知為準。
+      <strong>重要聲明：</strong>部分欄位提供近年對照（不做 2023/24）（班數／自行／升中％／統一額）；缺資料會標明，不估算。本頁<strong>不是</strong>教育局排名，亦無「名校榜」。資料按多項可核對公開欄位整理（自行分配學位、暫定統一派位學額、升中派位公布、一條龍、宗教、官立／資助、合併備註等），方便家長對照。缺資料一律顯示「缺／未公布」，不猜測數字。實際派位以教育局及各校正式通知為準。
     </div>
   </header>
 
@@ -470,7 +470,8 @@ table.schools .badge{margin:2px 4px 0 0}
   }
   function histP1(s){
     const h=(s.history&&s.history.p1Classes)||{};
-    const years=['2024/25','2025/26','2026/27'];
+    // 不做 2024/25（等同最舊／資料近乎空白）；只顯示 2025/26 → 2026/27
+    const years=['2025/26','2026/27'];
     return years.map(y=>h[y]!=null?h[y]:'—').join(' → ');
   }
   function histBlock(s){
@@ -482,17 +483,16 @@ table.schools .badge{margin:2px 4px 0 0}
     const dpO=h.dpOver||{};
     const ca=h.caProvisional||{};
     const sspa=h.sspa||{};
-    let html='<div class="hist"><div class="hist-title">過去數據（缺則標明，不估算）</div>';
-    html+='<table><thead><tr><th>項目</th><th>較早</th><th>上年</th><th>最新／現況</th></tr></thead><tbody>';
-    html+='<tr><td>小一班數</td><td>'+histVal(p1['2024/25'])+'<div class="trend">2024/25</div></td><td>'+histVal(p1['2025/26'])+'<div class="trend">2025/26</div></td><td>'+histVal(p1['2026/27'])+'<div class="trend">2026/27</div></td></tr>';
-    // discretionary: show POA2024 / 2025 / 2027 (2026 often missing)
+    let html='<div class="hist"><div class="hist-title">近年對照（不做 2023/24；缺則標明，不估算）</div>';
+    html+='<table><thead><tr><th>項目</th><th>上年</th><th>最新／現況</th></tr></thead><tbody>';
+    html+='<tr><td>小一班數</td><td>'+histVal(p1['2025/26'])+'<div class="trend">2025/26</div></td><td>'+histVal(p1['2026/27'])+'<div class="trend">2026/27</div></td></tr>';
     function dpCell(year){
       const st=dpS[year];
       const a=dpA[year];
       const p=dpP[year];
       const o=dpO[year];
-      if((st==null||(((st==='缺公開數據'||(st&&st.includes('缺')))||(st&&st.includes('缺')))||(st&&st.includes('缺')))) && a==null && p==null) return '<span class="miss">'+MISS+'</span><div class="trend">'+year+'</div>';
-      let t=(st&&st!=='缺公開數據')?st:(a!=null&&p!=null?(a>p?'超收':a<p?'未盡':'用盡'):MISS);
+      if((st==null||st==='缺公開數據'||(st&&st.includes('缺'))) && a==null && p==null) return '<span class="miss">'+MISS+'</span><div class="trend">'+year+'</div>';
+      let t=(st&&!(st.includes&&st.includes('缺')))?st:(a!=null&&p!=null?(a>p?'超收':a<p?'未盡':'用盡'):MISS);
       let extra='';
       if(p!=null||a!=null){
         extra='<div class="trend">暫定 '+(p!=null?p:'—')+'／實際 '+(a!=null?a:'—')+(o!=null?('／'+(o>0?'+':'')+o):'')+'</div>';
@@ -501,17 +501,21 @@ table.schools .badge{margin:2px 4px 0 0}
       }
       return esc(t)+extra;
     }
-    html+='<tr><td>自行收生</td><td>'+dpCell('POA2024')+'</td><td>'+dpCell('POA2025')+'</td><td>'+dpCell('POA2027')+'</td></tr>';
-    html+='<tr><td>統一派位暫定額</td><td>'+histVal(ca['POA2024'])+'<div class="trend">POA2024</div></td><td>'+histVal(ca['POA2025'])+'<div class="trend">POA2025</div></td><td>'+histVal(ca['POA2026'])+'<div class="trend">POA2026</div></td></tr>';
+    // 不做 POA2024；顯示 POA2025 與現行／最新輪
+    html+='<tr><td>自行收生</td><td>'+dpCell('POA2025')+'</td><td>'+dpCell('POA2027')+'</td></tr>';
+    html+='<tr><td>統一派位暫定額</td><td>'+histVal(ca['POA2025'])+'<div class="trend">POA2025</div></td><td>'+histVal(ca['POA2026'])+'<div class="trend">POA2026</div></td></tr>';
     function sspaCell(year){
       const x=sspa[year]||{};
-      if(x.firstChoicePct==null && x.top3Pct==null) return '<span class="miss">'+MISS+'</span><div class="trend">'+year+'</div>';
+      const fc=x.firstChoicePct!=null?x.firstChoicePct:x.firstChoicePct;
+      const t3=x.top3Pct!=null?x.top3Pct:x.top3Pct;
+      if(fc==null && t3==null) return '<span class="miss">'+MISS+'</span><div class="trend">'+year+'</div>';
       let t=[];
-      if(x.firstChoicePct!=null) t.push('首 '+x.firstChoicePct+'%');
-      if(x.top3Pct!=null) t.push('首三 '+x.top3Pct+'%');
+      if(fc!=null) t.push('首 '+fc+'%');
+      if(t3!=null) t.push('首三 '+t3+'%');
       return esc(t.join('；'))+'<div class="trend">'+year+(x.quality?(' · '+x.quality):'')+'</div>';
     }
-    html+='<tr><td>升中志願％</td><td>'+sspaCell('2023/24')+'</td><td>'+sspaCell('2024/25')+'</td><td>'+sspaCell('2025/26')+'</td></tr>';
+    // 不做 2023/24
+    html+='<tr><td>升中志願％</td><td>'+sspaCell('2024/25')+'</td><td>'+sspaCell('2025/26')+'</td></tr>';
     html+='</tbody></table></div>';
     return html;
   }
@@ -525,7 +529,7 @@ table.schools .badge{margin:2px 4px 0 0}
       +moiRefs(s)
       +'<p>地址：'+esc(s.address)+'｜電話：'+esc(s.phone||MISS)+'</p>'
       +'<p>自行分配學位（小一入學2027，暫定）：'+num(s.dp2027)+'｜暫定統一派位學額（小一入學2026）：'+num(s.ca2026)+'</p>'
-      +'<p>小一班數（3年）：'+esc(histP1(s))+'</p>'+histBlock(s)
+      +'<p>小一班數（近年）：'+esc(histP1(s))+'</p>'+histBlock(s)
       +'<p>一條龍：'+esc(s.throughTrain||MISS)+'</p>'
       +'<p>升中派位公布年度：'+esc(s.sspaYear||MISS)+'｜首志願：'+pct(s.firstChoicePct)+'｜首三志願：'+pct(s.top3Pct)+'｜資料質素：'+(s.sspaDataQuality?s.sspaDataQuality:MISS)+'</p>'+(s.firstChoiceQual?'<p>首志願（質化）：'+esc(s.firstChoiceQual)+'</p>':'')+(s.top3Qual?'<p>首三志願（質化）：'+esc(s.top3Qual)+'</p>':'')+(s.feederSchool?'<p>一條龍／聯繫：'+esc(s.feederSchool)+(s.feederNote?'（'+esc(s.feederNote)+'）':'')+'</p>':'')
       +(s.sspaNote?'<p>升中派位備註：'+esc(s.sspaNote)+'</p>':'')
