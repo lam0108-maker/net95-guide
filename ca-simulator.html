@@ -5,49 +5,67 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>統一派位志願模擬器 · 校網95</title>
 <style>
-:root{--ink:#1a1a1a;--muted:#5c5c5c;--line:#e5e5e5;--chip:#f3f4f6;--accent:#0b6e4f;--warn:#9a3412;--bg:#fafafa}
+:root{--ink:#1a1a1a;--muted:#5c5c5c;--line:#e5e5e5;--chip:#f3f4f6;--accent:#0b6e4f;--warn:#9a3412;--ok:#166534;--bg:#fafafa;--yellow:#854d0e}
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI","Noto Sans TC","PingFang HK",sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
-.site-nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin:0;padding:8px 12px}
-.site-nav-inner{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;max-width:960px;margin:0 auto}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI","Noto Sans TC","PingFang HK",sans-serif;color:var(--ink);background:var(--bg);line-height:1.45}
+.site-nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:8px 12px}
+.site-nav-inner{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;max-width:1100px;margin:0 auto}
 .site-nav a{font-size:.84rem;color:var(--accent);text-decoration:none;padding:6px 10px;border-radius:999px;border:1px solid transparent}
 .site-nav a:hover{background:var(--chip);border-color:var(--line)}
 .site-nav a[aria-current="page"]{background:var(--accent);color:#fff;border-color:var(--accent)}
 .site-nav .brand{font-weight:700;color:var(--ink);margin-right:4px}
-.wrap{max-width:960px;margin:0 auto;padding:18px 14px 48px}
-h1{font-size:1.45rem;margin:0 0 8px}
-h2{font-size:1.1rem;margin:22px 0 8px}
-.hint,.sub{color:var(--muted);font-size:.9rem}
-.disclaimer{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:12px 14px;margin:12px 0 18px;font-size:.9rem}
+.wrap{max-width:1100px;margin:0 auto;padding:18px 14px 56px}
+h1{font-size:1.4rem;margin:0 0 6px}
+h2{font-size:1.05rem;margin:0 0 8px}
+.hint,.sub{color:var(--muted);font-size:.88rem}
+.disclaimer{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:12px 14px;margin:12px 0;font-size:.88rem}
 .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0}
-.part-label{display:inline-block;background:var(--accent);color:#fff;font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:6px;margin-right:6px}
-label{display:block;font-size:.86rem;margin:8px 0 4px;color:var(--muted)}
-input[type=text]{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font-size:1rem}
-.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
-button,.btn{appearance:none;border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 12px;font-size:.9rem;cursor:pointer}
+.part-label{display:inline-block;background:var(--accent);color:#fff;font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:6px;margin-right:6px}
+.badge{display:inline-block;font-size:.72rem;background:#ecfdf5;color:var(--ok);border:1px solid #a7f3d0;border-radius:999px;padding:2px 8px;margin-left:6px}
+.alerts{display:flex;flex-direction:column;gap:8px;margin:10px 0}
+.alert{border-radius:10px;padding:10px 12px;font-size:.88rem;border:1px solid}
+.alert.ok{background:#f0fdf4;border-color:#86efac;color:var(--ok)}
+.alert.warn{background:#fffbeb;border-color:#fde68a;color:var(--yellow)}
+.alert.bad{background:#fef2f2;border-color:#fecaca;color:var(--warn)}
+.alert.info{background:#f8fafc;border-color:var(--line);color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.filters input,.filters select{padding:8px 10px;border:1px solid var(--line);border-radius:8px;font-size:.9rem;background:#fff}
+.filters input[type=search]{min-width:160px;flex:1}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+button{appearance:none;border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 12px;font-size:.88rem;cursor:pointer}
 button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
 button.danger{color:var(--warn);border-color:#fdba74}
 button:disabled{opacity:.45;cursor:not-allowed}
-.pool,.order{list-style:none;margin:0;padding:0}
-.pool{display:grid;gap:8px}
-.order{display:flex;flex-direction:column;gap:8px;min-height:48px}
-.row{display:grid;grid-template-columns:40px 1fr auto;gap:8px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:grab}
-.row:active{cursor:grabbing}
-.row.dragging{opacity:.55;border-style:dashed}
-.rank{font-weight:800;color:var(--accent);font-size:1.05rem;text-align:center}
-.meta{font-size:.78rem;color:var(--muted);margin-top:2px}
-.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
-.chip{font-size:.72rem;background:var(--chip);border-radius:999px;padding:2px 8px}
-.actions{display:flex;flex-direction:column;gap:4px}
-.actions button{padding:4px 8px;font-size:.75rem}
-.empty{border:2px dashed var(--line);border-radius:10px;padding:16px;text-align:center;color:var(--muted);font-size:.9rem}
-.summary ol{margin:8px 0 0;padding-left:1.2rem}
-.summary li{margin:4px 0}
 .grid2{display:grid;gap:12px}
-@media(min-width:720px){.grid2{grid-template-columns:1fr 1fr}}
-.footnote{font-size:.8rem;color:var(--muted);margin-top:24px}
+@media(min-width:900px){.grid2{grid-template-columns:1fr 1fr}}
+.pool,.order{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;min-height:40px}
+.row{display:grid;grid-template-columns:48px 1fr auto;gap:8px;align-items:start;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.row.dim{opacity:.55}
+.row.dragging{opacity:.5;border-style:dashed}
+.rank{font-weight:800;color:var(--accent);font-size:1.05rem;text-align:center;padding-top:2px}
+.code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.78rem;color:var(--muted)}
+.meta{font-size:.78rem;color:var(--muted);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.chip{font-size:.7rem;background:var(--chip);border-radius:999px;padding:2px 7px;border:1px solid transparent}
+.chip.hot{background:#fef3c7;border-color:#fcd34d;color:#92400e}
+.chip.ok{background:#dcfce7;border-color:#86efac;color:#166534}
+.chip.rel{background:#ede9fe;border-color:#c4b5fd;color:#5b21b6}
+.actions{display:flex;flex-direction:column;gap:4px}
+.actions button{padding:4px 8px;font-size:.72rem}
+.empty{border:2px dashed var(--line);border-radius:10px;padding:14px;text-align:center;color:var(--muted);font-size:.88rem}
+.ac-wrap{position:relative;margin:8px 0}
+.ac-wrap input{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font-size:1rem}
+.ac-list{position:absolute;z-index:20;left:0;right:0;top:100%;max-height:240px;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:0 0 8px 8px;box-shadow:0 8px 20px rgba(0,0,0,.08);display:none}
+.ac-list.open{display:block}
+.ac-item{padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--line);font-size:.88rem}
+.ac-item:hover,.ac-item.active{background:#f0fdf4}
+.picked{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px;padding:8px 10px;background:#f8fafc;border-radius:8px;border:1px solid var(--line)}
+.picked .x{margin-left:auto;border:0;background:transparent;color:var(--warn);cursor:pointer;font-size:1rem}
+.footnote{font-size:.8rem;color:var(--muted);margin-top:20px}
 .toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#111;color:#fff;padding:10px 16px;border-radius:999px;font-size:.86rem;opacity:0;pointer-events:none;transition:opacity .2s;z-index:99}
 .toast.show{opacity:1}
+.summary ol{margin:6px 0 0;padding-left:1.2rem}
+@media print{.site-nav,.toolbar,.filters,.pool,button,.disclaimer{display:none!important}.card{break-inside:avoid}}
 </style>
 </head>
 <body>
@@ -64,223 +82,369 @@ button:disabled{opacity:.45;cursor:not-allowed}
     <a href="index.html#sources">資料來源</a>
   </div>
 </nav>
-
 <div class="wrap">
-  <h1>統一派位志願模擬器</h1>
-  <p class="sub">練習填寫小一「選擇學校表格」——假設住址屬<strong>校網 95</strong>（西貢／將軍澳）。資料暫存於此裝置瀏覽器，不會送出教育局。</p>
-  <div class="disclaimer">
-    <strong>重要：</strong>本頁只供練習同對照校網95客觀資料，<strong>不是</strong>教育局電子平台／紙本表格，亦不能代交申請。正式選校請以教育局當年度《統一派位選校名單》及「小一入學電子平台」為準。甲部可填全港任何官立／資助小學；此模擬器乙部只涵蓋本站校網95官津名單。
+  <h1>統一派位志願模擬器 <span class="badge" id="yearBadge">資料年份載入中</span></h1>
+  <p class="sub">練習填「選擇學校表格」——假設住址屬<strong>校網 95</strong>。草稿只存此裝置，不是教育局提交。</p>
+  <div class="disclaimer"><strong>重要：</strong>本頁只供練習。正式選校以教育局當年度選校名單及電子平台為準。統一派位<strong>先處理甲部</strong>，甲部派中就不會入乙部。不做中獎率預測。</div>
+
+  <div class="card" id="alertsCard">
+    <h2>填表規則檢查（即時）</h2>
+    <div class="alerts" id="alerts"></div>
   </div>
 
   <div class="card">
-    <h2><span class="part-label">甲部</span>不受學校網限制（最多 3 個）</h2>
-    <p class="hint">正式表格甲部可選<strong>全港任何</strong>官立／資助小學，最多三個，按優先次序。此處用文字練習（可填校網外學校名稱）。</p>
-    <label for="a1">甲部第 1 志願</label>
-    <input id="a1" type="text" placeholder="例如：某區官立／資助小學（可留空）" autocomplete="off"/>
-    <label for="a2">甲部第 2 志願</label>
-    <input id="a2" type="text" placeholder="可留空" autocomplete="off"/>
-    <label for="a3">甲部第 3 志願</label>
-    <input id="a3" type="text" placeholder="可留空" autocomplete="off"/>
+    <h2><span class="part-label">甲部</span>不受學校網限制（最多 3 個・選校編號）</h2>
+    <p class="hint">正式表格要填 4 位選校編號。而家可搜校網95完整名單（含景林／基德等）；其他校網名單會陸續補上。可與乙部重複同一間本網學校。</p>
+    <div id="partA"></div>
   </div>
 
   <div class="card">
-    <h2><span class="part-label">乙部</span>住址所屬校網 95 選校名單</h2>
-    <p class="hint">正式表格乙部<strong>必須</strong>從所屬校網名單選擇，並應盡量填滿。下面把 21 間官津校排成你的志願次序：可拖曳，或用 ▲▼。未排入「我的乙部志願」嘅學校＝尚未填上（練習時可先排心水）。</p>
+    <h2><span class="part-label">乙部</span>校網 95 選校名單</h2>
+    <p class="hint">必須從本網名單選；宜盡量填滿。可拖曳或 ▲▼。點校名可加入。</p>
+    <div class="filters">
+      <input type="search" id="q" placeholder="搜學校／編號／地區" />
+      <select id="fMoi"><option value="">中文科MOI（全部）</option></select>
+      <select id="fRel"><option value="">宗教（全部）</option></select>
+      <select id="fType"><option value="">全部類別</option><option value="官立">官立</option><option value="資助">資助</option></select>
+      <select id="fDist"><option value="">地區（全部）</option><option value="將軍澳">將軍澳</option><option value="西貢">西貢</option></select>
+      <select id="fHot"><option value="">熱門度（全部）</option><option value="高">較熱</option><option value="中">中等</option><option value="一般">一般</option></select>
+      <label style="font-size:.84rem;display:flex;align-items:center;gap:4px"><input type="checkbox" id="fFeeder"/> 有連繫／一條龍</label>
+    </div>
     <div class="toolbar">
-      <button type="button" class="primary" id="btnAddAll">全部加入乙部（按校名）</button>
-      <button type="button" id="btnShuffleHint" title="只係方便開始排">重置為資料表順序</button>
+      <button type="button" class="primary" id="btnAddAll">全部加入乙部</button>
+      <button type="button" id="btnAddFiltered">加入目前篩選結果</button>
       <button type="button" class="danger" id="btnClearB">清空乙部</button>
       <button type="button" id="btnSave">儲存草稿</button>
       <button type="button" id="btnLoad">載入草稿</button>
     </div>
     <div class="grid2">
       <div>
-        <h3 style="font-size:.95rem;margin:0 0 8px">尚未排入（點選加入）</h3>
+        <h3 style="font-size:.95rem;margin:0 0 8px">尚未排入 <span class="hint" id="poolCount"></span></h3>
         <ul class="pool" id="pool"></ul>
-        <div class="empty" id="poolEmpty" hidden>已全部加入乙部</div>
+        <div class="empty" id="poolEmpty" hidden>已全部加入或無符合篩選</div>
       </div>
       <div>
         <h3 style="font-size:.95rem;margin:0 0 8px">我的乙部志願（第1＝最想）</h3>
         <ol class="order" id="order"></ol>
-        <div class="empty" id="orderEmpty">尚未加入學校——從左列點選或按「全部加入」</div>
+        <div class="empty" id="orderEmpty">尚未加入——從左列點選</div>
       </div>
     </div>
   </div>
 
   <div class="card summary">
-    <h2>練習結果摘要</h2>
-    <p class="hint">可截圖或列印作家庭討論；唔代表實際派位結果。</p>
+    <h2>練習結果摘要／對稿</h2>
     <div id="summary"></div>
     <div class="toolbar">
-      <button type="button" class="primary" id="btnPrint">列印／匯出摘要</button>
+      <button type="button" class="primary" id="btnCopy">複製為文字</button>
+      <button type="button" id="btnPrint">列印</button>
     </div>
   </div>
-
-  <p class="footnote">參考：教育局小一入學統籌辦法——統一派位分甲部（約10%不受網限）與乙部（約90%本網名單）。暫定統一派位學額數字來自本站 <code>data.json</code>（POA2026 整理），會隨官方更新而變。</p>
+  <p class="footnote">規則提示僅供參考，實際以教育局為準。大熱警告按本站客觀欄（統一暫定額、自行超收／用盡、升中首志願％）綜合，不是官方排名。</p>
 </div>
 <div class="toast" id="toast" role="status"></div>
-
 <script>
 (function(){
+  const STORE='net95-ca-sim-v2';
   const MISS='缺';
-  const STORE='net95-ca-sim-v1';
-  let SCHOOLS=[];
-  let orderIds=[]; // eth part preference
-  let dragId=null;
+  let NET95=[], HK=[], orderIds=[], dragId=null;
+  const $=id=>document.getElementById(id);
+  const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const toast=msg=>{const t=$('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)};
+  const byId=id=>NET95.find(s=>String(s.id)===String(id));
+  const byCode=code=>HK.find(s=>String(s.choiceCode)===String(code))||NET95.find(s=>String(s.choiceCode)===String(code));
 
-  const $ = id => document.getElementById(id);
-  const esc = s => String(s==null?'':s).replace(/[&<>"']/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
-  const toast = msg => { const t=$('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),1800); };
+  // Part A state: [{choiceCode,nameZh,net}]
+  let partA=[null,null,null];
 
-  function caOf(s){
-    const h=(s.history&&s.history.caProvisional)||{};
-    return s.ca2026!=null?s.ca2026:(h.POA2026!=null?h.POA2026:null);
+  function isHot(s){
+    // 大熱：自行超收，或用盡且統一額偏低
+    if(s.dpOverPOA2026!=null && s.dpOverPOA2026>0) return true;
+    if(s.dpFillPOA2026==='用盡' && s.ca2026!=null && s.ca2026<=70) return true;
+    return false;
   }
-  function dpLabel(s){
-    const st=(s.history&&s.history.dpFillStatus&&s.history.dpFillStatus.POA2026)||s.dp_fill_status;
-    const over=(s.history&&s.history.dpOver&&s.history.dpOver.POA2026);
-    if(over!=null && over>0) return '自行超收 +'+over;
-    if(st) return '自行 '+st;
-    return '';
+  function tags(s){
+    const t=[];
+    if(s.choiceCode) t.push('<span class="chip code">'+esc(s.choiceCode)+'</span>');
+    if(s.ca2026!=null) t.push('<span class="chip">統一暫定 '+s.ca2026+'</span>');
+    if(isHot(s)) t.push('<span class="chip hot">較熱／少流出</span>');
+    if(s.dpOverPOA2026!=null && s.dpOverPOA2026>0) t.push('<span class="chip hot">自行超收 +'+s.dpOverPOA2026+'</span>');
+    else if(s.dpFillPOA2026 && s.dpFillPOA2026!=='缺公開數據') t.push('<span class="chip">自行 '+esc(s.dpFillPOA2026)+'</span>');
+    if(s.religion && s.religion!=='無') t.push('<span class="chip rel">'+esc(s.religion)+'</span>');
+    if(s.throughTrain||s.feederSchool) t.push('<span class="chip ok">有連繫／一條龍</span>');
+    if(s.chineseMoi && s.chineseMoi!=='未說明') t.push('<span class="chip">'+esc(s.chineseMoi)+'</span>');
+    if(s.district) t.push('<span class="chip">'+esc(s.district)+'</span>');
+    if(s.firstChoicePct!=null) t.push('<span class="chip">升中首志願 '+s.firstChoicePct+'%</span>');
+    if(s.type) t.push('<span class="chip">'+esc(s.type)+'</span>');
+    return t.join('');
   }
-  function byId(id){ return SCHOOLS.find(s=>String(s.id)===String(id)); }
+  function cardHtml(s, rankLabel, opts){
+    opts=opts||{};
+    return '<div class="rank">'+rankLabel+'</div><div>'
+      +'<strong>'+esc(s.nameZh)+'</strong> <span class="code">'+esc(s.choiceCode||'')+'</span>'
+      +'<div class="meta">'+esc(s.address||'')+(s.nameEn?(' · '+esc(s.nameEn)):'')+'</div>'
+      +'<div class="chips">'+tags(s)+'</div></div>'
+      +'<div class="actions">'+ (opts.actions||'') +'</div>';
+  }
 
-  function render(){
-    const pool=$('pool'); const order=$('order');
+  function passFilter(s){
+    const q=($('q').value||'').trim().toLowerCase();
+    if(q){
+      const blob=(s.nameZh+' '+(s.nameEn||'')+' '+(s.choiceCode||'')+' '+(s.address||'')+' '+(s.district||'')).toLowerCase();
+      if(!blob.includes(q)) return false;
+    }
+    const moi=$('fMoi').value; if(moi && s.chineseMoi!==moi) return false;
+    const rel=$('fRel').value; if(rel && (s.religion||'無')!==rel) return false;
+    const ty=$('fType').value; if(ty && s.type!==ty) return false;
+    const di=$('fDist').value; if(di && !(s.district||'').includes(di)) return false;
+    const hot=$('fHot').value;
+    if(hot==='高' && !isHot(s)) return false;
+    if(hot==='中' && (isHot(s) || s.hotLevel==='一般')) return false;
+    if(hot==='一般' && s.hotLevel!=='一般') return false;
+    if($('fFeeder').checked && !(s.throughTrain||s.feederSchool)) return false;
+    return true;
+  }
+
+  function renderPartA(){
+    const box=$('partA'); box.innerHTML='';
+    for(let i=0;i<3;i++){
+      const wrap=document.createElement('div');
+      wrap.className='ac-wrap';
+      wrap.innerHTML='<label style="font-size:.86rem;color:var(--muted)">甲部第 '+(i+1)+' 志願</label>'
+        +'<input type="search" placeholder="輸入校名或 4 位選校編號" data-ai="'+i+'" autocomplete="off"/>'
+        +'<div class="ac-list" data-al="'+i+'"></div>'
+        +'<div class="picked" data-ap="'+i+'" hidden></div>';
+      box.appendChild(wrap);
+    }
+    box.querySelectorAll('input[data-ai]').forEach(inp=>{
+      inp.addEventListener('input',()=>onASearch(inp));
+      inp.addEventListener('focus',()=>onASearch(inp));
+    });
+    syncAPicked();
+  }
+  function onASearch(inp){
+    const i=+inp.getAttribute('data-ai');
+    const list=boxList(i);
+    const q=(inp.value||'').trim().toLowerCase();
+    if(!q){ list.classList.remove('open'); list.innerHTML=''; return; }
+    const pool=HK.length?HK:NET95.map(s=>({...s,net:'95'}));
+    const hits=pool.filter(s=>{
+      const blob=((s.choiceCode||'')+' '+(s.nameZh||'')+' '+(s.nameEn||'')+' '+(s.address||'')).toLowerCase();
+      return blob.includes(q) || String(s.choiceCode||'').startsWith(q);
+    }).slice(0,20);
+    list.innerHTML=hits.map(s=>'<div class="ac-item" data-code="'+esc(s.choiceCode)+'">'
+      +'<strong>'+esc(s.choiceCode)+'</strong> '+esc(s.nameZh)
+      +'<div class="meta">校網 '+(s.net||guessNet(s.choiceCode))+' · '+esc(s.type||'')+' · '+esc(s.address||'')+'</div></div>').join('')
+      ||'<div class="ac-item">找不到——其他校網名單稍後補上，可先用校網95學校</div>';
+    list.classList.add('open');
+    list.querySelectorAll('.ac-item[data-code]').forEach(el=>{
+      el.onclick=()=>pickA(i, el.getAttribute('data-code'));
+    });
+  }
+  function boxList(i){return document.querySelector('[data-al="'+i+'"]')}
+  function guessNet(code){return code?String(code).slice(0,2):''}
+  function pickA(i, code){
+    const s=byCode(code); if(!s) return;
+    // duplicate within Part A?
+    if(partA.some((p,idx)=>p && idx!==i && p.choiceCode===code)){
+      toast('甲部不可以重複同一間學校'); return;
+    }
+    partA[i]={choiceCode:s.choiceCode,nameZh:s.nameZh,net:s.net||guessNet(s.choiceCode),type:s.type,address:s.address};
+    const inp=document.querySelector('input[data-ai="'+i+'"]');
+    if(inp) inp.value='';
+    boxList(i).classList.remove('open');
+    syncAPicked(); renderAlerts(); renderSummary(); saveSilent();
+  }
+  function syncAPicked(){
+    for(let i=0;i<3;i++){
+      const el=document.querySelector('[data-ap="'+i+'"]');
+      const p=partA[i];
+      if(!p){ el.hidden=true; el.innerHTML=''; continue; }
+      el.hidden=false;
+      const inGuide=NET95.some(s=>s.choiceCode===p.choiceCode);
+      el.innerHTML='<span class="code">'+esc(p.choiceCode)+'</span> <strong>'+esc(p.nameZh)+'</strong>'
+        +'<span class="hint">校網 '+esc(p.net)+'</span>'
+        +(inGuide?'<button type="button" data-to-b="'+esc(p.choiceCode)+'">同時加入乙部</button>':'')
+        +'<button type="button" class="x" data-clear-a="'+i+'">×</button>';
+    }
+    document.querySelectorAll('[data-clear-a]').forEach(b=>b.onclick=()=>{partA[+b.getAttribute('data-clear-a')]=null; syncAPicked(); renderAlerts(); renderSummary(); saveSilent();});
+    document.querySelectorAll('[data-to-b]').forEach(b=>b.onclick=()=>{
+      const code=b.getAttribute('data-to-b');
+      const s=NET95.find(x=>x.choiceCode===code);
+      if(!s){ toast('此校不在本站乙部21校名單'); return; }
+      if(!orderIds.map(String).includes(String(s.id))){ orderIds.push(String(s.id)); renderB(); }
+      toast('已加入乙部：'+s.nameZh); saveSilent();
+    });
+  }
+
+  function renderB(){
+    const pool=$('pool'), order=$('order');
     pool.innerHTML=''; order.innerHTML='';
     const inOrder=new Set(orderIds.map(String));
-    const leftover=SCHOOLS.filter(s=>!inOrder.has(String(s.id)));
+    const leftover=NET95.filter(s=>!inOrder.has(String(s.id)) && passFilter(s));
     $('poolEmpty').hidden=leftover.length>0;
     $('orderEmpty').hidden=orderIds.length>0;
+    $('poolCount').textContent='（顯示 '+leftover.length+'）';
     leftover.forEach(s=>{
-      const li=document.createElement('li');
-      li.className='row';
-      li.innerHTML='<div class="rank">＋</div><div><strong>'+esc(s.nameZh)+'</strong>'
-        +'<div class="meta">'+(s.type||'')+(s.religion?(' · '+esc(s.religion)):'')+'</div>'
-        +'<div class="chips">'
-        +'<span class="chip">統一暫定 '+(caOf(s)!=null?caOf(s):MISS)+'</span>'
-        +(dpLabel(s)?'<span class="chip">'+esc(dpLabel(s))+'</span>':'')
-        +(s.firstChoicePct!=null?'<span class="chip">升中首志願 '+s.firstChoicePct+'%</span>':'')
-        +'</div></div><div class="actions"><button type="button" data-add="'+esc(s.id)+'">加入</button></div>';
+      const li=document.createElement('li'); li.className='row';
+      li.innerHTML=cardHtml(s,'＋',{actions:'<button type="button" data-add="'+esc(s.id)+'">加入</button>'});
       pool.appendChild(li);
     });
     orderIds.forEach((id,idx)=>{
       const s=byId(id); if(!s) return;
-      const li=document.createElement('li');
-      li.className='row';
-      li.draggable=true;
-      li.dataset.id=String(id);
-      li.innerHTML='<div class="rank">'+(idx+1)+'</div><div><strong>'+esc(s.nameZh)+'</strong>'
-        +'<div class="meta">'+(s.type||'')+(s.religion?(' · '+esc(s.religion)):'')+'</div>'
-        +'<div class="chips">'
-        +'<span class="chip">統一暫定 '+(caOf(s)!=null?caOf(s):MISS)+'</span>'
-        +(dpLabel(s)?'<span class="chip">'+esc(dpLabel(s))+'</span>':'')
-        +(s.firstChoicePct!=null?'<span class="chip">升中首志願 '+s.firstChoicePct+'%</span>':'')
-        +'</div></div><div class="actions">'
-        +'<button type="button" data-up="'+esc(id)+'" '+(idx===0?'disabled':'')+'>▲</button>'
+      const li=document.createElement('li'); li.className='row'; li.draggable=true; li.dataset.id=String(id);
+      const acts='<button type="button" data-up="'+esc(id)+'" '+(idx===0?'disabled':'')+'>▲</button>'
         +'<button type="button" data-down="'+esc(id)+'" '+(idx===orderIds.length-1?'disabled':'')+'>▼</button>'
-        +'<button type="button" data-rm="'+esc(id)+'">移除</button>'
-        +'</div>';
-      li.addEventListener('dragstart',e=>{ dragId=String(id); li.classList.add('dragging'); e.dataTransfer.effectAllowed='move'; });
-      li.addEventListener('dragend',()=>{ dragId=null; li.classList.remove('dragging'); });
-      li.addEventListener('dragover',e=>{ e.preventDefault(); });
+        +'<button type="button" data-rm="'+esc(id)+'">移除</button>';
+      li.innerHTML=cardHtml(s, String(idx+1), {actions:acts});
+      // hot warn under card if B2+
+      if(idx>=1 && isHot(s)){
+        const w=document.createElement('div');
+        w.className='alert warn'; w.style.gridColumn='1/-1'; w.style.marginTop='4px';
+        w.textContent='策略提醒：此校屬區內較熱（統一額偏低及／或自行超收／用盡），過往較少學位流到乙部第'+(idx+1)+'志願。乙二／乙三宜留作保險線。';
+        li.appendChild(w);
+      }
+      li.addEventListener('dragstart',e=>{dragId=String(id);li.classList.add('dragging');e.dataTransfer.effectAllowed='move'});
+      li.addEventListener('dragend',()=>{dragId=null;li.classList.remove('dragging')});
+      li.addEventListener('dragover',e=>e.preventDefault());
       li.addEventListener('drop',e=>{
         e.preventDefault();
-        const to=String(id);
-        if(!dragId || dragId===to) return;
-        const from=orderIds.indexOf(dragId);
-        const dest=orderIds.indexOf(to);
+        const to=String(id); if(!dragId||dragId===to) return;
+        const from=orderIds.indexOf(dragId), dest=orderIds.indexOf(to);
         if(from<0||dest<0) return;
-        orderIds.splice(from,1);
-        orderIds.splice(dest,0,dragId);
-        render(); saveSilent();
+        orderIds.splice(from,1); orderIds.splice(dest,0,dragId);
+        renderB(); saveSilent();
       });
       order.appendChild(li);
     });
-    pool.onclick=e=>{
-      const b=e.target.closest('[data-add]'); if(!b) return;
-      orderIds.push(b.getAttribute('data-add')); render(); saveSilent();
-    };
+    pool.onclick=e=>{const b=e.target.closest('[data-add]'); if(!b) return; orderIds.push(b.getAttribute('data-add')); renderB(); saveSilent();};
     order.onclick=e=>{
-      const up=e.target.closest('[data-up]');
-      const down=e.target.closest('[data-down]');
-      const rm=e.target.closest('[data-rm]');
-      if(up){ move(up.getAttribute('data-up'),-1); }
-      if(down){ move(down.getAttribute('data-down'),1); }
-      if(rm){ orderIds=orderIds.filter(x=>String(x)!==String(rm.getAttribute('data-rm'))); render(); saveSilent(); }
+      const up=e.target.closest('[data-up]'); const down=e.target.closest('[data-down]'); const rm=e.target.closest('[data-rm]');
+      if(up) move(up.getAttribute('data-up'),-1);
+      if(down) move(down.getAttribute('data-down'),1);
+      if(rm){ orderIds=orderIds.filter(x=>String(x)!==String(rm.getAttribute('data-rm'))); renderB(); saveSilent(); }
     };
-    renderSummary();
+    renderAlerts(); renderSummary();
   }
+  function move(id,d){ id=String(id); const i=orderIds.indexOf(id); const j=i+d; if(i<0||j<0||j>=orderIds.length) return; const t=orderIds[i]; orderIds[i]=orderIds[j]; orderIds[j]=t; renderB(); saveSilent(); }
 
-  function move(id,delta){
-    id=String(id);
-    const i=orderIds.indexOf(id); if(i<0) return;
-    const j=i+delta; if(j<0||j>=orderIds.length) return;
-    const t=orderIds[i]; orderIds[i]=orderIds[j]; orderIds[j]=t;
-    render(); saveSilent();
+  function renderAlerts(){
+    const box=$('alerts'); const msgs=[];
+    // Part A duplicates already blocked
+    const aCodes=partA.filter(Boolean).map(p=>p.choiceCode);
+    // 1-1 detect
+    const a1=partA[0];
+    const b1=orderIds[0]?byId(orderIds[0]):null;
+    if(a1 && b1 && a1.choiceCode===b1.choiceCode){
+      msgs.push({cls:'ok', html:'✅ 已組成 <strong>1-1</strong> 組合（甲一＝乙一＝'+esc(b1.nameZh)+'）。若自行分配階段亦曾報考此校，即為 <strong>1-1-1</strong>，對日後叩門常被視為有優勢（非官方保證）。'});
+    }
+    // Part A mid-net "trap": A2/A3 is net95 but not as desirable as B1
+    partA.forEach((p,idx)=>{
+      if(!p || idx===0) return;
+      const s=NET95.find(x=>x.choiceCode===p.choiceCode);
+      if(s){
+        msgs.push({cls:'warn', html:'⚠️ 甲'+(idx+1)+' 填咗本網學校「'+esc(s.nameZh)+'」。統一派位<strong>先處理甲部</strong>：若甲'+(idx+1)+'派中，就唔會再用乙部。若你真正最想係乙一，請小心甲部二／三線會「提早派走」。'});
+      }
+    });
+    // Hot in B2+
+    orderIds.forEach((id,idx)=>{
+      if(idx<1) return;
+      const s=byId(id); if(s && isHot(s)){
+        msgs.push({cls:'warn', html:'⚠️ 乙'+(idx+1)+'「'+esc(s.nameZh)+'」屬較熱學校（統一暫定 '+(s.ca2026!=null?s.ca2026:MISS)+'／自行 '+esc(s.dpFillPOA2026||MISS)+'）。放乙二或之後可能形同虛設，建議乙二選學額較多或次熱作保險。'});
+      }
+    });
+    // Incomplete B
+    if(orderIds.length>0 && orderIds.length<NET95.length){
+      msgs.push({cls:'warn', html:'⚠️ 乙部只填咗 '+orderIds.length+'／'+NET95.length+'。強烈建議盡量填滿；否則首選全落空時，仍可能被派往<strong>未填</strong>但有剩餘學位嘅本網學校。'});
+    }
+    // A/B same school allowed note
+    const overlap=aCodes.filter(c=>NET95.some(s=>s.choiceCode===c && orderIds.map(String).includes(String(s.id))));
+    if(overlap.length){
+      const names=overlap.map(c=>{const s=byCode(c); return s?s.nameZh:c}).join('、');
+      msgs.push({cls:'info', html:'甲乙同時選咗本網「'+esc(names)+'」——教育局允許（兩池都有機會）；同一部內唔可以重複。'});
+    }
+    if(!msgs.length){
+      msgs.push({cls:'info', html:'開始填甲部／乙部後，呢度會顯示 1-1 提示、大熱放乙二警告、未填滿提醒等。'});
+    }
+    // dedupe similar
+    const seen=new Set();
+    box.innerHTML=msgs.filter(m=>{const k=m.html.slice(0,40); if(seen.has(k)) return false; seen.add(k); return true;})
+      .map(m=>'<div class="alert '+m.cls+'">'+m.html+'</div>').join('');
   }
 
   function renderSummary(){
-    const a=[$('a1').value.trim(),$('a2').value.trim(),$('a3').value.trim()].filter(Boolean);
-    let html='<p><strong>甲部</strong>：'+(a.length?esc(a.map((x,i)=>(i+1)+'. '+x).join('；')):'（未填）')+'</p>';
-    html+='<p><strong>乙部</strong>（'+orderIds.length+'／'+SCHOOLS.length+'）：</p><ol>';
-    orderIds.forEach(id=>{ const s=byId(id); if(s) html+='<li>'+esc(s.nameZh)+' <span class="hint">統一暫定 '+(caOf(s)!=null?caOf(s):MISS)+'</span></li>'; });
-    html+='</ol>';
-    if(orderIds.length && orderIds.length<SCHOOLS.length){
-      html+='<p class="hint">提示：正式填表時乙部宜盡量填滿本網名單，降低被隨機派往未填學校嘅機會（實際規則以教育局為準）。</p>';
+    let html='<p><strong>甲部（選校編號）</strong></p><ol>';
+    for(let i=0;i<3;i++){
+      const p=partA[i];
+      html+=p?('<li><span class="code">'+esc(p.choiceCode)+'</span> '+esc(p.nameZh)+' <span class="hint">校網 '+esc(p.net)+'</span></li>'):('<li class="hint">（空）</li>');
     }
+    html+='</ol><p><strong>乙部</strong>（'+orderIds.length+'／'+NET95.length+'）</p><ol>';
+    orderIds.forEach(id=>{const s=byId(id); if(s) html+='<li><span class="code">'+esc(s.choiceCode)+'</span> '+esc(s.nameZh)+' <span class="hint">統一暫定 '+(s.ca2026!=null?s.ca2026:MISS)+'</span></li>';});
+    html+='</ol>';
+    const left=NET95.filter(s=>!orderIds.map(String).includes(String(s.id)));
+    if(left.length) html+='<p class="hint">仍可能被派（未填）：'+esc(left.map(s=>s.nameZh).join('、'))+'</p>';
     $('summary').innerHTML=html;
   }
 
-  function payload(){
-    return {
-      savedAt: new Date().toISOString(),
-      partA: [$('a1').value,$('a2').value,$('a3').value],
-      partB: orderIds.slice()
-    };
+  function textExport(){
+    const lines=['我的 95 網派位策略（練習稿・非教育局提交）'];
+    for(let i=0;i<3;i++){ const p=partA[i]; lines.push('甲'+(i+1)+'：'+(p?(p.choiceCode+' '+p.nameZh):'（空）')); }
+    orderIds.forEach((id,idx)=>{const s=byId(id); if(s) lines.push('乙'+(idx+1)+'：'+s.choiceCode+' '+s.nameZh);});
+    return lines.join('\n');
   }
-  function saveSilent(){
-    try{ localStorage.setItem(STORE, JSON.stringify(payload())); }catch(e){}
-  }
-  function save(){ saveSilent(); toast('已儲存於此裝置'); }
+  function payload(){return{savedAt:new Date().toISOString(),partA,partB:orderIds.slice()}}
+  function saveSilent(){try{localStorage.setItem(STORE,JSON.stringify(payload()))}catch(e){}}
+  function save(){saveSilent();toast('已儲存於此裝置')}
   function load(){
     try{
-      const raw=localStorage.getItem(STORE); if(!raw){ toast('未有草稿'); return; }
+      const raw=localStorage.getItem(STORE); if(!raw){toast('未有草稿');return}
       const p=JSON.parse(raw);
-      [$('a1'),$('a2'),$('a3')].forEach((el,i)=>el.value=(p.partA&&p.partA[i])||'');
+      partA=(p.partA||[null,null,null]).map(x=>x||null);
+      while(partA.length<3) partA.push(null);
       orderIds=(p.partB||[]).map(String).filter(id=>byId(id));
-      render(); toast('已載入草稿');
-    }catch(e){ toast('草稿讀取失敗'); }
+      syncAPicked(); renderB(); toast('已載入草稿');
+    }catch(e){toast('草稿讀取失敗')}
   }
 
-  $('btnAddAll').onclick=()=>{
-    orderIds=SCHOOLS.map(s=>String(s.id));
-    render(); saveSilent();
-  };
-  $('btnShuffleHint').onclick=()=>{
-    orderIds=SCHOOLS.map(s=>String(s.id));
-    render(); saveSilent();
-  };
-  $('btnClearB').onclick=()=>{ orderIds=[]; render(); saveSilent(); };
-  $('btnSave').onclick=save;
-  $('btnLoad').onclick=load;
-  $('btnPrint').onclick=()=>window.print();
-  ['a1','a2','a3'].forEach(id=>$(id).addEventListener('input',()=>{ renderSummary(); saveSilent(); }));
+  function fillFilters(){
+    const mois=[...new Set(NET95.map(s=>s.chineseMoi).filter(Boolean))].sort();
+    const rels=[...new Set(NET95.map(s=>s.religion||'無'))].sort();
+    $('fMoi').innerHTML='<option value="">中文科MOI（全部）</option>'+mois.map(m=>'<option value="'+esc(m)+'">'+esc(m)+'</option>').join('');
+    $('fRel').innerHTML='<option value="">宗教（全部）</option>'+rels.map(m=>'<option value="'+esc(m)+'">'+esc(m)+'</option>').join('');
+  }
 
-  fetch('data.json').then(r=>r.json()).then(d=>{
-    SCHOOLS=(d.schools||[]).slice();
-    // default: empty order so parent builds intentionally
+  $('btnAddAll').onclick=()=>{orderIds=NET95.map(s=>String(s.id)); renderB(); saveSilent()};
+  $('btnAddFiltered').onclick=()=>{
+    NET95.filter(passFilter).forEach(s=>{ if(!orderIds.map(String).includes(String(s.id))) orderIds.push(String(s.id)); });
+    renderB(); saveSilent();
+  };
+  $('btnClearB').onclick=()=>{orderIds=[]; renderB(); saveSilent()};
+  $('btnSave').onclick=save; $('btnLoad').onclick=load;
+  $('btnPrint').onclick=()=>window.print();
+  $('btnCopy').onclick=async()=>{
+    const t=textExport().replaceAll('\\\\n','\\n');
+    try{ await navigator.clipboard.writeText(t); toast('已複製'); }catch(e){ toast('複製失敗'); }
+  };
+  ['q','fMoi','fRel','fType','fDist','fHot','fFeeder'].forEach(id=>{
+    const el=$(id); el.addEventListener('input', renderB); el.addEventListener('change', renderB);
+  });
+  document.addEventListener('click',e=>{ if(!e.target.closest('.ac-wrap')) document.querySelectorAll('.ac-list.open').forEach(x=>x.classList.remove('open')); });
+
+  Promise.all([
+    fetch('sim-net95.json').then(r=>r.json()),
+    fetch('hk-ca-schools.json').then(r=>r.json()).catch(()=>({schools:[]}))
+  ]).then(([sim, hk])=>{
+    NET95=sim.schools||[];
+    HK=(hk.schools||[]).map(s=>({...s, net:s.net||guessNet(s.choiceCode)}));
+    $('yearBadge').textContent=sim.yearBadge||'POA2026';
+    // enrich hotLevel already in sim
+    fillFilters(); renderPartA();
     try{
       const raw=localStorage.getItem(STORE);
-      if(raw){
-        const p=JSON.parse(raw);
-        [$('a1'),$('a2'),$('a3')].forEach((el,i)=>el.value=(p.partA&&p.partA[i])||'');
-        orderIds=(p.partB||[]).map(String).filter(id=>byId(id));
-      }
+      if(raw){ const p=JSON.parse(raw); partA=(p.partA||[null,null,null]); while(partA.length<3)partA.push(null); orderIds=(p.partB||[]).map(String).filter(id=>byId(id)); }
     }catch(e){}
-    render();
-  }).catch(()=>{
-    $('summary').innerHTML='<p class="hint">載入 data.json 失敗——請用 GitHub Pages 或本地伺服器開啟。</p>';
+    syncAPicked(); renderB();
+  }).catch(err=>{
+    $('alerts').innerHTML='<div class="alert bad">載入資料失敗：'+esc(err.message)+'</div>';
   });
 })();
 </script>
